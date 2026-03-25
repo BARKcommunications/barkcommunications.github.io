@@ -1087,6 +1087,16 @@ for (var i = 0, k = 0, l = gdjs.level_951Code.GDPlayer2Objects3.length;i<l;++i) 
     }
 }
 gdjs.level_951Code.GDPlayer2Objects3.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = !runtimeScene.getScene().getVariables().getFromIndex(8).getAsBoolean();
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17638932);
+}
+}
+}
 }
 if (isConditionTrue_0) {
 gdjs.level_951Code.GDNewVideoObjects3.length = 0;
@@ -1098,10 +1108,16 @@ gdjs.level_951Code.GDNewVideoObjects3.length = 0;
 }
 }
 {for(var i = 0, len = gdjs.level_951Code.GDNewVideoObjects3.length ;i < len;++i) {
-    gdjs.level_951Code.GDNewVideoObjects3[i].setCenterPositionInScene(gdjs.evtTools.window.getWindowInnerWidth() / 2,gdjs.evtTools.window.getWindowInnerHeight() / 2);
+    gdjs.level_951Code.GDNewVideoObjects3[i].setPlaybackSpeed(5000);
+}
+}
+{for(var i = 0, len = gdjs.level_951Code.GDNewVideoObjects3.length ;i < len;++i) {
+    gdjs.level_951Code.GDNewVideoObjects3[i].setCenterPositionInScene(gdjs.evtTools.window.getWindowInnerWidth() - (gdjs.level_951Code.GDNewVideoObjects3[i].getWidth()) / 2,gdjs.evtTools.window.getWindowInnerHeight() - (gdjs.level_951Code.GDNewVideoObjects3[i].getHeight()) / 2);
 }
 }
 {gdjs.evtTools.camera.hideLayer(runtimeScene, "");
+}
+{runtimeScene.getScene().getVariables().getFromIndex(8).setBoolean(true);
 }
 }
 
@@ -1115,13 +1131,18 @@ gdjs.copyArray(runtimeScene.getObjects("NewVideo"), gdjs.level_951Code.GDNewVide
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.level_951Code.GDNewVideoObjects2.length;i<l;++i) {
-    if ( gdjs.level_951Code.GDNewVideoObjects2[i].isLooped() ) {
+    if ( gdjs.level_951Code.GDNewVideoObjects2[i].isEnded() ) {
         isConditionTrue_0 = true;
         gdjs.level_951Code.GDNewVideoObjects2[k] = gdjs.level_951Code.GDNewVideoObjects2[i];
         ++k;
     }
 }
 gdjs.level_951Code.GDNewVideoObjects2.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17179548);
+}
+}
 if (isConditionTrue_0) {
 /* Reuse gdjs.level_951Code.GDNewVideoObjects2 */
 {for(var i = 0, len = gdjs.level_951Code.GDNewVideoObjects2.length ;i < len;++i) {
