@@ -1101,14 +1101,10 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 gdjs.level_951Code.GDNewVideoObjects3.length = 0;
 
-{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDNewVideoObjects3Objects, 0, 0, "video");
+{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDNewVideoObjects3Objects, gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) / 2 - (1280 / 2) / 2, gdjs.evtTools.window.getGameResolutionHeight(runtimeScene) / 2 - (720 / 2) / 2, "video");
 }
 {for(var i = 0, len = gdjs.level_951Code.GDNewVideoObjects3.length ;i < len;++i) {
     gdjs.level_951Code.GDNewVideoObjects3[i].play();
-}
-}
-{for(var i = 0, len = gdjs.level_951Code.GDNewVideoObjects3.length ;i < len;++i) {
-    gdjs.level_951Code.GDNewVideoObjects3[i].setCenterPositionInScene(gdjs.evtTools.window.getWindowInnerWidth() - (gdjs.level_951Code.GDNewVideoObjects3[i].getWidth()) / 2,gdjs.evtTools.window.getWindowInnerHeight() - (gdjs.level_951Code.GDNewVideoObjects3[i].getHeight()) / 2);
 }
 }
 {gdjs.evtTools.camera.hideLayer(runtimeScene, "");
