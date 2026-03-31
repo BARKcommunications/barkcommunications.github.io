@@ -951,13 +951,6 @@ gdjs.copyArray(runtimeScene.getObjects("cursor"), gdjs.level_951Code.GDcursorObj
 gdjs.copyArray(runtimeScene.getObjects("garbage"), gdjs.level_951Code.GDgarbageObjects2);
 /* Reuse gdjs.level_951Code.GDobject_9595of_9595interestObjects2 */
 gdjs.copyArray(runtimeScene.getObjects("pov"), gdjs.level_951Code.GDpovObjects2);
-{for(var i = 0, len = gdjs.level_951Code.GDPlayerObjects2.length ;i < len;++i) {
-    gdjs.level_951Code.GDPlayerObjects2[i].setCenterPositionInScene((( gdjs.level_951Code.GDobject_9595of_9595interestObjects2.length === 0 ) ? 0 :gdjs.level_951Code.GDobject_9595of_9595interestObjects2[0].getX()),(( gdjs.level_951Code.GDobject_9595of_9595interestObjects2.length === 0 ) ? 0 :gdjs.level_951Code.GDobject_9595of_9595interestObjects2[0].getY()));
-}
-for(var i = 0, len = gdjs.level_951Code.GDPlayer2Objects2.length ;i < len;++i) {
-    gdjs.level_951Code.GDPlayer2Objects2[i].setCenterPositionInScene((( gdjs.level_951Code.GDobject_9595of_9595interestObjects2.length === 0 ) ? 0 :gdjs.level_951Code.GDobject_9595of_9595interestObjects2[0].getX()),(( gdjs.level_951Code.GDobject_9595of_9595interestObjects2.length === 0 ) ? 0 :gdjs.level_951Code.GDobject_9595of_9595interestObjects2[0].getY()));
-}
-}
 {for(var i = 0, len = gdjs.level_951Code.GDpovObjects2.length ;i < len;++i) {
     gdjs.level_951Code.GDpovObjects2[i].putAroundObject((gdjs.level_951Code.GDobject_9595of_9595interestObjects2.length !== 0 ? gdjs.level_951Code.GDobject_9595of_9595interestObjects2[0] : null), 50, (( gdjs.level_951Code.GDPlayer2Objects2.length === 0 ) ? (( gdjs.level_951Code.GDPlayerObjects2.length === 0 ) ? 0 :gdjs.level_951Code.GDPlayerObjects2[0].getBehavior("PhysicsCharacter3D").getForwardAngle()) :gdjs.level_951Code.GDPlayer2Objects2[0].getBehavior("PhysicsCharacter3D").getForwardAngle()) - 180);
 }
