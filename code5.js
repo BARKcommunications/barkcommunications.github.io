@@ -13,6 +13,12 @@ gdjs.dishes_95gameCode.GDPixiDustObjects3= [];
 gdjs.dishes_95gameCode.GDsinkObjects1= [];
 gdjs.dishes_95gameCode.GDsinkObjects2= [];
 gdjs.dishes_95gameCode.GDsinkObjects3= [];
+gdjs.dishes_95gameCode.GDPaper_9595Bark_9595VideoObjects1= [];
+gdjs.dishes_95gameCode.GDPaper_9595Bark_9595VideoObjects2= [];
+gdjs.dishes_95gameCode.GDPaper_9595Bark_9595VideoObjects3= [];
+gdjs.dishes_95gameCode.GDGerms_9595VideoObjects1= [];
+gdjs.dishes_95gameCode.GDGerms_9595VideoObjects2= [];
+gdjs.dishes_95gameCode.GDGerms_9595VideoObjects3= [];
 
 
 gdjs.dishes_95gameCode.mapOfGDgdjs_9546dishes_959595gameCode_9546GDdishObjects1Objects = Hashtable.newFrom({"dish": gdjs.dishes_95gameCode.GDdishObjects1});
@@ -100,7 +106,7 @@ gdjs.dishes_95gameCode.eventsList3 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21813060);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22074980);
 }
 if (isConditionTrue_0) {
 gdjs.dishes_95gameCode.GDPixiDustObjects2.length = 0;
@@ -199,7 +205,7 @@ for (var i = 0, k = 0, l = gdjs.dishes_95gameCode.GDdishObjects2.length;i<l;++i)
 gdjs.dishes_95gameCode.GDdishObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21804604);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22066524);
 }
 }
 if (isConditionTrue_0)
@@ -231,7 +237,7 @@ for (var i = 0, k = 0, l = gdjs.dishes_95gameCode.GDdishObjects1.length;i<l;++i)
 gdjs.dishes_95gameCode.GDdishObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21806036);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22067956);
 }
 }
 }
@@ -264,7 +270,7 @@ for (var i = 0, k = 0, l = gdjs.dishes_95gameCode.GDdishObjects1.length;i<l;++i)
 gdjs.dishes_95gameCode.GDdishObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21807068);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22068988);
 }
 }
 if (isConditionTrue_0) {
@@ -358,6 +364,12 @@ gdjs.dishes_95gameCode.GDPixiDustObjects3.length = 0;
 gdjs.dishes_95gameCode.GDsinkObjects1.length = 0;
 gdjs.dishes_95gameCode.GDsinkObjects2.length = 0;
 gdjs.dishes_95gameCode.GDsinkObjects3.length = 0;
+gdjs.dishes_95gameCode.GDPaper_9595Bark_9595VideoObjects1.length = 0;
+gdjs.dishes_95gameCode.GDPaper_9595Bark_9595VideoObjects2.length = 0;
+gdjs.dishes_95gameCode.GDPaper_9595Bark_9595VideoObjects3.length = 0;
+gdjs.dishes_95gameCode.GDGerms_9595VideoObjects1.length = 0;
+gdjs.dishes_95gameCode.GDGerms_9595VideoObjects2.length = 0;
+gdjs.dishes_95gameCode.GDGerms_9595VideoObjects3.length = 0;
 
 gdjs.dishes_95gameCode.eventsList4(runtimeScene);
 gdjs.dishes_95gameCode.GDdishObjects1.length = 0;
@@ -372,6 +384,12 @@ gdjs.dishes_95gameCode.GDPixiDustObjects3.length = 0;
 gdjs.dishes_95gameCode.GDsinkObjects1.length = 0;
 gdjs.dishes_95gameCode.GDsinkObjects2.length = 0;
 gdjs.dishes_95gameCode.GDsinkObjects3.length = 0;
+gdjs.dishes_95gameCode.GDPaper_9595Bark_9595VideoObjects1.length = 0;
+gdjs.dishes_95gameCode.GDPaper_9595Bark_9595VideoObjects2.length = 0;
+gdjs.dishes_95gameCode.GDPaper_9595Bark_9595VideoObjects3.length = 0;
+gdjs.dishes_95gameCode.GDGerms_9595VideoObjects1.length = 0;
+gdjs.dishes_95gameCode.GDGerms_9595VideoObjects2.length = 0;
+gdjs.dishes_95gameCode.GDGerms_9595VideoObjects3.length = 0;
 
 
 return;

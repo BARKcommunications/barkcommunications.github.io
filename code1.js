@@ -22,6 +22,12 @@ gdjs.bin_95gameCode.GDswipeObjects3= [];
 gdjs.bin_95gameCode.GDCartoonSmokeObjects1= [];
 gdjs.bin_95gameCode.GDCartoonSmokeObjects2= [];
 gdjs.bin_95gameCode.GDCartoonSmokeObjects3= [];
+gdjs.bin_95gameCode.GDPaper_9595Bark_9595VideoObjects1= [];
+gdjs.bin_95gameCode.GDPaper_9595Bark_9595VideoObjects2= [];
+gdjs.bin_95gameCode.GDPaper_9595Bark_9595VideoObjects3= [];
+gdjs.bin_95gameCode.GDGerms_9595VideoObjects1= [];
+gdjs.bin_95gameCode.GDGerms_9595VideoObjects2= [];
+gdjs.bin_95gameCode.GDGerms_9595VideoObjects3= [];
 
 
 gdjs.bin_95gameCode.mapOfEmptyGDbottleObjects = Hashtable.newFrom({"bottle": []});
@@ -33,7 +39,7 @@ gdjs.bin_95gameCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20107988);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21868172);
 }
 if (isConditionTrue_0) {
 gdjs.bin_95gameCode.GDbottleObjects2.length = 0;
@@ -134,7 +140,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.getSceneInstancesCount(runtimeScene, gdjs.bin_95gameCode.mapOfEmptyGDbottleObjects) > 0;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(20109612);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21870268);
 }
 }
 }
@@ -176,7 +182,7 @@ for (var i = 0, k = 0, l = gdjs.bin_95gameCode.GDbottleObjects2.length;i<l;++i) 
 gdjs.bin_95gameCode.GDbottleObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21621036);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21872068);
 }
 }
 if (isConditionTrue_0) {
@@ -235,7 +241,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.physics2.areObjectsColliding(gdjs.bin_95gameCode.mapOfGDgdjs_9546bin_959595gameCode_9546GDbottleObjects1Objects, "Physics2", gdjs.bin_95gameCode.mapOfGDgdjs_9546bin_959595gameCode_9546GDfloorObjects1Objects, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21623004);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21873700);
 }
 }
 if (isConditionTrue_0) {
@@ -275,6 +281,12 @@ gdjs.bin_95gameCode.GDswipeObjects3.length = 0;
 gdjs.bin_95gameCode.GDCartoonSmokeObjects1.length = 0;
 gdjs.bin_95gameCode.GDCartoonSmokeObjects2.length = 0;
 gdjs.bin_95gameCode.GDCartoonSmokeObjects3.length = 0;
+gdjs.bin_95gameCode.GDPaper_9595Bark_9595VideoObjects1.length = 0;
+gdjs.bin_95gameCode.GDPaper_9595Bark_9595VideoObjects2.length = 0;
+gdjs.bin_95gameCode.GDPaper_9595Bark_9595VideoObjects3.length = 0;
+gdjs.bin_95gameCode.GDGerms_9595VideoObjects1.length = 0;
+gdjs.bin_95gameCode.GDGerms_9595VideoObjects2.length = 0;
+gdjs.bin_95gameCode.GDGerms_9595VideoObjects3.length = 0;
 
 gdjs.bin_95gameCode.eventsList2(runtimeScene);
 gdjs.bin_95gameCode.GDbinObjects1.length = 0;
@@ -298,6 +310,12 @@ gdjs.bin_95gameCode.GDswipeObjects3.length = 0;
 gdjs.bin_95gameCode.GDCartoonSmokeObjects1.length = 0;
 gdjs.bin_95gameCode.GDCartoonSmokeObjects2.length = 0;
 gdjs.bin_95gameCode.GDCartoonSmokeObjects3.length = 0;
+gdjs.bin_95gameCode.GDPaper_9595Bark_9595VideoObjects1.length = 0;
+gdjs.bin_95gameCode.GDPaper_9595Bark_9595VideoObjects2.length = 0;
+gdjs.bin_95gameCode.GDPaper_9595Bark_9595VideoObjects3.length = 0;
+gdjs.bin_95gameCode.GDGerms_9595VideoObjects1.length = 0;
+gdjs.bin_95gameCode.GDGerms_9595VideoObjects2.length = 0;
+gdjs.bin_95gameCode.GDGerms_9595VideoObjects3.length = 0;
 
 
 return;

@@ -10,6 +10,12 @@ gdjs.mop_95gameCode.GDPixiDustObjects3= [];
 gdjs.mop_95gameCode.GDNewTiledSpriteObjects1= [];
 gdjs.mop_95gameCode.GDNewTiledSpriteObjects2= [];
 gdjs.mop_95gameCode.GDNewTiledSpriteObjects3= [];
+gdjs.mop_95gameCode.GDPaper_9595Bark_9595VideoObjects1= [];
+gdjs.mop_95gameCode.GDPaper_9595Bark_9595VideoObjects2= [];
+gdjs.mop_95gameCode.GDPaper_9595Bark_9595VideoObjects3= [];
+gdjs.mop_95gameCode.GDGerms_9595VideoObjects1= [];
+gdjs.mop_95gameCode.GDGerms_9595VideoObjects2= [];
+gdjs.mop_95gameCode.GDGerms_9595VideoObjects3= [];
 
 
 gdjs.mop_95gameCode.mapOfGDgdjs_9546mop_959595gameCode_9546GDpuddleObjects2Objects = Hashtable.newFrom({"puddle": gdjs.mop_95gameCode.GDpuddleObjects2});
@@ -50,7 +56,7 @@ gdjs.mop_95gameCode.eventsList2 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21777916);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22040652);
 }
 if (isConditionTrue_0) {
 gdjs.mop_95gameCode.GDPixiDustObjects2.length = 0;
@@ -207,6 +213,12 @@ gdjs.mop_95gameCode.GDPixiDustObjects3.length = 0;
 gdjs.mop_95gameCode.GDNewTiledSpriteObjects1.length = 0;
 gdjs.mop_95gameCode.GDNewTiledSpriteObjects2.length = 0;
 gdjs.mop_95gameCode.GDNewTiledSpriteObjects3.length = 0;
+gdjs.mop_95gameCode.GDPaper_9595Bark_9595VideoObjects1.length = 0;
+gdjs.mop_95gameCode.GDPaper_9595Bark_9595VideoObjects2.length = 0;
+gdjs.mop_95gameCode.GDPaper_9595Bark_9595VideoObjects3.length = 0;
+gdjs.mop_95gameCode.GDGerms_9595VideoObjects1.length = 0;
+gdjs.mop_95gameCode.GDGerms_9595VideoObjects2.length = 0;
+gdjs.mop_95gameCode.GDGerms_9595VideoObjects3.length = 0;
 
 gdjs.mop_95gameCode.eventsList3(runtimeScene);
 gdjs.mop_95gameCode.GDpuddleObjects1.length = 0;
@@ -218,6 +230,12 @@ gdjs.mop_95gameCode.GDPixiDustObjects3.length = 0;
 gdjs.mop_95gameCode.GDNewTiledSpriteObjects1.length = 0;
 gdjs.mop_95gameCode.GDNewTiledSpriteObjects2.length = 0;
 gdjs.mop_95gameCode.GDNewTiledSpriteObjects3.length = 0;
+gdjs.mop_95gameCode.GDPaper_9595Bark_9595VideoObjects1.length = 0;
+gdjs.mop_95gameCode.GDPaper_9595Bark_9595VideoObjects2.length = 0;
+gdjs.mop_95gameCode.GDPaper_9595Bark_9595VideoObjects3.length = 0;
+gdjs.mop_95gameCode.GDGerms_9595VideoObjects1.length = 0;
+gdjs.mop_95gameCode.GDGerms_9595VideoObjects2.length = 0;
+gdjs.mop_95gameCode.GDGerms_9595VideoObjects3.length = 0;
 
 
 return;
