@@ -303,6 +303,12 @@ gdjs.level_951Code.GDground_9595planeObjects3= [];
 gdjs.level_951Code.GDground_9595planeObjects4= [];
 gdjs.level_951Code.GDground_9595planeObjects5= [];
 gdjs.level_951Code.GDground_9595planeObjects6= [];
+gdjs.level_951Code.GDRedButtonWithShadowObjects1= [];
+gdjs.level_951Code.GDRedButtonWithShadowObjects2= [];
+gdjs.level_951Code.GDRedButtonWithShadowObjects3= [];
+gdjs.level_951Code.GDRedButtonWithShadowObjects4= [];
+gdjs.level_951Code.GDRedButtonWithShadowObjects5= [];
+gdjs.level_951Code.GDRedButtonWithShadowObjects6= [];
 gdjs.level_951Code.GDPaper_9595Bark_9595VideoObjects1= [];
 gdjs.level_951Code.GDPaper_9595Bark_9595VideoObjects2= [];
 gdjs.level_951Code.GDPaper_9595Bark_9595VideoObjects3= [];
@@ -801,9 +807,9 @@ gdjs.level_951Code.eventsList5(runtimeScene);} //Subevents end.
 
 };gdjs.level_951Code.asyncCallback10134828 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.level_951Code.localVariables);
-gdjs.copyArray(runtimeScene.getObjects("grass"), gdjs.level_951Code.GDgrassObjects2);
-{for(var i = 0, len = gdjs.level_951Code.GDgrassObjects2.length ;i < len;++i) {
-    gdjs.level_951Code.GDgrassObjects2[i].hide();
+gdjs.copyArray(runtimeScene.getObjects("grass"), gdjs.level_951Code.GDgrassObjects3);
+{for(var i = 0, len = gdjs.level_951Code.GDgrassObjects3.length ;i < len;++i) {
+    gdjs.level_951Code.GDgrassObjects3[i].hide();
 }
 }
 gdjs.level_951Code.localVariables.length = 0;
@@ -846,6 +852,8 @@ gdjs.copyArray(runtimeScene.getObjects("Girl"), gdjs.level_951Code.GDGirlObjects
 }
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "camera");
 }
+{gdjs.evtTools.window.setFullScreen(runtimeScene, true, true);
+}
 
 { //Subevents
 gdjs.level_951Code.eventsList6(runtimeScene);} //End of subevents
@@ -864,6 +872,28 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.level_951Code.eventsList7(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("RedButtonWithShadow"), gdjs.level_951Code.GDRedButtonWithShadowObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.level_951Code.GDRedButtonWithShadowObjects1.length;i<l;++i) {
+    if ( gdjs.level_951Code.GDRedButtonWithShadowObjects1[i].IsClicked(null) ) {
+        isConditionTrue_0 = true;
+        gdjs.level_951Code.GDRedButtonWithShadowObjects1[k] = gdjs.level_951Code.GDRedButtonWithShadowObjects1[i];
+        ++k;
+    }
+}
+gdjs.level_951Code.GDRedButtonWithShadowObjects1.length = k;
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.stopGame(runtimeScene);
+}
 }
 
 }
@@ -3404,6 +3434,12 @@ gdjs.level_951Code.GDground_9595planeObjects3.length = 0;
 gdjs.level_951Code.GDground_9595planeObjects4.length = 0;
 gdjs.level_951Code.GDground_9595planeObjects5.length = 0;
 gdjs.level_951Code.GDground_9595planeObjects6.length = 0;
+gdjs.level_951Code.GDRedButtonWithShadowObjects1.length = 0;
+gdjs.level_951Code.GDRedButtonWithShadowObjects2.length = 0;
+gdjs.level_951Code.GDRedButtonWithShadowObjects3.length = 0;
+gdjs.level_951Code.GDRedButtonWithShadowObjects4.length = 0;
+gdjs.level_951Code.GDRedButtonWithShadowObjects5.length = 0;
+gdjs.level_951Code.GDRedButtonWithShadowObjects6.length = 0;
 gdjs.level_951Code.GDPaper_9595Bark_9595VideoObjects1.length = 0;
 gdjs.level_951Code.GDPaper_9595Bark_9595VideoObjects2.length = 0;
 gdjs.level_951Code.GDPaper_9595Bark_9595VideoObjects3.length = 0;
@@ -3682,6 +3718,12 @@ gdjs.level_951Code.GDground_9595planeObjects3.length = 0;
 gdjs.level_951Code.GDground_9595planeObjects4.length = 0;
 gdjs.level_951Code.GDground_9595planeObjects5.length = 0;
 gdjs.level_951Code.GDground_9595planeObjects6.length = 0;
+gdjs.level_951Code.GDRedButtonWithShadowObjects1.length = 0;
+gdjs.level_951Code.GDRedButtonWithShadowObjects2.length = 0;
+gdjs.level_951Code.GDRedButtonWithShadowObjects3.length = 0;
+gdjs.level_951Code.GDRedButtonWithShadowObjects4.length = 0;
+gdjs.level_951Code.GDRedButtonWithShadowObjects5.length = 0;
+gdjs.level_951Code.GDRedButtonWithShadowObjects6.length = 0;
 gdjs.level_951Code.GDPaper_9595Bark_9595VideoObjects1.length = 0;
 gdjs.level_951Code.GDPaper_9595Bark_9595VideoObjects2.length = 0;
 gdjs.level_951Code.GDPaper_9595Bark_9595VideoObjects3.length = 0;
