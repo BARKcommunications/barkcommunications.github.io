@@ -1042,7 +1042,8 @@ elseEventsChainSatisfied = true;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = !(gdjs.evtTools.camera.layerIsVisible(runtimeScene, "Layer"));
+{isConditionTrue_0 = runtimeScene.getGame().getVariables().getFromIndex(6).getAsBoolean();
+}
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Camera"), gdjs.level_951Code.GDCameraObjects3);
 gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.level_951Code.GDPlayerObjects3);
@@ -1061,7 +1062,8 @@ gdjs.copyArray(runtimeScene.getObjects("Player2"), gdjs.level_951Code.GDPlayer2O
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.camera.layerIsVisible(runtimeScene, "Layer");
+{isConditionTrue_0 = !runtimeScene.getGame().getVariables().getFromIndex(6).getAsBoolean();
+}
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "camera") >= 3;
@@ -3042,6 +3044,8 @@ gdjs.level_951Code.GDclean_9595explosionObjects1.length = 0;
 }
 {gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDclean_95959595explosionObjects1Objects, (( gdjs.level_951Code.GDPlayer2Objects1.length === 0 ) ? (( gdjs.level_951Code.GDPlayerObjects1.length === 0 ) ? 0 :gdjs.level_951Code.GDPlayerObjects1[0].getX()) :gdjs.level_951Code.GDPlayer2Objects1[0].getX()), (( gdjs.level_951Code.GDPlayer2Objects1.length === 0 ) ? (( gdjs.level_951Code.GDPlayerObjects1.length === 0 ) ? 0 :gdjs.level_951Code.GDPlayerObjects1[0].getY()) :gdjs.level_951Code.GDPlayer2Objects1[0].getY()), "");
 }
+{runtimeScene.getGame().getVariables().getFromIndex(6).setBoolean(true);
+}
 
 { //Subevents
 gdjs.level_951Code.eventsList0(runtimeScene);} //End of subevents
@@ -3085,6 +3089,8 @@ gdjs.level_951Code.GDclean_9595explosionObjects1.length = 0;
 {gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDPlayer2Objects1Objects, (( gdjs.level_951Code.GDlook_9595atObjects1.length === 0 ) ? 0 :gdjs.level_951Code.GDlook_9595atObjects1[0].getX()), (( gdjs.level_951Code.GDlook_9595atObjects1.length === 0 ) ? 0 :gdjs.level_951Code.GDlook_9595atObjects1[0].getY()), "");
 }
 {gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDclean_95959595explosionObjects1Objects, (( gdjs.level_951Code.GDPlayer2Objects1.length === 0 ) ? (( gdjs.level_951Code.GDPlayerObjects1.length === 0 ) ? 0 :gdjs.level_951Code.GDPlayerObjects1[0].getX()) :gdjs.level_951Code.GDPlayer2Objects1[0].getX()), (( gdjs.level_951Code.GDPlayer2Objects1.length === 0 ) ? (( gdjs.level_951Code.GDPlayerObjects1.length === 0 ) ? 0 :gdjs.level_951Code.GDPlayerObjects1[0].getY()) :gdjs.level_951Code.GDPlayer2Objects1[0].getY()), "");
+}
+{runtimeScene.getGame().getVariables().getFromIndex(6).setBoolean(true);
 }
 
 { //Subevents
