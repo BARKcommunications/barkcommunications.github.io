@@ -309,6 +309,30 @@ gdjs.level_951Code.GDRedButtonWithShadowObjects3= [];
 gdjs.level_951Code.GDRedButtonWithShadowObjects4= [];
 gdjs.level_951Code.GDRedButtonWithShadowObjects5= [];
 gdjs.level_951Code.GDRedButtonWithShadowObjects6= [];
+gdjs.level_951Code.GDinvisible_9595wallObjects1= [];
+gdjs.level_951Code.GDinvisible_9595wallObjects2= [];
+gdjs.level_951Code.GDinvisible_9595wallObjects3= [];
+gdjs.level_951Code.GDinvisible_9595wallObjects4= [];
+gdjs.level_951Code.GDinvisible_9595wallObjects5= [];
+gdjs.level_951Code.GDinvisible_9595wallObjects6= [];
+gdjs.level_951Code.GDTroopyObjects1= [];
+gdjs.level_951Code.GDTroopyObjects2= [];
+gdjs.level_951Code.GDTroopyObjects3= [];
+gdjs.level_951Code.GDTroopyObjects4= [];
+gdjs.level_951Code.GDTroopyObjects5= [];
+gdjs.level_951Code.GDTroopyObjects6= [];
+gdjs.level_951Code.GDcampfireObjects1= [];
+gdjs.level_951Code.GDcampfireObjects2= [];
+gdjs.level_951Code.GDcampfireObjects3= [];
+gdjs.level_951Code.GDcampfireObjects4= [];
+gdjs.level_951Code.GDcampfireObjects5= [];
+gdjs.level_951Code.GDcampfireObjects6= [];
+gdjs.level_951Code.GDRedFlameObjects1= [];
+gdjs.level_951Code.GDRedFlameObjects2= [];
+gdjs.level_951Code.GDRedFlameObjects3= [];
+gdjs.level_951Code.GDRedFlameObjects4= [];
+gdjs.level_951Code.GDRedFlameObjects5= [];
+gdjs.level_951Code.GDRedFlameObjects6= [];
 gdjs.level_951Code.GDPaper_9595Bark_9595VideoObjects1= [];
 gdjs.level_951Code.GDPaper_9595Bark_9595VideoObjects2= [];
 gdjs.level_951Code.GDPaper_9595Bark_9595VideoObjects3= [];
@@ -842,6 +866,7 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Boy"), gdjs.level_951Code.GDBoyObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Girl"), gdjs.level_951Code.GDGirlObjects2);
+gdjs.copyArray(runtimeScene.getObjects("invisible_wall"), gdjs.level_951Code.GDinvisible_9595wallObjects2);
 {for(var i = 0, len = gdjs.level_951Code.GDBoyObjects2.length ;i < len;++i) {
     gdjs.level_951Code.GDBoyObjects2[i].hide(false);
 }
@@ -851,6 +876,10 @@ gdjs.copyArray(runtimeScene.getObjects("Girl"), gdjs.level_951Code.GDGirlObjects
 }
 }
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "camera");
+}
+{for(var i = 0, len = gdjs.level_951Code.GDinvisible_9595wallObjects2.length ;i < len;++i) {
+    gdjs.level_951Code.GDinvisible_9595wallObjects2[i].hide();
+}
 }
 
 { //Subevents
@@ -885,6 +914,18 @@ if (isConditionTrue_0) {
 {gdjs.evtTools.window.setFullScreen(runtimeScene, true, true);
 }
 {gdjs.evtTools.advancedWindow.maximize(true, runtimeScene);
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{gdjs.evtsExt__CopyCameraSettings__CopyCameraSettings.func(runtimeScene, "", 1, "Scene", 1, true, true, true, true, null);
 }
 }
 
@@ -3525,6 +3566,30 @@ gdjs.level_951Code.GDRedButtonWithShadowObjects3.length = 0;
 gdjs.level_951Code.GDRedButtonWithShadowObjects4.length = 0;
 gdjs.level_951Code.GDRedButtonWithShadowObjects5.length = 0;
 gdjs.level_951Code.GDRedButtonWithShadowObjects6.length = 0;
+gdjs.level_951Code.GDinvisible_9595wallObjects1.length = 0;
+gdjs.level_951Code.GDinvisible_9595wallObjects2.length = 0;
+gdjs.level_951Code.GDinvisible_9595wallObjects3.length = 0;
+gdjs.level_951Code.GDinvisible_9595wallObjects4.length = 0;
+gdjs.level_951Code.GDinvisible_9595wallObjects5.length = 0;
+gdjs.level_951Code.GDinvisible_9595wallObjects6.length = 0;
+gdjs.level_951Code.GDTroopyObjects1.length = 0;
+gdjs.level_951Code.GDTroopyObjects2.length = 0;
+gdjs.level_951Code.GDTroopyObjects3.length = 0;
+gdjs.level_951Code.GDTroopyObjects4.length = 0;
+gdjs.level_951Code.GDTroopyObjects5.length = 0;
+gdjs.level_951Code.GDTroopyObjects6.length = 0;
+gdjs.level_951Code.GDcampfireObjects1.length = 0;
+gdjs.level_951Code.GDcampfireObjects2.length = 0;
+gdjs.level_951Code.GDcampfireObjects3.length = 0;
+gdjs.level_951Code.GDcampfireObjects4.length = 0;
+gdjs.level_951Code.GDcampfireObjects5.length = 0;
+gdjs.level_951Code.GDcampfireObjects6.length = 0;
+gdjs.level_951Code.GDRedFlameObjects1.length = 0;
+gdjs.level_951Code.GDRedFlameObjects2.length = 0;
+gdjs.level_951Code.GDRedFlameObjects3.length = 0;
+gdjs.level_951Code.GDRedFlameObjects4.length = 0;
+gdjs.level_951Code.GDRedFlameObjects5.length = 0;
+gdjs.level_951Code.GDRedFlameObjects6.length = 0;
 gdjs.level_951Code.GDPaper_9595Bark_9595VideoObjects1.length = 0;
 gdjs.level_951Code.GDPaper_9595Bark_9595VideoObjects2.length = 0;
 gdjs.level_951Code.GDPaper_9595Bark_9595VideoObjects3.length = 0;
@@ -3809,6 +3874,30 @@ gdjs.level_951Code.GDRedButtonWithShadowObjects3.length = 0;
 gdjs.level_951Code.GDRedButtonWithShadowObjects4.length = 0;
 gdjs.level_951Code.GDRedButtonWithShadowObjects5.length = 0;
 gdjs.level_951Code.GDRedButtonWithShadowObjects6.length = 0;
+gdjs.level_951Code.GDinvisible_9595wallObjects1.length = 0;
+gdjs.level_951Code.GDinvisible_9595wallObjects2.length = 0;
+gdjs.level_951Code.GDinvisible_9595wallObjects3.length = 0;
+gdjs.level_951Code.GDinvisible_9595wallObjects4.length = 0;
+gdjs.level_951Code.GDinvisible_9595wallObjects5.length = 0;
+gdjs.level_951Code.GDinvisible_9595wallObjects6.length = 0;
+gdjs.level_951Code.GDTroopyObjects1.length = 0;
+gdjs.level_951Code.GDTroopyObjects2.length = 0;
+gdjs.level_951Code.GDTroopyObjects3.length = 0;
+gdjs.level_951Code.GDTroopyObjects4.length = 0;
+gdjs.level_951Code.GDTroopyObjects5.length = 0;
+gdjs.level_951Code.GDTroopyObjects6.length = 0;
+gdjs.level_951Code.GDcampfireObjects1.length = 0;
+gdjs.level_951Code.GDcampfireObjects2.length = 0;
+gdjs.level_951Code.GDcampfireObjects3.length = 0;
+gdjs.level_951Code.GDcampfireObjects4.length = 0;
+gdjs.level_951Code.GDcampfireObjects5.length = 0;
+gdjs.level_951Code.GDcampfireObjects6.length = 0;
+gdjs.level_951Code.GDRedFlameObjects1.length = 0;
+gdjs.level_951Code.GDRedFlameObjects2.length = 0;
+gdjs.level_951Code.GDRedFlameObjects3.length = 0;
+gdjs.level_951Code.GDRedFlameObjects4.length = 0;
+gdjs.level_951Code.GDRedFlameObjects5.length = 0;
+gdjs.level_951Code.GDRedFlameObjects6.length = 0;
 gdjs.level_951Code.GDPaper_9595Bark_9595VideoObjects1.length = 0;
 gdjs.level_951Code.GDPaper_9595Bark_9595VideoObjects2.length = 0;
 gdjs.level_951Code.GDPaper_9595Bark_9595VideoObjects3.length = 0;
