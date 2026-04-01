@@ -174,7 +174,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(20353700);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(21109468);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Billboard__Billboard.Billboard.prototype.doStepPreEventsContext.GDObjectObjects1);
@@ -1156,7 +1156,7 @@ gdjs.evtsExt__Billboard__Billboard.Billboard.prototype.EnableTransparencyContext
 gdjs.evtsExt__Billboard__Billboard.Billboard.prototype.EnableTransparencyContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__Billboard__Billboard.Billboard.prototype.EnableTransparencyContext.userFunc0x11cc380 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Billboard__Billboard.Billboard.prototype.EnableTransparencyContext.userFunc0xf9c098 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.Cube3DRuntimeObject} */
 const object = objects[0];
@@ -1174,7 +1174,7 @@ gdjs.evtsExt__Billboard__Billboard.Billboard.prototype.EnableTransparencyContext
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Billboard__Billboard.Billboard.prototype.EnableTransparencyContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__Billboard__Billboard.Billboard.prototype.EnableTransparencyContext.GDObjectObjects1;
-gdjs.evtsExt__Billboard__Billboard.Billboard.prototype.EnableTransparencyContext.userFunc0x11cc380(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__Billboard__Billboard.Billboard.prototype.EnableTransparencyContext.userFunc0xf9c098(runtimeScene, objects, eventsFunctionContext);
 
 }
 
