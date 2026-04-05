@@ -10,9 +10,6 @@ gdjs.bin_95gameCode.GDbottleObjects3= [];
 gdjs.bin_95gameCode.GDfloorObjects1= [];
 gdjs.bin_95gameCode.GDfloorObjects2= [];
 gdjs.bin_95gameCode.GDfloorObjects3= [];
-gdjs.bin_95gameCode.GDwallObjects1= [];
-gdjs.bin_95gameCode.GDwallObjects2= [];
-gdjs.bin_95gameCode.GDwallObjects3= [];
 gdjs.bin_95gameCode.GDbin_9595topObjects1= [];
 gdjs.bin_95gameCode.GDbin_9595topObjects2= [];
 gdjs.bin_95gameCode.GDbin_9595topObjects3= [];
@@ -22,6 +19,9 @@ gdjs.bin_95gameCode.GDswipeObjects3= [];
 gdjs.bin_95gameCode.GDCartoonSmokeObjects1= [];
 gdjs.bin_95gameCode.GDCartoonSmokeObjects2= [];
 gdjs.bin_95gameCode.GDCartoonSmokeObjects3= [];
+gdjs.bin_95gameCode.GDwallObjects1= [];
+gdjs.bin_95gameCode.GDwallObjects2= [];
+gdjs.bin_95gameCode.GDwallObjects3= [];
 gdjs.bin_95gameCode.GDPaper_9595Bark_9595VideoObjects1= [];
 gdjs.bin_95gameCode.GDPaper_9595Bark_9595VideoObjects2= [];
 gdjs.bin_95gameCode.GDPaper_9595Bark_9595VideoObjects3= [];
@@ -39,7 +39,7 @@ gdjs.bin_95gameCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22807356);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22507108);
 }
 if (isConditionTrue_0) {
 gdjs.bin_95gameCode.GDbottleObjects2.length = 0;
@@ -140,7 +140,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.getSceneInstancesCount(runtimeScene, gdjs.bin_95gameCode.mapOfEmptyGDbottleObjects) > 0;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22809452);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22819084);
 }
 }
 }
@@ -182,7 +182,7 @@ for (var i = 0, k = 0, l = gdjs.bin_95gameCode.GDbottleObjects2.length;i<l;++i) 
 gdjs.bin_95gameCode.GDbottleObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22811252);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22821820);
 }
 }
 if (isConditionTrue_0) {
@@ -241,7 +241,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.physics2.areObjectsColliding(gdjs.bin_95gameCode.mapOfGDgdjs_9546bin_959595gameCode_9546GDbottleObjects1Objects, "Physics2", gdjs.bin_95gameCode.mapOfGDgdjs_9546bin_959595gameCode_9546GDfloorObjects1Objects, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22812884);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21265236);
 }
 }
 if (isConditionTrue_0) {
@@ -269,9 +269,6 @@ gdjs.bin_95gameCode.GDbottleObjects3.length = 0;
 gdjs.bin_95gameCode.GDfloorObjects1.length = 0;
 gdjs.bin_95gameCode.GDfloorObjects2.length = 0;
 gdjs.bin_95gameCode.GDfloorObjects3.length = 0;
-gdjs.bin_95gameCode.GDwallObjects1.length = 0;
-gdjs.bin_95gameCode.GDwallObjects2.length = 0;
-gdjs.bin_95gameCode.GDwallObjects3.length = 0;
 gdjs.bin_95gameCode.GDbin_9595topObjects1.length = 0;
 gdjs.bin_95gameCode.GDbin_9595topObjects2.length = 0;
 gdjs.bin_95gameCode.GDbin_9595topObjects3.length = 0;
@@ -281,6 +278,9 @@ gdjs.bin_95gameCode.GDswipeObjects3.length = 0;
 gdjs.bin_95gameCode.GDCartoonSmokeObjects1.length = 0;
 gdjs.bin_95gameCode.GDCartoonSmokeObjects2.length = 0;
 gdjs.bin_95gameCode.GDCartoonSmokeObjects3.length = 0;
+gdjs.bin_95gameCode.GDwallObjects1.length = 0;
+gdjs.bin_95gameCode.GDwallObjects2.length = 0;
+gdjs.bin_95gameCode.GDwallObjects3.length = 0;
 gdjs.bin_95gameCode.GDPaper_9595Bark_9595VideoObjects1.length = 0;
 gdjs.bin_95gameCode.GDPaper_9595Bark_9595VideoObjects2.length = 0;
 gdjs.bin_95gameCode.GDPaper_9595Bark_9595VideoObjects3.length = 0;
@@ -298,9 +298,6 @@ gdjs.bin_95gameCode.GDbottleObjects3.length = 0;
 gdjs.bin_95gameCode.GDfloorObjects1.length = 0;
 gdjs.bin_95gameCode.GDfloorObjects2.length = 0;
 gdjs.bin_95gameCode.GDfloorObjects3.length = 0;
-gdjs.bin_95gameCode.GDwallObjects1.length = 0;
-gdjs.bin_95gameCode.GDwallObjects2.length = 0;
-gdjs.bin_95gameCode.GDwallObjects3.length = 0;
 gdjs.bin_95gameCode.GDbin_9595topObjects1.length = 0;
 gdjs.bin_95gameCode.GDbin_9595topObjects2.length = 0;
 gdjs.bin_95gameCode.GDbin_9595topObjects3.length = 0;
@@ -310,6 +307,9 @@ gdjs.bin_95gameCode.GDswipeObjects3.length = 0;
 gdjs.bin_95gameCode.GDCartoonSmokeObjects1.length = 0;
 gdjs.bin_95gameCode.GDCartoonSmokeObjects2.length = 0;
 gdjs.bin_95gameCode.GDCartoonSmokeObjects3.length = 0;
+gdjs.bin_95gameCode.GDwallObjects1.length = 0;
+gdjs.bin_95gameCode.GDwallObjects2.length = 0;
+gdjs.bin_95gameCode.GDwallObjects3.length = 0;
 gdjs.bin_95gameCode.GDPaper_9595Bark_9595VideoObjects1.length = 0;
 gdjs.bin_95gameCode.GDPaper_9595Bark_9595VideoObjects2.length = 0;
 gdjs.bin_95gameCode.GDPaper_9595Bark_9595VideoObjects3.length = 0;
