@@ -156,7 +156,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.PacmanCode.mapOfGDgdjs_9546PacmanCode_9546GDplayerObjects1Objects, gdjs.PacmanCode.mapOfGDgdjs_9546PacmanCode_9546GDgerm_95959595weakObjects1Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23209644);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23335684);
 }
 }
 if (isConditionTrue_0) {

@@ -9,7 +9,7 @@ gdjs.evtsExt__Tween3D__RgbMean = {};
 gdjs.evtsExt__Tween3D__RgbMean.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Tween3D__RgbMean.userFunc0xb0e318 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Tween3D__RgbMean.userFunc0x915808 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const { rgbToHsl, hslToRgb } = gdjs.__tween3DExtension;
 
@@ -34,7 +34,7 @@ gdjs.evtsExt__Tween3D__RgbMean.eventsList0 = function(runtimeScene, eventsFuncti
 {
 
 
-gdjs.evtsExt__Tween3D__RgbMean.userFunc0xb0e318(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Tween3D__RgbMean.userFunc0x915808(runtimeScene, eventsFunctionContext);
 
 }
 
