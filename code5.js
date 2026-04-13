@@ -29,6 +29,14 @@ gdjs.dishes_95gameCode.GDGerms_9595VideoObjects1= [];
 gdjs.dishes_95gameCode.GDGerms_9595VideoObjects2= [];
 gdjs.dishes_95gameCode.GDGerms_9595VideoObjects3= [];
 gdjs.dishes_95gameCode.GDGerms_9595VideoObjects4= [];
+gdjs.dishes_95gameCode.GDRiver_9595StoryObjects1= [];
+gdjs.dishes_95gameCode.GDRiver_9595StoryObjects2= [];
+gdjs.dishes_95gameCode.GDRiver_9595StoryObjects3= [];
+gdjs.dishes_95gameCode.GDRiver_9595StoryObjects4= [];
+gdjs.dishes_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects1= [];
+gdjs.dishes_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects2= [];
+gdjs.dishes_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects3= [];
+gdjs.dishes_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects4= [];
 
 
 gdjs.dishes_95gameCode.mapOfGDgdjs_9546dishes_959595gameCode_9546GDdishObjects1Objects = Hashtable.newFrom({"dish": gdjs.dishes_95gameCode.GDdishObjects1});
@@ -139,7 +147,7 @@ gdjs.dishes_95gameCode.eventsList3 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23112172);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22659468);
 }
 if (isConditionTrue_0) {
 gdjs.dishes_95gameCode.GDPixiDustObjects2.length = 0;
@@ -242,7 +250,7 @@ for (var i = 0, k = 0, l = gdjs.dishes_95gameCode.GDdishObjects2.length;i<l;++i)
 gdjs.dishes_95gameCode.GDdishObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23102588);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22649884);
 }
 }
 if (isConditionTrue_0)
@@ -277,7 +285,7 @@ for (var i = 0, k = 0, l = gdjs.dishes_95gameCode.GDdishObjects1.length;i<l;++i)
 gdjs.dishes_95gameCode.GDdishObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23104604);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22651900);
 }
 }
 }
@@ -310,7 +318,7 @@ for (var i = 0, k = 0, l = gdjs.dishes_95gameCode.GDdishObjects1.length;i<l;++i)
 gdjs.dishes_95gameCode.GDdishObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23105756);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22653052);
 }
 }
 if (isConditionTrue_0) {
@@ -424,6 +432,14 @@ gdjs.dishes_95gameCode.GDGerms_9595VideoObjects1.length = 0;
 gdjs.dishes_95gameCode.GDGerms_9595VideoObjects2.length = 0;
 gdjs.dishes_95gameCode.GDGerms_9595VideoObjects3.length = 0;
 gdjs.dishes_95gameCode.GDGerms_9595VideoObjects4.length = 0;
+gdjs.dishes_95gameCode.GDRiver_9595StoryObjects1.length = 0;
+gdjs.dishes_95gameCode.GDRiver_9595StoryObjects2.length = 0;
+gdjs.dishes_95gameCode.GDRiver_9595StoryObjects3.length = 0;
+gdjs.dishes_95gameCode.GDRiver_9595StoryObjects4.length = 0;
+gdjs.dishes_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects1.length = 0;
+gdjs.dishes_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects2.length = 0;
+gdjs.dishes_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects3.length = 0;
+gdjs.dishes_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects4.length = 0;
 
 gdjs.dishes_95gameCode.eventsList4(runtimeScene);
 gdjs.dishes_95gameCode.GDdishObjects1.length = 0;
@@ -454,6 +470,14 @@ gdjs.dishes_95gameCode.GDGerms_9595VideoObjects1.length = 0;
 gdjs.dishes_95gameCode.GDGerms_9595VideoObjects2.length = 0;
 gdjs.dishes_95gameCode.GDGerms_9595VideoObjects3.length = 0;
 gdjs.dishes_95gameCode.GDGerms_9595VideoObjects4.length = 0;
+gdjs.dishes_95gameCode.GDRiver_9595StoryObjects1.length = 0;
+gdjs.dishes_95gameCode.GDRiver_9595StoryObjects2.length = 0;
+gdjs.dishes_95gameCode.GDRiver_9595StoryObjects3.length = 0;
+gdjs.dishes_95gameCode.GDRiver_9595StoryObjects4.length = 0;
+gdjs.dishes_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects1.length = 0;
+gdjs.dishes_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects2.length = 0;
+gdjs.dishes_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects3.length = 0;
+gdjs.dishes_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects4.length = 0;
 
 
 return;

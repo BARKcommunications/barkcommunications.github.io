@@ -16,6 +16,12 @@ gdjs.germ_95gameCode.GDPaper_9595Bark_9595VideoObjects3= [];
 gdjs.germ_95gameCode.GDGerms_9595VideoObjects1= [];
 gdjs.germ_95gameCode.GDGerms_9595VideoObjects2= [];
 gdjs.germ_95gameCode.GDGerms_9595VideoObjects3= [];
+gdjs.germ_95gameCode.GDRiver_9595StoryObjects1= [];
+gdjs.germ_95gameCode.GDRiver_9595StoryObjects2= [];
+gdjs.germ_95gameCode.GDRiver_9595StoryObjects3= [];
+gdjs.germ_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects1= [];
+gdjs.germ_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects2= [];
+gdjs.germ_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects3= [];
 
 
 gdjs.germ_95gameCode.mapOfGDgdjs_9546germ_959595gameCode_9546GDgermObjects1Objects = Hashtable.newFrom({"germ": gdjs.germ_95gameCode.GDgermObjects1});
@@ -142,7 +148,7 @@ gdjs.germ_95gameCode.GDgermObjects2.length = 0;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23038724);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22585892);
 }
 if (isConditionTrue_0)
 {
@@ -333,6 +339,12 @@ gdjs.germ_95gameCode.GDPaper_9595Bark_9595VideoObjects3.length = 0;
 gdjs.germ_95gameCode.GDGerms_9595VideoObjects1.length = 0;
 gdjs.germ_95gameCode.GDGerms_9595VideoObjects2.length = 0;
 gdjs.germ_95gameCode.GDGerms_9595VideoObjects3.length = 0;
+gdjs.germ_95gameCode.GDRiver_9595StoryObjects1.length = 0;
+gdjs.germ_95gameCode.GDRiver_9595StoryObjects2.length = 0;
+gdjs.germ_95gameCode.GDRiver_9595StoryObjects3.length = 0;
+gdjs.germ_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects1.length = 0;
+gdjs.germ_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects2.length = 0;
+gdjs.germ_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects3.length = 0;
 
 gdjs.germ_95gameCode.eventsList3(runtimeScene);
 gdjs.germ_95gameCode.GDgermObjects1.length = 0;
@@ -350,6 +362,12 @@ gdjs.germ_95gameCode.GDPaper_9595Bark_9595VideoObjects3.length = 0;
 gdjs.germ_95gameCode.GDGerms_9595VideoObjects1.length = 0;
 gdjs.germ_95gameCode.GDGerms_9595VideoObjects2.length = 0;
 gdjs.germ_95gameCode.GDGerms_9595VideoObjects3.length = 0;
+gdjs.germ_95gameCode.GDRiver_9595StoryObjects1.length = 0;
+gdjs.germ_95gameCode.GDRiver_9595StoryObjects2.length = 0;
+gdjs.germ_95gameCode.GDRiver_9595StoryObjects3.length = 0;
+gdjs.germ_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects1.length = 0;
+gdjs.germ_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects2.length = 0;
+gdjs.germ_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects3.length = 0;
 
 
 return;
