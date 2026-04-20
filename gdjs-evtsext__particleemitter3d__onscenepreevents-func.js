@@ -9,7 +9,7 @@ gdjs.evtsExt__ParticleEmitter3D__onScenePreEvents = {};
 gdjs.evtsExt__ParticleEmitter3D__onScenePreEvents.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__ParticleEmitter3D__onScenePreEvents.userFunc0x120df68 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__onScenePreEvents.userFunc0xeb3e78 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 
 // See doStepPostEvents
@@ -21,7 +21,7 @@ gdjs.evtsExt__ParticleEmitter3D__onScenePreEvents.eventsList0 = function(runtime
 {
 
 
-gdjs.evtsExt__ParticleEmitter3D__onScenePreEvents.userFunc0x120df68(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__onScenePreEvents.userFunc0xeb3e78(runtimeScene, eventsFunctionContext);
 
 }
 

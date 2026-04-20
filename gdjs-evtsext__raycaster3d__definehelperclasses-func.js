@@ -9,7 +9,7 @@ gdjs.evtsExt__Raycaster3D__DefineHelperClasses = {};
 gdjs.evtsExt__Raycaster3D__DefineHelperClasses.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Raycaster3D__DefineHelperClasses.userFunc0x104f0c0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Raycaster3D__DefineHelperClasses.userFunc0x1326bb0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (gdjs.__raycaster3DExtension) {
     return;
@@ -192,7 +192,7 @@ gdjs.evtsExt__Raycaster3D__DefineHelperClasses.eventsList0 = function(runtimeSce
 {
 
 
-gdjs.evtsExt__Raycaster3D__DefineHelperClasses.userFunc0x104f0c0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Raycaster3D__DefineHelperClasses.userFunc0x1326bb0(runtimeScene, eventsFunctionContext);
 
 }
 

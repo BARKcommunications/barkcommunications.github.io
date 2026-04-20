@@ -9,7 +9,7 @@ gdjs.evtsExt__ShakeObject3D__Seed = {};
 gdjs.evtsExt__ShakeObject3D__Seed.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__ShakeObject3D__Seed.userFunc0x900df8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ShakeObject3D__Seed.userFunc0xf8a870 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = gdjs._shakeObjectExtension.noiseManager.seed;
 };
@@ -18,7 +18,7 @@ gdjs.evtsExt__ShakeObject3D__Seed.eventsList0 = function(runtimeScene, eventsFun
 {
 
 
-gdjs.evtsExt__ShakeObject3D__Seed.userFunc0x900df8(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ShakeObject3D__Seed.userFunc0xf8a870(runtimeScene, eventsFunctionContext);
 
 }
 
