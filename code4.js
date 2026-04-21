@@ -71,7 +71,7 @@ gdjs.mop_95gameCode.eventsList2 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24923652);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24706500);
 }
 if (isConditionTrue_0) {
 gdjs.mop_95gameCode.GDPixiDustObjects2.length = 0;
