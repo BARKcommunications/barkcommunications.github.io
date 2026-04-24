@@ -66,7 +66,7 @@ gdjs.basketball_95gameCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24947548);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24947076);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("swipe"), gdjs.basketball_95gameCode.GDswipeObjects2);
@@ -100,7 +100,7 @@ gdjs.basketball_95gameCode.mapOfGDgdjs_9546basketball_959595gameCode_9546GDhoopO
 gdjs.basketball_95gameCode.mapOfGDgdjs_9546basketball_959595gameCode_9546GDBasicExplosionEnergyObjects2Objects = Hashtable.newFrom({"BasicExplosionEnergy": gdjs.basketball_95gameCode.GDBasicExplosionEnergyObjects2});
 gdjs.basketball_95gameCode.mapOfGDgdjs_9546basketball_959595gameCode_9546GDLightningTextureObjects2Objects = Hashtable.newFrom({"LightningTexture": gdjs.basketball_95gameCode.GDLightningTextureObjects2});
 gdjs.basketball_95gameCode.mapOfGDgdjs_9546basketball_959595gameCode_9546GDRedExplosionObjects3Objects = Hashtable.newFrom({"RedExplosion": gdjs.basketball_95gameCode.GDRedExplosionObjects3});
-gdjs.basketball_95gameCode.asyncCallback24953844 = function (runtimeScene, asyncObjectsList) {
+gdjs.basketball_95gameCode.asyncCallback24953372 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.basketball_95gameCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("basketball"), gdjs.basketball_95gameCode.GDbasketballObjects3);
 
@@ -114,7 +114,7 @@ gdjs.basketball_95gameCode.GDRedExplosionObjects3.length = 0;
 }
 gdjs.basketball_95gameCode.localVariables.length = 0;
 }
-gdjs.basketball_95gameCode.idToCallbackMap.set(24953844, gdjs.basketball_95gameCode.asyncCallback24953844);
+gdjs.basketball_95gameCode.idToCallbackMap.set(24953372, gdjs.basketball_95gameCode.asyncCallback24953372);
 gdjs.basketball_95gameCode.eventsList1 = function(runtimeScene) {
 
 {
@@ -125,7 +125,7 @@ gdjs.basketball_95gameCode.eventsList1 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.basketball_95gameCode.localVariables);
 for (const obj of gdjs.basketball_95gameCode.GDbasketballObjects2) asyncObjectsList.addObject("basketball", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.basketball_95gameCode.asyncCallback24953844(runtimeScene, asyncObjectsList)), 24953844, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.basketball_95gameCode.asyncCallback24953372(runtimeScene, asyncObjectsList)), 24953372, asyncObjectsList);
 }
 }
 
@@ -133,13 +133,13 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), 
 
 
 };gdjs.basketball_95gameCode.mapOfGDgdjs_9546basketball_959595gameCode_9546GDRedExplosionObjects2Objects = Hashtable.newFrom({"RedExplosion": gdjs.basketball_95gameCode.GDRedExplosionObjects2});
-gdjs.basketball_95gameCode.asyncCallback24955860 = function (runtimeScene, asyncObjectsList) {
+gdjs.basketball_95gameCode.asyncCallback24955388 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.basketball_95gameCode.localVariables);
 {gdjs.evtTools.runtimeScene.popScene(runtimeScene);
 }
 gdjs.basketball_95gameCode.localVariables.length = 0;
 }
-gdjs.basketball_95gameCode.idToCallbackMap.set(24955860, gdjs.basketball_95gameCode.asyncCallback24955860);
+gdjs.basketball_95gameCode.idToCallbackMap.set(24955388, gdjs.basketball_95gameCode.asyncCallback24955388);
 gdjs.basketball_95gameCode.eventsList2 = function(runtimeScene) {
 
 {
@@ -149,7 +149,7 @@ gdjs.basketball_95gameCode.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.basketball_95gameCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.basketball_95gameCode.asyncCallback24955860(runtimeScene, asyncObjectsList)), 24955860, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.basketball_95gameCode.asyncCallback24955388(runtimeScene, asyncObjectsList)), 24955388, asyncObjectsList);
 }
 }
 
@@ -205,7 +205,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.getSceneInstancesCount(runtimeScene, gdjs.basketball_95gameCode.mapOfEmptyGDbasketballObjects) == 1;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24949068);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24948596);
 }
 }
 }
@@ -239,7 +239,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.getSceneInstancesCount(runtimeScene, gdjs.basketball_95gameCode.mapOfEmptyGDbasketballObjects) == 1;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24951108);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24950636);
 }
 }
 }
@@ -268,7 +268,7 @@ gdjs.copyArray(runtimeScene.getObjects("swipe"), gdjs.basketball_95gameCode.GDsw
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24951980);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24951508);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("swipe"), gdjs.basketball_95gameCode.GDswipeObjects2);
@@ -291,7 +291,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.basketball_95gameCode.mapOfGDgdjs_9546basketball_959595gameCode_9546GDbasketballObjects2Objects, gdjs.basketball_95gameCode.mapOfGDgdjs_9546basketball_959595gameCode_9546GDhoopObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24953180);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24952708);
 }
 }
 if (isConditionTrue_0) {
@@ -352,7 +352,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24955964);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24955492);
 }
 }
 if (isConditionTrue_0) {
@@ -367,7 +367,7 @@ gdjs.basketball_95gameCode.eventsList2(runtimeScene);} //End of subevents
 };gdjs.basketball_95gameCode.mapOfGDgdjs_9546basketball_959595gameCode_9546GDbasketballObjects1Objects = Hashtable.newFrom({"basketball": gdjs.basketball_95gameCode.GDbasketballObjects1});
 gdjs.basketball_95gameCode.mapOfGDgdjs_9546basketball_959595gameCode_9546GDfloorObjects1Objects = Hashtable.newFrom({"floor": gdjs.basketball_95gameCode.GDfloorObjects1});
 gdjs.basketball_95gameCode.mapOfGDgdjs_9546basketball_959595gameCode_9546GDRedExplosionObjects2Objects = Hashtable.newFrom({"RedExplosion": gdjs.basketball_95gameCode.GDRedExplosionObjects2});
-gdjs.basketball_95gameCode.asyncCallback24956604 = function (runtimeScene, asyncObjectsList) {
+gdjs.basketball_95gameCode.asyncCallback24956132 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.basketball_95gameCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("basketball"), gdjs.basketball_95gameCode.GDbasketballObjects2);
 
@@ -381,7 +381,7 @@ gdjs.basketball_95gameCode.GDRedExplosionObjects2.length = 0;
 }
 gdjs.basketball_95gameCode.localVariables.length = 0;
 }
-gdjs.basketball_95gameCode.idToCallbackMap.set(24956604, gdjs.basketball_95gameCode.asyncCallback24956604);
+gdjs.basketball_95gameCode.idToCallbackMap.set(24956132, gdjs.basketball_95gameCode.asyncCallback24956132);
 gdjs.basketball_95gameCode.eventsList4 = function(runtimeScene) {
 
 {
@@ -392,7 +392,7 @@ gdjs.basketball_95gameCode.eventsList4 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.basketball_95gameCode.localVariables);
 for (const obj of gdjs.basketball_95gameCode.GDbasketballObjects1) asyncObjectsList.addObject("basketball", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.basketball_95gameCode.asyncCallback24956604(runtimeScene, asyncObjectsList)), 24956604, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.basketball_95gameCode.asyncCallback24956132(runtimeScene, asyncObjectsList)), 24956132, asyncObjectsList);
 }
 }
 
@@ -418,7 +418,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.physics2.areObjectsColliding(gdjs.basketball_95gameCode.mapOfGDgdjs_9546basketball_959595gameCode_9546GDbasketballObjects1Objects, "Physics2", gdjs.basketball_95gameCode.mapOfGDgdjs_9546basketball_959595gameCode_9546GDfloorObjects1Objects, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24956788);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24956316);
 }
 }
 if (isConditionTrue_0) {

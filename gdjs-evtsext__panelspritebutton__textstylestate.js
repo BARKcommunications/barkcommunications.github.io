@@ -550,7 +550,7 @@ gdjs.evtsExt__PanelSpriteButton__TextStyleState.TextStyleState.prototype.ColorCo
 gdjs.evtsExt__PanelSpriteButton__TextStyleState.TextStyleState.prototype.ColorContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PanelSpriteButton__TextStyleState.TextStyleState.prototype.ColorContext.userFunc0x10d8fb0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__PanelSpriteButton__TextStyleState.TextStyleState.prototype.ColorContext.userFunc0x10a8bc0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.TextRuntimeObject} */
 const object = eventsFunctionContext.getObjects("Object")[0];
@@ -562,7 +562,7 @@ gdjs.evtsExt__PanelSpriteButton__TextStyleState.TextStyleState.prototype.ColorCo
 {
 
 
-gdjs.evtsExt__PanelSpriteButton__TextStyleState.TextStyleState.prototype.ColorContext.userFunc0x10d8fb0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__PanelSpriteButton__TextStyleState.TextStyleState.prototype.ColorContext.userFunc0x10a8bc0(runtimeScene, eventsFunctionContext);
 
 }
 
