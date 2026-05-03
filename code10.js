@@ -1010,7 +1010,7 @@ gdjs.copyArray(runtimeScene.getObjects("YOU_DED"), gdjs.Call_95of_95Cleaning_95D
     gdjs.Call_95of_95Cleaning_95DutyCode.GDYOU_9595DEDObjects1[i].hide();
 }
 }
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "assets/audio/music/call_of_cleaning.wav", 1, false, 100, 1);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "assets/audio/music/call_of_cleaning.wav", 1, true, 100, 1);
 }
 }
 
