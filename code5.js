@@ -1,6 +1,8 @@
 gdjs.dishes_95gameCode = {};
 gdjs.dishes_95gameCode.localVariables = [];
 gdjs.dishes_95gameCode.idToCallbackMap = new Map();
+gdjs.dishes_95gameCode.GDgermObjects1_1final = [];
+
 gdjs.dishes_95gameCode.GDdishObjects1= [];
 gdjs.dishes_95gameCode.GDdishObjects2= [];
 gdjs.dishes_95gameCode.GDdishObjects3= [];
@@ -25,18 +27,18 @@ gdjs.dishes_95gameCode.GDPaper_9595Bark_9595VideoObjects1= [];
 gdjs.dishes_95gameCode.GDPaper_9595Bark_9595VideoObjects2= [];
 gdjs.dishes_95gameCode.GDPaper_9595Bark_9595VideoObjects3= [];
 gdjs.dishes_95gameCode.GDPaper_9595Bark_9595VideoObjects4= [];
-gdjs.dishes_95gameCode.GDGerms_9595VideoObjects1= [];
-gdjs.dishes_95gameCode.GDGerms_9595VideoObjects2= [];
-gdjs.dishes_95gameCode.GDGerms_9595VideoObjects3= [];
-gdjs.dishes_95gameCode.GDGerms_9595VideoObjects4= [];
+gdjs.dishes_95gameCode.GDintroduction_9595to_9595germsObjects1= [];
+gdjs.dishes_95gameCode.GDintroduction_9595to_9595germsObjects2= [];
+gdjs.dishes_95gameCode.GDintroduction_9595to_9595germsObjects3= [];
+gdjs.dishes_95gameCode.GDintroduction_9595to_9595germsObjects4= [];
 gdjs.dishes_95gameCode.GDRiver_9595StoryObjects1= [];
 gdjs.dishes_95gameCode.GDRiver_9595StoryObjects2= [];
 gdjs.dishes_95gameCode.GDRiver_9595StoryObjects3= [];
 gdjs.dishes_95gameCode.GDRiver_9595StoryObjects4= [];
-gdjs.dishes_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects1= [];
-gdjs.dishes_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects2= [];
-gdjs.dishes_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects3= [];
-gdjs.dishes_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects4= [];
+gdjs.dishes_95gameCode.GDhow_9595do_9595germs_9595spread_9595in_9595the_9595bodyObjects1= [];
+gdjs.dishes_95gameCode.GDhow_9595do_9595germs_9595spread_9595in_9595the_9595bodyObjects2= [];
+gdjs.dishes_95gameCode.GDhow_9595do_9595germs_9595spread_9595in_9595the_9595bodyObjects3= [];
+gdjs.dishes_95gameCode.GDhow_9595do_9595germs_9595spread_9595in_9595the_9595bodyObjects4= [];
 gdjs.dishes_95gameCode.GDcar_9595game_9595introObjects1= [];
 gdjs.dishes_95gameCode.GDcar_9595game_9595introObjects2= [];
 gdjs.dishes_95gameCode.GDcar_9595game_9595introObjects3= [];
@@ -125,10 +127,17 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.dishes_95gameCode.mapOfGDgdjs_9546dishes_959595gameCode_9546GDgermObjects2Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21735092);
+}
+}
+if (isConditionTrue_0) {
 /* Reuse gdjs.dishes_95gameCode.GDgermObjects2 */
 {for(var i = 0, len = gdjs.dishes_95gameCode.GDgermObjects2.length ;i < len;++i) {
     gdjs.dishes_95gameCode.GDgermObjects2[i].returnVariable(gdjs.dishes_95gameCode.GDgermObjects2[i].getVariables().getFromIndex(0)).setBoolean(true);
 }
+}
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/soundfx/germ_sounds/germ_sound_3.mp3", false, 100, gdjs.randomFloatInRange(0.8, 1.2));
 }
 }
 
@@ -151,7 +160,9 @@ gdjs.dishes_95gameCode.eventsList1(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.dishes_95gameCode.mapOfGDgdjs_9546dishes_959595gameCode_9546GDPixiDustObjects2Objects = Hashtable.newFrom({"PixiDust": gdjs.dishes_95gameCode.GDPixiDustObjects2});
+};gdjs.dishes_95gameCode.mapOfGDgdjs_9546dishes_959595gameCode_9546GDgermObjects2Objects = Hashtable.newFrom({"germ": gdjs.dishes_95gameCode.GDgermObjects2});
+gdjs.dishes_95gameCode.mapOfGDgdjs_9546dishes_959595gameCode_9546GDgermObjects2Objects = Hashtable.newFrom({"germ": gdjs.dishes_95gameCode.GDgermObjects2});
+gdjs.dishes_95gameCode.mapOfGDgdjs_9546dishes_959595gameCode_9546GDPixiDustObjects2Objects = Hashtable.newFrom({"PixiDust": gdjs.dishes_95gameCode.GDPixiDustObjects2});
 gdjs.dishes_95gameCode.eventsList3 = function(runtimeScene) {
 
 {
@@ -159,7 +170,7 @@ gdjs.dishes_95gameCode.eventsList3 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26805020);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27515804);
 }
 if (isConditionTrue_0) {
 gdjs.dishes_95gameCode.GDPixiDustObjects2.length = 0;
@@ -176,16 +187,30 @@ gdjs.dishes_95gameCode.GDPixiDustObjects2.length = 0;
 
 let isConditionTrue_0 = false;
 {
-gdjs.copyArray(runtimeScene.getObjects("PixiDust"), gdjs.dishes_95gameCode.GDPixiDustObjects1);
-{for(var i = 0, len = gdjs.dishes_95gameCode.GDPixiDustObjects1.length ;i < len;++i) {
-    gdjs.dishes_95gameCode.GDPixiDustObjects1[i].setCenterPositionInScene(gdjs.evtTools.input.getCursorX(runtimeScene, "", 0),gdjs.evtTools.input.getCursorY(runtimeScene, "", 0));
+gdjs.copyArray(runtimeScene.getObjects("PixiDust"), gdjs.dishes_95gameCode.GDPixiDustObjects2);
+{for(var i = 0, len = gdjs.dishes_95gameCode.GDPixiDustObjects2.length ;i < len;++i) {
+    gdjs.dishes_95gameCode.GDPixiDustObjects2[i].setCenterPositionInScene(gdjs.evtTools.input.getCursorX(runtimeScene, "", 0),gdjs.evtTools.input.getCursorY(runtimeScene, "", 0));
 }
 }
-{for(var i = 0, len = gdjs.dishes_95gameCode.GDPixiDustObjects1.length ;i < len;++i) {
-    gdjs.dishes_95gameCode.GDPixiDustObjects1[i].setFlow(1000);
+{for(var i = 0, len = gdjs.dishes_95gameCode.GDPixiDustObjects2.length ;i < len;++i) {
+    gdjs.dishes_95gameCode.GDPixiDustObjects2[i].setFlow(1000);
 }
 }
 {runtimeScene.getScene().getVariables().getFromIndex(2).add(0.1);
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = !(gdjs.evtTools.sound.isSoundOnChannelPlaying(runtimeScene, 1));
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets/audio/soundfx/general/water_spray.mp3", 1, false, 80, gdjs.randomFloatInRange(0.9, 1.1));
 }
 }
 
@@ -219,6 +244,8 @@ gdjs.dishes_95gameCode.GDdishObjects1.length = 0;
     gdjs.dishes_95gameCode.GDdishObjects1[i].getBehavior("Animation").setAnimationIndex(gdjs.randomFloatInRange(0, 2));
 }
 }
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "assets/audio/soundfx/foley/washing_dishes.mp3", 1, true, 80, 1);
+}
 }
 
 }
@@ -232,6 +259,8 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(3).getAsNumber() == 0);
 }
 if (isConditionTrue_0) {
+{gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 1);
+}
 {runtimeScene.getGame().getVariables().getFromIndex(0).setBoolean(true);
 }
 {gdjs.evtTools.runtimeScene.popScene(runtimeScene);
@@ -262,7 +291,7 @@ for (var i = 0, k = 0, l = gdjs.dishes_95gameCode.GDdishObjects2.length;i<l;++i)
 gdjs.dishes_95gameCode.GDdishObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26795436);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27506220);
 }
 }
 if (isConditionTrue_0)
@@ -297,7 +326,7 @@ for (var i = 0, k = 0, l = gdjs.dishes_95gameCode.GDdishObjects1.length;i<l;++i)
 gdjs.dishes_95gameCode.GDdishObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26797452);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27508236);
 }
 }
 }
@@ -308,6 +337,8 @@ if (isConditionTrue_0) {
 }
 }
 {runtimeScene.getScene().getVariables().getFromIndex(3).sub(1);
+}
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/soundfx/general/sparkle.mp3", false, 80, 1);
 }
 }
 
@@ -330,7 +361,7 @@ for (var i = 0, k = 0, l = gdjs.dishes_95gameCode.GDdishObjects1.length;i<l;++i)
 gdjs.dishes_95gameCode.GDdishObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26798604);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27509388);
 }
 }
 if (isConditionTrue_0) {
@@ -381,6 +412,39 @@ gdjs.dishes_95gameCode.eventsList2(runtimeScene);} //End of subevents
 
 {
 
+gdjs.dishes_95gameCode.GDgermObjects1.length = 0;
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{gdjs.dishes_95gameCode.GDgermObjects1_1final.length = 0;
+let isConditionTrue_1 = false;
+isConditionTrue_0 = false;
+{
+gdjs.copyArray(runtimeScene.getObjects("germ"), gdjs.dishes_95gameCode.GDgermObjects2);
+isConditionTrue_1 = gdjs.physics2.haveObjectsStartedColliding(gdjs.dishes_95gameCode.mapOfGDgdjs_9546dishes_959595gameCode_9546GDgermObjects2Objects, "Physics2", gdjs.dishes_95gameCode.mapOfGDgdjs_9546dishes_959595gameCode_9546GDgermObjects2Objects, false);
+if(isConditionTrue_1) {
+    isConditionTrue_0 = true;
+    for (let j = 0, jLen = gdjs.dishes_95gameCode.GDgermObjects2.length; j < jLen ; ++j) {
+        if ( gdjs.dishes_95gameCode.GDgermObjects1_1final.indexOf(gdjs.dishes_95gameCode.GDgermObjects2[j]) === -1 )
+            gdjs.dishes_95gameCode.GDgermObjects1_1final.push(gdjs.dishes_95gameCode.GDgermObjects2[j]);
+    }
+}
+}
+{
+gdjs.copyArray(gdjs.dishes_95gameCode.GDgermObjects1_1final, gdjs.dishes_95gameCode.GDgermObjects1);
+}
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/soundfx/germ_sounds/germ_sound_3.mp3", false, 100, gdjs.randomFloatInRange(0.8, 1.2));
+}
+}
+
+}
+
+
+{
+
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
@@ -406,6 +470,16 @@ gdjs.copyArray(runtimeScene.getObjects("PixiDust"), gdjs.dishes_95gameCode.GDPix
     gdjs.dishes_95gameCode.GDPixiDustObjects1[i].setFlow(0);
 }
 }
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
 }
 
 }
@@ -440,18 +514,18 @@ gdjs.dishes_95gameCode.GDPaper_9595Bark_9595VideoObjects1.length = 0;
 gdjs.dishes_95gameCode.GDPaper_9595Bark_9595VideoObjects2.length = 0;
 gdjs.dishes_95gameCode.GDPaper_9595Bark_9595VideoObjects3.length = 0;
 gdjs.dishes_95gameCode.GDPaper_9595Bark_9595VideoObjects4.length = 0;
-gdjs.dishes_95gameCode.GDGerms_9595VideoObjects1.length = 0;
-gdjs.dishes_95gameCode.GDGerms_9595VideoObjects2.length = 0;
-gdjs.dishes_95gameCode.GDGerms_9595VideoObjects3.length = 0;
-gdjs.dishes_95gameCode.GDGerms_9595VideoObjects4.length = 0;
+gdjs.dishes_95gameCode.GDintroduction_9595to_9595germsObjects1.length = 0;
+gdjs.dishes_95gameCode.GDintroduction_9595to_9595germsObjects2.length = 0;
+gdjs.dishes_95gameCode.GDintroduction_9595to_9595germsObjects3.length = 0;
+gdjs.dishes_95gameCode.GDintroduction_9595to_9595germsObjects4.length = 0;
 gdjs.dishes_95gameCode.GDRiver_9595StoryObjects1.length = 0;
 gdjs.dishes_95gameCode.GDRiver_9595StoryObjects2.length = 0;
 gdjs.dishes_95gameCode.GDRiver_9595StoryObjects3.length = 0;
 gdjs.dishes_95gameCode.GDRiver_9595StoryObjects4.length = 0;
-gdjs.dishes_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects1.length = 0;
-gdjs.dishes_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects2.length = 0;
-gdjs.dishes_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects3.length = 0;
-gdjs.dishes_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects4.length = 0;
+gdjs.dishes_95gameCode.GDhow_9595do_9595germs_9595spread_9595in_9595the_9595bodyObjects1.length = 0;
+gdjs.dishes_95gameCode.GDhow_9595do_9595germs_9595spread_9595in_9595the_9595bodyObjects2.length = 0;
+gdjs.dishes_95gameCode.GDhow_9595do_9595germs_9595spread_9595in_9595the_9595bodyObjects3.length = 0;
+gdjs.dishes_95gameCode.GDhow_9595do_9595germs_9595spread_9595in_9595the_9595bodyObjects4.length = 0;
 gdjs.dishes_95gameCode.GDcar_9595game_9595introObjects1.length = 0;
 gdjs.dishes_95gameCode.GDcar_9595game_9595introObjects2.length = 0;
 gdjs.dishes_95gameCode.GDcar_9595game_9595introObjects3.length = 0;
@@ -490,18 +564,18 @@ gdjs.dishes_95gameCode.GDPaper_9595Bark_9595VideoObjects1.length = 0;
 gdjs.dishes_95gameCode.GDPaper_9595Bark_9595VideoObjects2.length = 0;
 gdjs.dishes_95gameCode.GDPaper_9595Bark_9595VideoObjects3.length = 0;
 gdjs.dishes_95gameCode.GDPaper_9595Bark_9595VideoObjects4.length = 0;
-gdjs.dishes_95gameCode.GDGerms_9595VideoObjects1.length = 0;
-gdjs.dishes_95gameCode.GDGerms_9595VideoObjects2.length = 0;
-gdjs.dishes_95gameCode.GDGerms_9595VideoObjects3.length = 0;
-gdjs.dishes_95gameCode.GDGerms_9595VideoObjects4.length = 0;
+gdjs.dishes_95gameCode.GDintroduction_9595to_9595germsObjects1.length = 0;
+gdjs.dishes_95gameCode.GDintroduction_9595to_9595germsObjects2.length = 0;
+gdjs.dishes_95gameCode.GDintroduction_9595to_9595germsObjects3.length = 0;
+gdjs.dishes_95gameCode.GDintroduction_9595to_9595germsObjects4.length = 0;
 gdjs.dishes_95gameCode.GDRiver_9595StoryObjects1.length = 0;
 gdjs.dishes_95gameCode.GDRiver_9595StoryObjects2.length = 0;
 gdjs.dishes_95gameCode.GDRiver_9595StoryObjects3.length = 0;
 gdjs.dishes_95gameCode.GDRiver_9595StoryObjects4.length = 0;
-gdjs.dishes_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects1.length = 0;
-gdjs.dishes_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects2.length = 0;
-gdjs.dishes_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects3.length = 0;
-gdjs.dishes_95gameCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects4.length = 0;
+gdjs.dishes_95gameCode.GDhow_9595do_9595germs_9595spread_9595in_9595the_9595bodyObjects1.length = 0;
+gdjs.dishes_95gameCode.GDhow_9595do_9595germs_9595spread_9595in_9595the_9595bodyObjects2.length = 0;
+gdjs.dishes_95gameCode.GDhow_9595do_9595germs_9595spread_9595in_9595the_9595bodyObjects3.length = 0;
+gdjs.dishes_95gameCode.GDhow_9595do_9595germs_9595spread_9595in_9595the_9595bodyObjects4.length = 0;
 gdjs.dishes_95gameCode.GDcar_9595game_9595introObjects1.length = 0;
 gdjs.dishes_95gameCode.GDcar_9595game_9595introObjects2.length = 0;
 gdjs.dishes_95gameCode.GDcar_9595game_9595introObjects3.length = 0;

@@ -19,15 +19,15 @@ gdjs.bookCode.GDbackObjects3= [];
 gdjs.bookCode.GDPaper_9595Bark_9595VideoObjects1= [];
 gdjs.bookCode.GDPaper_9595Bark_9595VideoObjects2= [];
 gdjs.bookCode.GDPaper_9595Bark_9595VideoObjects3= [];
-gdjs.bookCode.GDGerms_9595VideoObjects1= [];
-gdjs.bookCode.GDGerms_9595VideoObjects2= [];
-gdjs.bookCode.GDGerms_9595VideoObjects3= [];
+gdjs.bookCode.GDintroduction_9595to_9595germsObjects1= [];
+gdjs.bookCode.GDintroduction_9595to_9595germsObjects2= [];
+gdjs.bookCode.GDintroduction_9595to_9595germsObjects3= [];
 gdjs.bookCode.GDRiver_9595StoryObjects1= [];
 gdjs.bookCode.GDRiver_9595StoryObjects2= [];
 gdjs.bookCode.GDRiver_9595StoryObjects3= [];
-gdjs.bookCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects1= [];
-gdjs.bookCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects2= [];
-gdjs.bookCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects3= [];
+gdjs.bookCode.GDhow_9595do_9595germs_9595spread_9595in_9595the_9595bodyObjects1= [];
+gdjs.bookCode.GDhow_9595do_9595germs_9595spread_9595in_9595the_9595bodyObjects2= [];
+gdjs.bookCode.GDhow_9595do_9595germs_9595spread_9595in_9595the_9595bodyObjects3= [];
 gdjs.bookCode.GDcar_9595game_9595introObjects1= [];
 gdjs.bookCode.GDcar_9595game_9595introObjects2= [];
 gdjs.bookCode.GDcar_9595game_9595introObjects3= [];
@@ -212,7 +212,7 @@ for (var i = 0, k = 0, l = gdjs.bookCode.GDbook_9595frontObjects1.length;i<l;++i
 gdjs.bookCode.GDbook_9595frontObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27196540);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27907116);
 }
 }
 }
@@ -255,7 +255,7 @@ for (var i = 0, k = 0, l = gdjs.bookCode.GDbook_9595behindObjects1.length;i<l;++
 gdjs.bookCode.GDbook_9595behindObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27197564);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27908140);
 }
 }
 }
@@ -294,7 +294,7 @@ for (var i = 0, k = 0, l = gdjs.bookCode.GDbook_9595behindObjects1.length;i<l;++
 gdjs.bookCode.GDbook_9595behindObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27198956);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27909532);
 }
 }
 if (isConditionTrue_0) {
@@ -333,7 +333,7 @@ for (var i = 0, k = 0, l = gdjs.bookCode.GDbook_9595frontObjects1.length;i<l;++i
 gdjs.bookCode.GDbook_9595frontObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27200292);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27910868);
 }
 }
 if (isConditionTrue_0) {
@@ -402,15 +402,15 @@ gdjs.bookCode.GDbackObjects3.length = 0;
 gdjs.bookCode.GDPaper_9595Bark_9595VideoObjects1.length = 0;
 gdjs.bookCode.GDPaper_9595Bark_9595VideoObjects2.length = 0;
 gdjs.bookCode.GDPaper_9595Bark_9595VideoObjects3.length = 0;
-gdjs.bookCode.GDGerms_9595VideoObjects1.length = 0;
-gdjs.bookCode.GDGerms_9595VideoObjects2.length = 0;
-gdjs.bookCode.GDGerms_9595VideoObjects3.length = 0;
+gdjs.bookCode.GDintroduction_9595to_9595germsObjects1.length = 0;
+gdjs.bookCode.GDintroduction_9595to_9595germsObjects2.length = 0;
+gdjs.bookCode.GDintroduction_9595to_9595germsObjects3.length = 0;
 gdjs.bookCode.GDRiver_9595StoryObjects1.length = 0;
 gdjs.bookCode.GDRiver_9595StoryObjects2.length = 0;
 gdjs.bookCode.GDRiver_9595StoryObjects3.length = 0;
-gdjs.bookCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects1.length = 0;
-gdjs.bookCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects2.length = 0;
-gdjs.bookCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects3.length = 0;
+gdjs.bookCode.GDhow_9595do_9595germs_9595spread_9595in_9595the_9595bodyObjects1.length = 0;
+gdjs.bookCode.GDhow_9595do_9595germs_9595spread_9595in_9595the_9595bodyObjects2.length = 0;
+gdjs.bookCode.GDhow_9595do_9595germs_9595spread_9595in_9595the_9595bodyObjects3.length = 0;
 gdjs.bookCode.GDcar_9595game_9595introObjects1.length = 0;
 gdjs.bookCode.GDcar_9595game_9595introObjects2.length = 0;
 gdjs.bookCode.GDcar_9595game_9595introObjects3.length = 0;
@@ -440,15 +440,15 @@ gdjs.bookCode.GDbackObjects3.length = 0;
 gdjs.bookCode.GDPaper_9595Bark_9595VideoObjects1.length = 0;
 gdjs.bookCode.GDPaper_9595Bark_9595VideoObjects2.length = 0;
 gdjs.bookCode.GDPaper_9595Bark_9595VideoObjects3.length = 0;
-gdjs.bookCode.GDGerms_9595VideoObjects1.length = 0;
-gdjs.bookCode.GDGerms_9595VideoObjects2.length = 0;
-gdjs.bookCode.GDGerms_9595VideoObjects3.length = 0;
+gdjs.bookCode.GDintroduction_9595to_9595germsObjects1.length = 0;
+gdjs.bookCode.GDintroduction_9595to_9595germsObjects2.length = 0;
+gdjs.bookCode.GDintroduction_9595to_9595germsObjects3.length = 0;
 gdjs.bookCode.GDRiver_9595StoryObjects1.length = 0;
 gdjs.bookCode.GDRiver_9595StoryObjects2.length = 0;
 gdjs.bookCode.GDRiver_9595StoryObjects3.length = 0;
-gdjs.bookCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects1.length = 0;
-gdjs.bookCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects2.length = 0;
-gdjs.bookCode.GDWhere_9595do_9595germs_9595live_9595and_9595breedObjects3.length = 0;
+gdjs.bookCode.GDhow_9595do_9595germs_9595spread_9595in_9595the_9595bodyObjects1.length = 0;
+gdjs.bookCode.GDhow_9595do_9595germs_9595spread_9595in_9595the_9595bodyObjects2.length = 0;
+gdjs.bookCode.GDhow_9595do_9595germs_9595spread_9595in_9595the_9595bodyObjects3.length = 0;
 gdjs.bookCode.GDcar_9595game_9595introObjects1.length = 0;
 gdjs.bookCode.GDcar_9595game_9595introObjects2.length = 0;
 gdjs.bookCode.GDcar_9595game_9595introObjects3.length = 0;

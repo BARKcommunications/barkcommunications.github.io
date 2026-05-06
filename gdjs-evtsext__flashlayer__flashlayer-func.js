@@ -9,13 +9,13 @@ gdjs.evtsExt__FlashLayer__FlashLayer = {};
 gdjs.evtsExt__FlashLayer__FlashLayer.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__FlashLayer__FlashLayer.asyncCallback25730004 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+gdjs.evtsExt__FlashLayer__FlashLayer.asyncCallback26425820 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(eventsFunctionContext.localVariables);
 {gdjs.evtTools.camera.hideLayer(runtimeScene, eventsFunctionContext.getArgument("Layer"));
 }
 eventsFunctionContext.localVariables.length = 0;
 }
-gdjs.evtsExt__FlashLayer__FlashLayer.idToCallbackMap.set(25730004, gdjs.evtsExt__FlashLayer__FlashLayer.asyncCallback25730004);
+gdjs.evtsExt__FlashLayer__FlashLayer.idToCallbackMap.set(26425820, gdjs.evtsExt__FlashLayer__FlashLayer.asyncCallback26425820);
 gdjs.evtsExt__FlashLayer__FlashLayer.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
@@ -25,7 +25,7 @@ gdjs.evtsExt__FlashLayer__FlashLayer.eventsList0 = function(runtimeScene, events
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(eventsFunctionContext.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(eventsFunctionContext.getArgument("Duration")), (runtimeScene) => (gdjs.evtsExt__FlashLayer__FlashLayer.asyncCallback25730004(runtimeScene, eventsFunctionContext, asyncObjectsList)), 25730004, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(eventsFunctionContext.getArgument("Duration")), (runtimeScene) => (gdjs.evtsExt__FlashLayer__FlashLayer.asyncCallback26425820(runtimeScene, eventsFunctionContext, asyncObjectsList)), 26425820, asyncObjectsList);
 }
 }
 
