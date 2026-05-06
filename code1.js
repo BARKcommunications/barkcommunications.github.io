@@ -54,7 +54,7 @@ gdjs.bin_95gameCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27302180);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27423948);
 }
 if (isConditionTrue_0) {
 gdjs.bin_95gameCode.GDgarbageObjects2.length = 0;
@@ -155,7 +155,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.getSceneInstancesCount(runtimeScene, gdjs.bin_95gameCode.mapOfEmptyGDgarbageObjects) > 0;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26767676);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26889444);
 }
 }
 }
@@ -197,7 +197,7 @@ for (var i = 0, k = 0, l = gdjs.bin_95gameCode.GDgarbageObjects2.length;i<l;++i)
 gdjs.bin_95gameCode.GDgarbageObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27245220);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27366988);
 }
 }
 if (isConditionTrue_0) {
@@ -256,7 +256,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.physics2.areObjectsColliding(gdjs.bin_95gameCode.mapOfGDgdjs_9546bin_959595gameCode_9546GDgarbageObjects1Objects, "Physics2", gdjs.bin_95gameCode.mapOfGDgdjs_9546bin_959595gameCode_9546GDfloorObjects1Objects, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27263524);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27385292);
 }
 }
 if (isConditionTrue_0) {

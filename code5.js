@@ -128,7 +128,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.dishes_95gameCode.mapOfGDgdjs_9546dishes_959595gameCode_9546GDgermObjects2Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21735092);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27635836);
 }
 }
 if (isConditionTrue_0) {
@@ -170,12 +170,14 @@ gdjs.dishes_95gameCode.eventsList3 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27515804);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27637508);
 }
 if (isConditionTrue_0) {
 gdjs.dishes_95gameCode.GDPixiDustObjects2.length = 0;
 
 {gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.dishes_95gameCode.mapOfGDgdjs_9546dishes_959595gameCode_9546GDPixiDustObjects2Objects, 0, 0, "");
+}
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets/audio/soundfx/general/water_spray.mp3", 1, false, 35, 1);
 }
 }
 
@@ -208,9 +210,23 @@ gdjs.copyArray(runtimeScene.getObjects("PixiDust"), gdjs.dishes_95gameCode.GDPix
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = !(gdjs.evtTools.sound.isSoundOnChannelPlaying(runtimeScene, 1));
+isConditionTrue_0 = !(gdjs.evtTools.sound.isSoundOnChannelPlaying(runtimeScene, 2));
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets/audio/soundfx/general/water_spray.mp3", 1, false, 80, gdjs.randomFloatInRange(0.9, 1.1));
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets/audio/soundfx/general/squeaky_clean.mp3", 2, false, 45, 1);
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = !(gdjs.evtTools.sound.isSoundOnChannelPlaying(runtimeScene, 3));
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets/audio/soundfx/general/sink fill.mp3", 3, false, 80, 1);
 }
 }
 
@@ -244,7 +260,7 @@ gdjs.dishes_95gameCode.GDdishObjects1.length = 0;
     gdjs.dishes_95gameCode.GDdishObjects1[i].getBehavior("Animation").setAnimationIndex(gdjs.randomFloatInRange(0, 2));
 }
 }
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "assets/audio/soundfx/foley/washing_dishes.mp3", 1, true, 80, 1);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "assets/audio/soundfx/foley/washing_dishes.mp3", 1, true, 100, 1);
 }
 }
 
@@ -291,7 +307,7 @@ for (var i = 0, k = 0, l = gdjs.dishes_95gameCode.GDdishObjects2.length;i<l;++i)
 gdjs.dishes_95gameCode.GDdishObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27506220);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27629268);
 }
 }
 if (isConditionTrue_0)
@@ -326,7 +342,7 @@ for (var i = 0, k = 0, l = gdjs.dishes_95gameCode.GDdishObjects1.length;i<l;++i)
 gdjs.dishes_95gameCode.GDdishObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27508236);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27631236);
 }
 }
 }
@@ -361,7 +377,7 @@ for (var i = 0, k = 0, l = gdjs.dishes_95gameCode.GDdishObjects1.length;i<l;++i)
 gdjs.dishes_95gameCode.GDdishObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27509388);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27632612);
 }
 }
 if (isConditionTrue_0) {
@@ -436,7 +452,7 @@ gdjs.copyArray(gdjs.dishes_95gameCode.GDgermObjects1_1final, gdjs.dishes_95gameC
 }
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/soundfx/germ_sounds/germ_sound_3.mp3", false, 100, gdjs.randomFloatInRange(0.8, 1.2));
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/soundfx/germ_sounds/germ_sound_3.mp3", false, 55, gdjs.randomFloatInRange(0.8, 1.2));
 }
 }
 
@@ -469,6 +485,10 @@ gdjs.copyArray(runtimeScene.getObjects("PixiDust"), gdjs.dishes_95gameCode.GDPix
 {for(var i = 0, len = gdjs.dishes_95gameCode.GDPixiDustObjects1.length ;i < len;++i) {
     gdjs.dishes_95gameCode.GDPixiDustObjects1[i].setFlow(0);
 }
+}
+{gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 2);
+}
+{gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 3);
 }
 }
 

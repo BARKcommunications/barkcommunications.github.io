@@ -33,26 +33,56 @@ gdjs.fishing_95gameCode.GDSmallGreenButtonObjects2= [];
 
 gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDspearObjects1Objects = Hashtable.newFrom({"spear": gdjs.fishing_95gameCode.GDspearObjects1});
 gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDfishObjects1Objects = Hashtable.newFrom({"fish": gdjs.fishing_95gameCode.GDfishObjects1});
-gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDfishObjects1Objects = Hashtable.newFrom({"fish": gdjs.fishing_95gameCode.GDfishObjects1});
-gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDspearObjects1Objects = Hashtable.newFrom({"spear": gdjs.fishing_95gameCode.GDspearObjects1});
-gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDfishObjects1Objects = Hashtable.newFrom({"fish": gdjs.fishing_95gameCode.GDfishObjects1});
-gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDspearObjects1Objects = Hashtable.newFrom({"spear": gdjs.fishing_95gameCode.GDspearObjects1});
-gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDfishObjects1Objects = Hashtable.newFrom({"fish": gdjs.fishing_95gameCode.GDfishObjects1});
-gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDspearObjects1Objects = Hashtable.newFrom({"spear": gdjs.fishing_95gameCode.GDspearObjects1});
-gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDfishObjects1Objects = Hashtable.newFrom({"fish": gdjs.fishing_95gameCode.GDfishObjects1});
-gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDspearObjects1Objects = Hashtable.newFrom({"spear": gdjs.fishing_95gameCode.GDspearObjects1});
+gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDfishObjects2Objects = Hashtable.newFrom({"fish": gdjs.fishing_95gameCode.GDfishObjects2});
+gdjs.fishing_95gameCode.asyncCallback28097900 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.fishing_95gameCode.localVariables);
+gdjs.copyArray(asyncObjectsList.getObjects("fish"), gdjs.fishing_95gameCode.GDfishObjects2);
+
+{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDfishObjects2Objects, 1500, gdjs.randomInRange(200, 550), "");
+}
+gdjs.fishing_95gameCode.localVariables.length = 0;
+}
+gdjs.fishing_95gameCode.idToCallbackMap.set(28097900, gdjs.fishing_95gameCode.asyncCallback28097900);
 gdjs.fishing_95gameCode.eventsList0 = function(runtimeScene) {
+
+{
+
+
+{
+{
+const asyncObjectsList = new gdjs.LongLivedObjectsList();
+asyncObjectsList.backupLocalVariablesContainers(gdjs.fishing_95gameCode.localVariables);
+for (const obj of gdjs.fishing_95gameCode.GDfishObjects1) asyncObjectsList.addObject("fish", obj);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.25), (runtimeScene) => (gdjs.fishing_95gameCode.asyncCallback28097900(runtimeScene, asyncObjectsList)), 28097900, asyncObjectsList);
+}
+}
+
+}
+
+
+};gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDspearObjects1Objects = Hashtable.newFrom({"spear": gdjs.fishing_95gameCode.GDspearObjects1});
+gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDfishObjects1Objects = Hashtable.newFrom({"fish": gdjs.fishing_95gameCode.GDfishObjects1});
+gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDspearObjects1Objects = Hashtable.newFrom({"spear": gdjs.fishing_95gameCode.GDspearObjects1});
+gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDfishObjects1Objects = Hashtable.newFrom({"fish": gdjs.fishing_95gameCode.GDfishObjects1});
+gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDspearObjects1Objects = Hashtable.newFrom({"spear": gdjs.fishing_95gameCode.GDspearObjects1});
+gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDfishObjects1Objects = Hashtable.newFrom({"fish": gdjs.fishing_95gameCode.GDfishObjects1});
+gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDspearObjects1Objects = Hashtable.newFrom({"spear": gdjs.fishing_95gameCode.GDspearObjects1});
+gdjs.fishing_95gameCode.eventsList1 = function(runtimeScene) {
 
 {
 
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27975972);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28105220);
 }
 if (isConditionTrue_0) {
 /* Reuse gdjs.fishing_95gameCode.GDspearObjects1 */
 {gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDspearObjects1Objects, 30, 140, "");
+}
+{for(var i = 0, len = gdjs.fishing_95gameCode.GDspearObjects1.length ;i < len;++i) {
+    gdjs.fishing_95gameCode.GDspearObjects1[i].getBehavior("Physics2").setStatic();
+}
 }
 }
 
@@ -63,14 +93,14 @@ if (isConditionTrue_0) {
 gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDfishObjects1Objects = Hashtable.newFrom({"fish": gdjs.fishing_95gameCode.GDfishObjects1});
 gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDGOOD_95959595_959595330ATHA_95959595Objects1Objects = Hashtable.newFrom({"GOOD_ŊATHA_": gdjs.fishing_95gameCode.GDGOOD_9595_95330ATHA_9595Objects1});
 gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDfish_95959595explodeObjects1Objects = Hashtable.newFrom({"fish_explode": gdjs.fishing_95gameCode.GDfish_9595explodeObjects1});
-gdjs.fishing_95gameCode.asyncCallback27978916 = function (runtimeScene, asyncObjectsList) {
+gdjs.fishing_95gameCode.asyncCallback28108796 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.fishing_95gameCode.localVariables);
 {gdjs.evtTools.runtimeScene.popScene(runtimeScene);
 }
 gdjs.fishing_95gameCode.localVariables.length = 0;
 }
-gdjs.fishing_95gameCode.idToCallbackMap.set(27978916, gdjs.fishing_95gameCode.asyncCallback27978916);
-gdjs.fishing_95gameCode.eventsList1 = function(runtimeScene) {
+gdjs.fishing_95gameCode.idToCallbackMap.set(28108796, gdjs.fishing_95gameCode.asyncCallback28108796);
+gdjs.fishing_95gameCode.eventsList2 = function(runtimeScene) {
 
 {
 
@@ -79,14 +109,14 @@ gdjs.fishing_95gameCode.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.fishing_95gameCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.fishing_95gameCode.asyncCallback27978916(runtimeScene, asyncObjectsList)), 27978916, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.fishing_95gameCode.asyncCallback28108796(runtimeScene, asyncObjectsList)), 28108796, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.fishing_95gameCode.eventsList2 = function(runtimeScene) {
+};gdjs.fishing_95gameCode.eventsList3 = function(runtimeScene) {
 
 {
 
@@ -100,7 +130,7 @@ let isConditionTrue_0 = false;
 }
 
 { //Subevents
-gdjs.fishing_95gameCode.eventsList1(runtimeScene);} //End of subevents
+gdjs.fishing_95gameCode.eventsList2(runtimeScene);} //End of subevents
 }
 
 }
@@ -110,25 +140,29 @@ gdjs.fishing_95gameCode.eventsList1(runtimeScene);} //End of subevents
 gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDsandObjects1Objects = Hashtable.newFrom({"sand": gdjs.fishing_95gameCode.GDsandObjects1});
 gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDsand_95959595explodeObjects1Objects = Hashtable.newFrom({"sand_explode": gdjs.fishing_95gameCode.GDsand_9595explodeObjects1});
 gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDspearObjects1Objects = Hashtable.newFrom({"spear": gdjs.fishing_95gameCode.GDspearObjects1});
-gdjs.fishing_95gameCode.eventsList3 = function(runtimeScene) {
+gdjs.fishing_95gameCode.eventsList4 = function(runtimeScene) {
 
 {
 
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27980508);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28110436);
 }
 if (isConditionTrue_0) {
 /* Reuse gdjs.fishing_95gameCode.GDspearObjects1 */
 {gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDspearObjects1Objects, 30, 140, "");
 }
+{for(var i = 0, len = gdjs.fishing_95gameCode.GDspearObjects1.length ;i < len;++i) {
+    gdjs.fishing_95gameCode.GDspearObjects1[i].getBehavior("Physics2").setStatic();
+}
+}
 }
 
 }
 
 
-};gdjs.fishing_95gameCode.eventsList4 = function(runtimeScene) {
+};gdjs.fishing_95gameCode.eventsList5 = function(runtimeScene) {
 
 {
 
@@ -145,6 +179,8 @@ gdjs.copyArray(runtimeScene.getObjects("spear"), gdjs.fishing_95gameCode.GDspear
 {for(var i = 0, len = gdjs.fishing_95gameCode.GDspearObjects1.length ;i < len;++i) {
     gdjs.fishing_95gameCode.GDspearObjects1[i].getBehavior("Physics2").setStatic();
 }
+}
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "assets/audio/soundfx/fish_game/bubbles_2.mp3", 9, true, 50, 1);
 }
 }
 
@@ -178,16 +214,18 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.physics2.areObjectsColliding(gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDspearObjects1Objects, "Physics2", gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDfishObjects1Objects, true);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27969348);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28097452);
 }
 }
 }
 if (isConditionTrue_0) {
-/* Reuse gdjs.fishing_95gameCode.GDfishObjects1 */
-{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDfishObjects1Objects, 1500, gdjs.randomInRange(200, 550), "");
-}
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "fish");
 }
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/soundfx/fish_game/bubbles.mp3", false, 55, 1);
+}
+
+{ //Subevents
+gdjs.fishing_95gameCode.eventsList0(runtimeScene);} //End of subevents
 }
 
 }
@@ -210,7 +248,7 @@ gdjs.fishing_95gameCode.GDfishObjects1.length = k;
 if (isConditionTrue_0) {
 /* Reuse gdjs.fishing_95gameCode.GDfishObjects1 */
 {for(var i = 0, len = gdjs.fishing_95gameCode.GDfishObjects1.length ;i < len;++i) {
-    gdjs.fishing_95gameCode.GDfishObjects1[i].setX(gdjs.fishing_95gameCode.GDfishObjects1[i].getX() - (gdjs.randomFloatInRange(10, 25)));
+    gdjs.fishing_95gameCode.GDfishObjects1[i].setX(gdjs.fishing_95gameCode.GDfishObjects1[i].getX() - (gdjs.randomFloatInRange(45, 85)));
 }
 }
 }
@@ -250,13 +288,29 @@ gdjs.copyArray(runtimeScene.getObjects("spear"), gdjs.fishing_95gameCode.GDspear
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.physics2.areObjectsColliding(gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDspearObjects1Objects, "Physics2", gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDfishObjects1Objects, true);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27971884);
+for (var i = 0, k = 0, l = gdjs.fishing_95gameCode.GDspearObjects1.length;i<l;++i) {
+    if ( !(gdjs.fishing_95gameCode.GDspearObjects1[i].getBehavior("Physics2").isDynamic()) ) {
+        isConditionTrue_0 = true;
+        gdjs.fishing_95gameCode.GDspearObjects1[k] = gdjs.fishing_95gameCode.GDspearObjects1[i];
+        ++k;
+    }
+}
+gdjs.fishing_95gameCode.GDspearObjects1.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28099876);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = !runtimeScene.getScene().getVariables().getFromIndex(2).getAsBoolean();
+}
+}
 }
 }
 }
@@ -281,6 +335,22 @@ isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.physics2.areObjectsColliding(gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDspearObjects1Objects, "Physics2", gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDfishObjects1Objects, true);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.fishing_95gameCode.GDspearObjects1.length;i<l;++i) {
+    if ( !(gdjs.fishing_95gameCode.GDspearObjects1[i].getBehavior("Physics2").isDynamic()) ) {
+        isConditionTrue_0 = true;
+        gdjs.fishing_95gameCode.GDspearObjects1[k] = gdjs.fishing_95gameCode.GDspearObjects1[i];
+        ++k;
+    }
+}
+gdjs.fishing_95gameCode.GDspearObjects1.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = !runtimeScene.getScene().getVariables().getFromIndex(2).getAsBoolean();
+}
+}
+}
 }
 if (isConditionTrue_0) {
 /* Reuse gdjs.fishing_95gameCode.GDspearObjects1 */
@@ -300,13 +370,29 @@ gdjs.copyArray(runtimeScene.getObjects("spear"), gdjs.fishing_95gameCode.GDspear
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.physics2.areObjectsColliding(gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDspearObjects1Objects, "Physics2", gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDfishObjects1Objects, true);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27973900);
+for (var i = 0, k = 0, l = gdjs.fishing_95gameCode.GDspearObjects1.length;i<l;++i) {
+    if ( !(gdjs.fishing_95gameCode.GDspearObjects1[i].getBehavior("Physics2").isDynamic()) ) {
+        isConditionTrue_0 = true;
+        gdjs.fishing_95gameCode.GDspearObjects1[k] = gdjs.fishing_95gameCode.GDspearObjects1[i];
+        ++k;
+    }
+}
+gdjs.fishing_95gameCode.GDspearObjects1.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = !runtimeScene.getScene().getVariables().getFromIndex(2).getAsBoolean();
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28103132);
+}
+}
 }
 }
 }
@@ -319,6 +405,8 @@ if (isConditionTrue_0) {
 {for(var i = 0, len = gdjs.fishing_95gameCode.GDspearObjects1.length ;i < len;++i) {
     gdjs.fishing_95gameCode.GDspearObjects1[i].getBehavior("Physics2").applyPolarImpulse(gdjs.evtTools.common.angleBetweenPositions(runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber(), runtimeScene.getScene().getVariables().getFromIndex(1).getAsNumber(), gdjs.evtTools.input.getCursorX(runtimeScene, "", 0), gdjs.evtTools.input.getCursorY(runtimeScene, "", 0)), (gdjs.evtTools.common.distanceBetweenPositions(runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber(), runtimeScene.getScene().getVariables().getFromIndex(1).getAsNumber(), gdjs.evtTools.input.getCursorX(runtimeScene, "", 0), gdjs.evtTools.input.getCursorY(runtimeScene, "", 0))) * 0.02, 0, 0);
 }
+}
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/soundfx/fish_game/spear_throw.mp3", false, 100, gdjs.randomFloatInRange(0.7, 1.3));
 }
 }
 
@@ -347,7 +435,7 @@ if (isConditionTrue_0) {
 }
 
 { //Subevents
-gdjs.fishing_95gameCode.eventsList0(runtimeScene);} //End of subevents
+gdjs.fishing_95gameCode.eventsList1(runtimeScene);} //End of subevents
 }
 
 }
@@ -363,7 +451,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.physics2.areObjectsColliding(gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDspearObjects1Objects, "Physics2", gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDfishObjects1Objects, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27976708);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28106156);
 }
 }
 if (isConditionTrue_0) {
@@ -389,9 +477,15 @@ gdjs.fishing_95gameCode.GDfish_9595explodeObjects1.length = 0;
 }
 {gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDfish_95959595explodeObjects1Objects, (( gdjs.fishing_95gameCode.GDfishObjects1.length === 0 ) ? 0 :gdjs.fishing_95gameCode.GDfishObjects1[0].getPointX("")), (( gdjs.fishing_95gameCode.GDfishObjects1.length === 0 ) ? 0 :gdjs.fishing_95gameCode.GDfishObjects1[0].getPointY("")), "");
 }
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/soundfx/fish_game/celebrate.mp3", false, 55, 1);
+}
+{gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 9);
+}
+{runtimeScene.getScene().getVariables().getFromIndex(2).setBoolean(true);
+}
 
 { //Subevents
-gdjs.fishing_95gameCode.eventsList2(runtimeScene);} //End of subevents
+gdjs.fishing_95gameCode.eventsList3(runtimeScene);} //End of subevents
 }
 
 }
@@ -417,7 +511,7 @@ gdjs.fishing_95gameCode.GDsand_9595explodeObjects1.length = 0;
 }
 
 { //Subevents
-gdjs.fishing_95gameCode.eventsList3(runtimeScene);} //End of subevents
+gdjs.fishing_95gameCode.eventsList4(runtimeScene);} //End of subevents
 }
 
 }
@@ -457,7 +551,7 @@ gdjs.fishing_95gameCode.GDQuest_9595TextObjects2.length = 0;
 gdjs.fishing_95gameCode.GDSmallGreenButtonObjects1.length = 0;
 gdjs.fishing_95gameCode.GDSmallGreenButtonObjects2.length = 0;
 
-gdjs.fishing_95gameCode.eventsList4(runtimeScene);
+gdjs.fishing_95gameCode.eventsList5(runtimeScene);
 gdjs.fishing_95gameCode.GDspearObjects1.length = 0;
 gdjs.fishing_95gameCode.GDspearObjects2.length = 0;
 gdjs.fishing_95gameCode.GDfishObjects1.length = 0;

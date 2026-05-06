@@ -9,7 +9,7 @@ gdjs.evtsExt__ShakeObject3D__Noise2d = {};
 gdjs.evtsExt__ShakeObject3D__Noise2d.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__ShakeObject3D__Noise2d.userFunc0x1018f98 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ShakeObject3D__Noise2d.userFunc0x16a5a88 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const name = eventsFunctionContext.getArgument("Name");
 const x = eventsFunctionContext.getArgument("X");
@@ -22,7 +22,7 @@ gdjs.evtsExt__ShakeObject3D__Noise2d.eventsList0 = function(runtimeScene, events
 {
 
 
-gdjs.evtsExt__ShakeObject3D__Noise2d.userFunc0x1018f98(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ShakeObject3D__Noise2d.userFunc0x16a5a88(runtimeScene, eventsFunctionContext);
 
 }
 
