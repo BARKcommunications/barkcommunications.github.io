@@ -9,7 +9,7 @@ gdjs.evtsExt__Tween3D__RgbToNumber = {};
 gdjs.evtsExt__Tween3D__RgbToNumber.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Tween3D__RgbToNumber.userFunc0x9401a0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Tween3D__RgbToNumber.userFunc0x946720 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = gdjs.rgbOrHexStringToNumber(eventsFunctionContext.getArgument("Color"));
 
@@ -19,7 +19,7 @@ gdjs.evtsExt__Tween3D__RgbToNumber.eventsList0 = function(runtimeScene, eventsFu
 {
 
 
-gdjs.evtsExt__Tween3D__RgbToNumber.userFunc0x9401a0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Tween3D__RgbToNumber.userFunc0x946720(runtimeScene, eventsFunctionContext);
 
 }
 

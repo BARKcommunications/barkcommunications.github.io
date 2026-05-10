@@ -128,7 +128,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.dishes_95gameCode.mapOfGDgdjs_9546dishes_959595gameCode_9546GDgermObjects2Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27635836);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28146988);
 }
 }
 if (isConditionTrue_0) {
@@ -170,7 +170,7 @@ gdjs.dishes_95gameCode.eventsList3 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27637508);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28151316);
 }
 if (isConditionTrue_0) {
 gdjs.dishes_95gameCode.GDPixiDustObjects2.length = 0;
@@ -262,6 +262,10 @@ gdjs.dishes_95gameCode.GDdishObjects1.length = 0;
 }
 {gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "assets/audio/soundfx/foley/washing_dishes.mp3", 1, true, 100, 1);
 }
+{for(var i = 0, len = gdjs.dishes_95gameCode.GDdishObjects1.length ;i < len;++i) {
+    gdjs.dishes_95gameCode.GDdishObjects1[i].getBehavior("Effect").enableEffect("Effect", false);
+}
+}
 }
 
 }
@@ -307,7 +311,7 @@ for (var i = 0, k = 0, l = gdjs.dishes_95gameCode.GDdishObjects2.length;i<l;++i)
 gdjs.dishes_95gameCode.GDdishObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27629268);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28139684);
 }
 }
 if (isConditionTrue_0)
@@ -342,7 +346,7 @@ for (var i = 0, k = 0, l = gdjs.dishes_95gameCode.GDdishObjects1.length;i<l;++i)
 gdjs.dishes_95gameCode.GDdishObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27631236);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28141652);
 }
 }
 }
@@ -355,6 +359,10 @@ if (isConditionTrue_0) {
 {runtimeScene.getScene().getVariables().getFromIndex(3).sub(1);
 }
 {gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/soundfx/general/sparkle.mp3", false, 80, 1);
+}
+{for(var i = 0, len = gdjs.dishes_95gameCode.GDdishObjects1.length ;i < len;++i) {
+    gdjs.dishes_95gameCode.GDdishObjects1[i].getBehavior("Effect").enableEffect("Effect", true);
+}
 }
 }
 
@@ -377,7 +385,7 @@ for (var i = 0, k = 0, l = gdjs.dishes_95gameCode.GDdishObjects1.length;i<l;++i)
 gdjs.dishes_95gameCode.GDdishObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27632612);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28143284);
 }
 }
 if (isConditionTrue_0) {
@@ -398,6 +406,10 @@ if (isConditionTrue_0) {
 }
 {for(var i = 0, len = gdjs.dishes_95gameCode.GDdishObjects1.length ;i < len;++i) {
     gdjs.dishes_95gameCode.GDdishObjects1[i].getBehavior("Tween").addObjectPositionTween2("dish", gdjs.evtTools.camera.getCameraX(runtimeScene, "", 0), gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0), "easeInCubic", 1, false);
+}
+}
+{for(var i = 0, len = gdjs.dishes_95gameCode.GDdishObjects1.length ;i < len;++i) {
+    gdjs.dishes_95gameCode.GDdishObjects1[i].getBehavior("Effect").enableEffect("Effect", false);
 }
 }
 }

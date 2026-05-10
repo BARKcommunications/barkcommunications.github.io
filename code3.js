@@ -159,7 +159,7 @@ gdjs.germ_95gameCode.GDgermObjects2.length = 0;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27562452);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28066340);
 }
 if (isConditionTrue_0)
 {

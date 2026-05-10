@@ -9,7 +9,7 @@ gdjs.evtsExt__ShakeObject3D__DeleteAll = {};
 gdjs.evtsExt__ShakeObject3D__DeleteAll.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__ShakeObject3D__DeleteAll.userFunc0x169f4d0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ShakeObject3D__DeleteAll.userFunc0x1552fb0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 gdjs._shakeObjectExtension.noiseManager.deleteAllGenerators();
 };
@@ -18,7 +18,7 @@ gdjs.evtsExt__ShakeObject3D__DeleteAll.eventsList0 = function(runtimeScene, even
 {
 
 
-gdjs.evtsExt__ShakeObject3D__DeleteAll.userFunc0x169f4d0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ShakeObject3D__DeleteAll.userFunc0x1552fb0(runtimeScene, eventsFunctionContext);
 
 }
 
