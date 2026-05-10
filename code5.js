@@ -51,6 +51,22 @@ gdjs.dishes_95gameCode.GDSmallGreenButtonObjects1= [];
 gdjs.dishes_95gameCode.GDSmallGreenButtonObjects2= [];
 gdjs.dishes_95gameCode.GDSmallGreenButtonObjects3= [];
 gdjs.dishes_95gameCode.GDSmallGreenButtonObjects4= [];
+gdjs.dishes_95gameCode.GDyour_9595body_9595your_9595choiceObjects1= [];
+gdjs.dishes_95gameCode.GDyour_9595body_9595your_9595choiceObjects2= [];
+gdjs.dishes_95gameCode.GDyour_9595body_9595your_9595choiceObjects3= [];
+gdjs.dishes_95gameCode.GDyour_9595body_9595your_9595choiceObjects4= [];
+gdjs.dishes_95gameCode.GDintroduction_9595to_9595immunityObjects1= [];
+gdjs.dishes_95gameCode.GDintroduction_9595to_9595immunityObjects2= [];
+gdjs.dishes_95gameCode.GDintroduction_9595to_9595immunityObjects3= [];
+gdjs.dishes_95gameCode.GDintroduction_9595to_9595immunityObjects4= [];
+gdjs.dishes_95gameCode.GDhow_9595do_9595immunisations_9595workObjects1= [];
+gdjs.dishes_95gameCode.GDhow_9595do_9595immunisations_9595workObjects2= [];
+gdjs.dishes_95gameCode.GDhow_9595do_9595immunisations_9595workObjects3= [];
+gdjs.dishes_95gameCode.GDhow_9595do_9595immunisations_9595workObjects4= [];
+gdjs.dishes_95gameCode.GDherd_9595immunityObjects1= [];
+gdjs.dishes_95gameCode.GDherd_9595immunityObjects2= [];
+gdjs.dishes_95gameCode.GDherd_9595immunityObjects3= [];
+gdjs.dishes_95gameCode.GDherd_9595immunityObjects4= [];
 
 
 gdjs.dishes_95gameCode.mapOfGDgdjs_9546dishes_959595gameCode_9546GDdishObjects1Objects = Hashtable.newFrom({"dish": gdjs.dishes_95gameCode.GDdishObjects1});
@@ -281,7 +297,7 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 1);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(0).setBoolean(true);
+{runtimeScene.getGame().getVariables().getFromIndex(7).setBoolean(true);
 }
 {gdjs.evtTools.runtimeScene.popScene(runtimeScene);
 }
@@ -570,6 +586,22 @@ gdjs.dishes_95gameCode.GDSmallGreenButtonObjects1.length = 0;
 gdjs.dishes_95gameCode.GDSmallGreenButtonObjects2.length = 0;
 gdjs.dishes_95gameCode.GDSmallGreenButtonObjects3.length = 0;
 gdjs.dishes_95gameCode.GDSmallGreenButtonObjects4.length = 0;
+gdjs.dishes_95gameCode.GDyour_9595body_9595your_9595choiceObjects1.length = 0;
+gdjs.dishes_95gameCode.GDyour_9595body_9595your_9595choiceObjects2.length = 0;
+gdjs.dishes_95gameCode.GDyour_9595body_9595your_9595choiceObjects3.length = 0;
+gdjs.dishes_95gameCode.GDyour_9595body_9595your_9595choiceObjects4.length = 0;
+gdjs.dishes_95gameCode.GDintroduction_9595to_9595immunityObjects1.length = 0;
+gdjs.dishes_95gameCode.GDintroduction_9595to_9595immunityObjects2.length = 0;
+gdjs.dishes_95gameCode.GDintroduction_9595to_9595immunityObjects3.length = 0;
+gdjs.dishes_95gameCode.GDintroduction_9595to_9595immunityObjects4.length = 0;
+gdjs.dishes_95gameCode.GDhow_9595do_9595immunisations_9595workObjects1.length = 0;
+gdjs.dishes_95gameCode.GDhow_9595do_9595immunisations_9595workObjects2.length = 0;
+gdjs.dishes_95gameCode.GDhow_9595do_9595immunisations_9595workObjects3.length = 0;
+gdjs.dishes_95gameCode.GDhow_9595do_9595immunisations_9595workObjects4.length = 0;
+gdjs.dishes_95gameCode.GDherd_9595immunityObjects1.length = 0;
+gdjs.dishes_95gameCode.GDherd_9595immunityObjects2.length = 0;
+gdjs.dishes_95gameCode.GDherd_9595immunityObjects3.length = 0;
+gdjs.dishes_95gameCode.GDherd_9595immunityObjects4.length = 0;
 
 gdjs.dishes_95gameCode.eventsList4(runtimeScene);
 gdjs.dishes_95gameCode.GDdishObjects1.length = 0;
@@ -620,6 +652,22 @@ gdjs.dishes_95gameCode.GDSmallGreenButtonObjects1.length = 0;
 gdjs.dishes_95gameCode.GDSmallGreenButtonObjects2.length = 0;
 gdjs.dishes_95gameCode.GDSmallGreenButtonObjects3.length = 0;
 gdjs.dishes_95gameCode.GDSmallGreenButtonObjects4.length = 0;
+gdjs.dishes_95gameCode.GDyour_9595body_9595your_9595choiceObjects1.length = 0;
+gdjs.dishes_95gameCode.GDyour_9595body_9595your_9595choiceObjects2.length = 0;
+gdjs.dishes_95gameCode.GDyour_9595body_9595your_9595choiceObjects3.length = 0;
+gdjs.dishes_95gameCode.GDyour_9595body_9595your_9595choiceObjects4.length = 0;
+gdjs.dishes_95gameCode.GDintroduction_9595to_9595immunityObjects1.length = 0;
+gdjs.dishes_95gameCode.GDintroduction_9595to_9595immunityObjects2.length = 0;
+gdjs.dishes_95gameCode.GDintroduction_9595to_9595immunityObjects3.length = 0;
+gdjs.dishes_95gameCode.GDintroduction_9595to_9595immunityObjects4.length = 0;
+gdjs.dishes_95gameCode.GDhow_9595do_9595immunisations_9595workObjects1.length = 0;
+gdjs.dishes_95gameCode.GDhow_9595do_9595immunisations_9595workObjects2.length = 0;
+gdjs.dishes_95gameCode.GDhow_9595do_9595immunisations_9595workObjects3.length = 0;
+gdjs.dishes_95gameCode.GDhow_9595do_9595immunisations_9595workObjects4.length = 0;
+gdjs.dishes_95gameCode.GDherd_9595immunityObjects1.length = 0;
+gdjs.dishes_95gameCode.GDherd_9595immunityObjects2.length = 0;
+gdjs.dishes_95gameCode.GDherd_9595immunityObjects3.length = 0;
+gdjs.dishes_95gameCode.GDherd_9595immunityObjects4.length = 0;
 
 
 return;

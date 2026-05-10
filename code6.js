@@ -82,6 +82,18 @@ gdjs.car_95driving_95gameCode.GDQuest_9595TextObjects3= [];
 gdjs.car_95driving_95gameCode.GDSmallGreenButtonObjects1= [];
 gdjs.car_95driving_95gameCode.GDSmallGreenButtonObjects2= [];
 gdjs.car_95driving_95gameCode.GDSmallGreenButtonObjects3= [];
+gdjs.car_95driving_95gameCode.GDyour_9595body_9595your_9595choiceObjects1= [];
+gdjs.car_95driving_95gameCode.GDyour_9595body_9595your_9595choiceObjects2= [];
+gdjs.car_95driving_95gameCode.GDyour_9595body_9595your_9595choiceObjects3= [];
+gdjs.car_95driving_95gameCode.GDintroduction_9595to_9595immunityObjects1= [];
+gdjs.car_95driving_95gameCode.GDintroduction_9595to_9595immunityObjects2= [];
+gdjs.car_95driving_95gameCode.GDintroduction_9595to_9595immunityObjects3= [];
+gdjs.car_95driving_95gameCode.GDhow_9595do_9595immunisations_9595workObjects1= [];
+gdjs.car_95driving_95gameCode.GDhow_9595do_9595immunisations_9595workObjects2= [];
+gdjs.car_95driving_95gameCode.GDhow_9595do_9595immunisations_9595workObjects3= [];
+gdjs.car_95driving_95gameCode.GDherd_9595immunityObjects1= [];
+gdjs.car_95driving_95gameCode.GDherd_9595immunityObjects2= [];
+gdjs.car_95driving_95gameCode.GDherd_9595immunityObjects3= [];
 
 
 gdjs.car_95driving_95gameCode.mapOfGDgdjs_9546car_959595driving_959595gameCode_9546GDcar_95959595game_95959595introObjects1Objects = Hashtable.newFrom({"car_game_intro": gdjs.car_95driving_95gameCode.GDcar_9595game_9595introObjects1});
@@ -506,7 +518,7 @@ gdjs.car_95driving_95gameCode.GDcar_9595game_9595introObjects1.length = 0;
     gdjs.car_95driving_95gameCode.GDsmokeObjects1[i].getBehavior("Sticker").Stick(gdjs.car_95driving_95gameCode.mapOfGDgdjs_9546car_959595driving_959595gameCode_9546GDcarObjects1Objects, null);
 }
 }
-{runtimeScene.getGame().getVariables().getFromIndex(11).setBoolean(true);
+{runtimeScene.getGame().getVariables().getFromIndex(3).setBoolean(true);
 }
 {for(var i = 0, len = gdjs.car_95driving_95gameCode.GDRainObjects1.length ;i < len;++i) {
     gdjs.car_95driving_95gameCode.GDRainObjects1[i].stopEmission();
@@ -557,7 +569,7 @@ gdjs.car_95driving_95gameCode.eventsList1(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = !runtimeScene.getGame().getVariables().getFromIndex(11).getAsBoolean();
+{isConditionTrue_0 = !runtimeScene.getGame().getVariables().getFromIndex(3).getAsBoolean();
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -793,7 +805,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("car"), gdjs.car_95driving_95gameCode.GDcarObjects1);
-{gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, "97c4268f-5937-426d-8e64-4a719cc385f9", ((gdjs.car_95driving_95gameCode.GDcarObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.car_95driving_95gameCode.GDcarObjects1[0].getVariables()).getFromIndex(0).getAsNumber(), runtimeScene.getGame().getVariables().getFromIndex(12).getAsString());
+{gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, "97c4268f-5937-426d-8e64-4a719cc385f9", ((gdjs.car_95driving_95gameCode.GDcarObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.car_95driving_95gameCode.GDcarObjects1[0].getVariables()).getFromIndex(0).getAsNumber(), runtimeScene.getGame().getVariables().getFromIndex(0).getAsString());
 }
 {gdjs.evtTools.leaderboards.displayLeaderboard(runtimeScene, "97c4268f-5937-426d-8e64-4a719cc385f9", true);
 }
@@ -1437,7 +1449,7 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.car_95driving_95gameC
     gdjs.car_95driving_95gameCode.GDSmallGreenButtonObjects1[i].deleteFromScene(runtimeScene);
 }
 }
-{runtimeScene.getGame().getVariables().getFromIndex(11).setBoolean(false);
+{runtimeScene.getGame().getVariables().getFromIndex(3).setBoolean(false);
 }
 }
 
@@ -1580,6 +1592,18 @@ gdjs.car_95driving_95gameCode.GDQuest_9595TextObjects3.length = 0;
 gdjs.car_95driving_95gameCode.GDSmallGreenButtonObjects1.length = 0;
 gdjs.car_95driving_95gameCode.GDSmallGreenButtonObjects2.length = 0;
 gdjs.car_95driving_95gameCode.GDSmallGreenButtonObjects3.length = 0;
+gdjs.car_95driving_95gameCode.GDyour_9595body_9595your_9595choiceObjects1.length = 0;
+gdjs.car_95driving_95gameCode.GDyour_9595body_9595your_9595choiceObjects2.length = 0;
+gdjs.car_95driving_95gameCode.GDyour_9595body_9595your_9595choiceObjects3.length = 0;
+gdjs.car_95driving_95gameCode.GDintroduction_9595to_9595immunityObjects1.length = 0;
+gdjs.car_95driving_95gameCode.GDintroduction_9595to_9595immunityObjects2.length = 0;
+gdjs.car_95driving_95gameCode.GDintroduction_9595to_9595immunityObjects3.length = 0;
+gdjs.car_95driving_95gameCode.GDhow_9595do_9595immunisations_9595workObjects1.length = 0;
+gdjs.car_95driving_95gameCode.GDhow_9595do_9595immunisations_9595workObjects2.length = 0;
+gdjs.car_95driving_95gameCode.GDhow_9595do_9595immunisations_9595workObjects3.length = 0;
+gdjs.car_95driving_95gameCode.GDherd_9595immunityObjects1.length = 0;
+gdjs.car_95driving_95gameCode.GDherd_9595immunityObjects2.length = 0;
+gdjs.car_95driving_95gameCode.GDherd_9595immunityObjects3.length = 0;
 
 gdjs.car_95driving_95gameCode.eventsList17(runtimeScene);
 gdjs.car_95driving_95gameCode.GDcarObjects1.length = 0;
@@ -1663,6 +1687,18 @@ gdjs.car_95driving_95gameCode.GDQuest_9595TextObjects3.length = 0;
 gdjs.car_95driving_95gameCode.GDSmallGreenButtonObjects1.length = 0;
 gdjs.car_95driving_95gameCode.GDSmallGreenButtonObjects2.length = 0;
 gdjs.car_95driving_95gameCode.GDSmallGreenButtonObjects3.length = 0;
+gdjs.car_95driving_95gameCode.GDyour_9595body_9595your_9595choiceObjects1.length = 0;
+gdjs.car_95driving_95gameCode.GDyour_9595body_9595your_9595choiceObjects2.length = 0;
+gdjs.car_95driving_95gameCode.GDyour_9595body_9595your_9595choiceObjects3.length = 0;
+gdjs.car_95driving_95gameCode.GDintroduction_9595to_9595immunityObjects1.length = 0;
+gdjs.car_95driving_95gameCode.GDintroduction_9595to_9595immunityObjects2.length = 0;
+gdjs.car_95driving_95gameCode.GDintroduction_9595to_9595immunityObjects3.length = 0;
+gdjs.car_95driving_95gameCode.GDhow_9595do_9595immunisations_9595workObjects1.length = 0;
+gdjs.car_95driving_95gameCode.GDhow_9595do_9595immunisations_9595workObjects2.length = 0;
+gdjs.car_95driving_95gameCode.GDhow_9595do_9595immunisations_9595workObjects3.length = 0;
+gdjs.car_95driving_95gameCode.GDherd_9595immunityObjects1.length = 0;
+gdjs.car_95driving_95gameCode.GDherd_9595immunityObjects2.length = 0;
+gdjs.car_95driving_95gameCode.GDherd_9595immunityObjects3.length = 0;
 
 
 return;

@@ -64,6 +64,18 @@ gdjs.basketball_95gameCode.GDQuest_9595TextObjects3= [];
 gdjs.basketball_95gameCode.GDSmallGreenButtonObjects1= [];
 gdjs.basketball_95gameCode.GDSmallGreenButtonObjects2= [];
 gdjs.basketball_95gameCode.GDSmallGreenButtonObjects3= [];
+gdjs.basketball_95gameCode.GDyour_9595body_9595your_9595choiceObjects1= [];
+gdjs.basketball_95gameCode.GDyour_9595body_9595your_9595choiceObjects2= [];
+gdjs.basketball_95gameCode.GDyour_9595body_9595your_9595choiceObjects3= [];
+gdjs.basketball_95gameCode.GDintroduction_9595to_9595immunityObjects1= [];
+gdjs.basketball_95gameCode.GDintroduction_9595to_9595immunityObjects2= [];
+gdjs.basketball_95gameCode.GDintroduction_9595to_9595immunityObjects3= [];
+gdjs.basketball_95gameCode.GDhow_9595do_9595immunisations_9595workObjects1= [];
+gdjs.basketball_95gameCode.GDhow_9595do_9595immunisations_9595workObjects2= [];
+gdjs.basketball_95gameCode.GDhow_9595do_9595immunisations_9595workObjects3= [];
+gdjs.basketball_95gameCode.GDherd_9595immunityObjects1= [];
+gdjs.basketball_95gameCode.GDherd_9595immunityObjects2= [];
+gdjs.basketball_95gameCode.GDherd_9595immunityObjects3= [];
 
 
 gdjs.basketball_95gameCode.eventsList0 = function(runtimeScene) {
@@ -509,7 +521,7 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(gdjs.evtTools.input.getCursorY(runtimeScene, "", 0));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(11).setBoolean(true);
+{runtimeScene.getGame().getVariables().getFromIndex(3).setBoolean(true);
 }
 {gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "basketball_song.mp3", 1, true, 80, 1);
 }
@@ -526,7 +538,7 @@ gdjs.basketball_95gameCode.eventsList1(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = !runtimeScene.getGame().getVariables().getFromIndex(11).getAsBoolean();
+{isConditionTrue_0 = !runtimeScene.getGame().getVariables().getFromIndex(3).getAsBoolean();
 }
 if (isConditionTrue_0) {
 
@@ -611,7 +623,7 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.basketball_95gameCode
     gdjs.basketball_95gameCode.GDSmallGreenButtonObjects1[i].deleteFromScene(runtimeScene);
 }
 }
-{runtimeScene.getGame().getVariables().getFromIndex(11).setBoolean(false);
+{runtimeScene.getGame().getVariables().getFromIndex(3).setBoolean(false);
 }
 }
 
@@ -686,6 +698,18 @@ gdjs.basketball_95gameCode.GDQuest_9595TextObjects3.length = 0;
 gdjs.basketball_95gameCode.GDSmallGreenButtonObjects1.length = 0;
 gdjs.basketball_95gameCode.GDSmallGreenButtonObjects2.length = 0;
 gdjs.basketball_95gameCode.GDSmallGreenButtonObjects3.length = 0;
+gdjs.basketball_95gameCode.GDyour_9595body_9595your_9595choiceObjects1.length = 0;
+gdjs.basketball_95gameCode.GDyour_9595body_9595your_9595choiceObjects2.length = 0;
+gdjs.basketball_95gameCode.GDyour_9595body_9595your_9595choiceObjects3.length = 0;
+gdjs.basketball_95gameCode.GDintroduction_9595to_9595immunityObjects1.length = 0;
+gdjs.basketball_95gameCode.GDintroduction_9595to_9595immunityObjects2.length = 0;
+gdjs.basketball_95gameCode.GDintroduction_9595to_9595immunityObjects3.length = 0;
+gdjs.basketball_95gameCode.GDhow_9595do_9595immunisations_9595workObjects1.length = 0;
+gdjs.basketball_95gameCode.GDhow_9595do_9595immunisations_9595workObjects2.length = 0;
+gdjs.basketball_95gameCode.GDhow_9595do_9595immunisations_9595workObjects3.length = 0;
+gdjs.basketball_95gameCode.GDherd_9595immunityObjects1.length = 0;
+gdjs.basketball_95gameCode.GDherd_9595immunityObjects2.length = 0;
+gdjs.basketball_95gameCode.GDherd_9595immunityObjects3.length = 0;
 
 gdjs.basketball_95gameCode.eventsList9(runtimeScene);
 gdjs.basketball_95gameCode.GDbasketballObjects1.length = 0;
@@ -751,6 +775,18 @@ gdjs.basketball_95gameCode.GDQuest_9595TextObjects3.length = 0;
 gdjs.basketball_95gameCode.GDSmallGreenButtonObjects1.length = 0;
 gdjs.basketball_95gameCode.GDSmallGreenButtonObjects2.length = 0;
 gdjs.basketball_95gameCode.GDSmallGreenButtonObjects3.length = 0;
+gdjs.basketball_95gameCode.GDyour_9595body_9595your_9595choiceObjects1.length = 0;
+gdjs.basketball_95gameCode.GDyour_9595body_9595your_9595choiceObjects2.length = 0;
+gdjs.basketball_95gameCode.GDyour_9595body_9595your_9595choiceObjects3.length = 0;
+gdjs.basketball_95gameCode.GDintroduction_9595to_9595immunityObjects1.length = 0;
+gdjs.basketball_95gameCode.GDintroduction_9595to_9595immunityObjects2.length = 0;
+gdjs.basketball_95gameCode.GDintroduction_9595to_9595immunityObjects3.length = 0;
+gdjs.basketball_95gameCode.GDhow_9595do_9595immunisations_9595workObjects1.length = 0;
+gdjs.basketball_95gameCode.GDhow_9595do_9595immunisations_9595workObjects2.length = 0;
+gdjs.basketball_95gameCode.GDhow_9595do_9595immunisations_9595workObjects3.length = 0;
+gdjs.basketball_95gameCode.GDherd_9595immunityObjects1.length = 0;
+gdjs.basketball_95gameCode.GDherd_9595immunityObjects2.length = 0;
+gdjs.basketball_95gameCode.GDherd_9595immunityObjects3.length = 0;
 
 
 return;

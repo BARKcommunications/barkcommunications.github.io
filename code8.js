@@ -29,6 +29,14 @@ gdjs.fishing_95gameCode.GDQuest_9595TextObjects1= [];
 gdjs.fishing_95gameCode.GDQuest_9595TextObjects2= [];
 gdjs.fishing_95gameCode.GDSmallGreenButtonObjects1= [];
 gdjs.fishing_95gameCode.GDSmallGreenButtonObjects2= [];
+gdjs.fishing_95gameCode.GDyour_9595body_9595your_9595choiceObjects1= [];
+gdjs.fishing_95gameCode.GDyour_9595body_9595your_9595choiceObjects2= [];
+gdjs.fishing_95gameCode.GDintroduction_9595to_9595immunityObjects1= [];
+gdjs.fishing_95gameCode.GDintroduction_9595to_9595immunityObjects2= [];
+gdjs.fishing_95gameCode.GDhow_9595do_9595immunisations_9595workObjects1= [];
+gdjs.fishing_95gameCode.GDhow_9595do_9595immunisations_9595workObjects2= [];
+gdjs.fishing_95gameCode.GDherd_9595immunityObjects1= [];
+gdjs.fishing_95gameCode.GDherd_9595immunityObjects2= [];
 
 
 gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDspearObjects1Objects = Hashtable.newFrom({"spear": gdjs.fishing_95gameCode.GDspearObjects1});
@@ -550,6 +558,14 @@ gdjs.fishing_95gameCode.GDQuest_9595TextObjects1.length = 0;
 gdjs.fishing_95gameCode.GDQuest_9595TextObjects2.length = 0;
 gdjs.fishing_95gameCode.GDSmallGreenButtonObjects1.length = 0;
 gdjs.fishing_95gameCode.GDSmallGreenButtonObjects2.length = 0;
+gdjs.fishing_95gameCode.GDyour_9595body_9595your_9595choiceObjects1.length = 0;
+gdjs.fishing_95gameCode.GDyour_9595body_9595your_9595choiceObjects2.length = 0;
+gdjs.fishing_95gameCode.GDintroduction_9595to_9595immunityObjects1.length = 0;
+gdjs.fishing_95gameCode.GDintroduction_9595to_9595immunityObjects2.length = 0;
+gdjs.fishing_95gameCode.GDhow_9595do_9595immunisations_9595workObjects1.length = 0;
+gdjs.fishing_95gameCode.GDhow_9595do_9595immunisations_9595workObjects2.length = 0;
+gdjs.fishing_95gameCode.GDherd_9595immunityObjects1.length = 0;
+gdjs.fishing_95gameCode.GDherd_9595immunityObjects2.length = 0;
 
 gdjs.fishing_95gameCode.eventsList5(runtimeScene);
 gdjs.fishing_95gameCode.GDspearObjects1.length = 0;
@@ -580,6 +596,14 @@ gdjs.fishing_95gameCode.GDQuest_9595TextObjects1.length = 0;
 gdjs.fishing_95gameCode.GDQuest_9595TextObjects2.length = 0;
 gdjs.fishing_95gameCode.GDSmallGreenButtonObjects1.length = 0;
 gdjs.fishing_95gameCode.GDSmallGreenButtonObjects2.length = 0;
+gdjs.fishing_95gameCode.GDyour_9595body_9595your_9595choiceObjects1.length = 0;
+gdjs.fishing_95gameCode.GDyour_9595body_9595your_9595choiceObjects2.length = 0;
+gdjs.fishing_95gameCode.GDintroduction_9595to_9595immunityObjects1.length = 0;
+gdjs.fishing_95gameCode.GDintroduction_9595to_9595immunityObjects2.length = 0;
+gdjs.fishing_95gameCode.GDhow_9595do_9595immunisations_9595workObjects1.length = 0;
+gdjs.fishing_95gameCode.GDhow_9595do_9595immunisations_9595workObjects2.length = 0;
+gdjs.fishing_95gameCode.GDherd_9595immunityObjects1.length = 0;
+gdjs.fishing_95gameCode.GDherd_9595immunityObjects2.length = 0;
 
 
 return;

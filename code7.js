@@ -37,6 +37,18 @@ gdjs.bookCode.GDQuest_9595TextObjects3= [];
 gdjs.bookCode.GDSmallGreenButtonObjects1= [];
 gdjs.bookCode.GDSmallGreenButtonObjects2= [];
 gdjs.bookCode.GDSmallGreenButtonObjects3= [];
+gdjs.bookCode.GDyour_9595body_9595your_9595choiceObjects1= [];
+gdjs.bookCode.GDyour_9595body_9595your_9595choiceObjects2= [];
+gdjs.bookCode.GDyour_9595body_9595your_9595choiceObjects3= [];
+gdjs.bookCode.GDintroduction_9595to_9595immunityObjects1= [];
+gdjs.bookCode.GDintroduction_9595to_9595immunityObjects2= [];
+gdjs.bookCode.GDintroduction_9595to_9595immunityObjects3= [];
+gdjs.bookCode.GDhow_9595do_9595immunisations_9595workObjects1= [];
+gdjs.bookCode.GDhow_9595do_9595immunisations_9595workObjects2= [];
+gdjs.bookCode.GDhow_9595do_9595immunisations_9595workObjects3= [];
+gdjs.bookCode.GDherd_9595immunityObjects1= [];
+gdjs.bookCode.GDherd_9595immunityObjects2= [];
+gdjs.bookCode.GDherd_9595immunityObjects3= [];
 
 
 gdjs.bookCode.mapOfGDgdjs_9546bookCode_9546GDbook_95959595backObjects2Objects = Hashtable.newFrom({"book_back": gdjs.bookCode.GDbook_9595backObjects2});
@@ -96,7 +108,7 @@ gdjs.bookCode.GDbook_9595backObjects2.length = 0;
 }
 }
 {for(var i = 0, len = gdjs.bookCode.GDbook_9595backObjects2.length ;i < len;++i) {
-    gdjs.bookCode.GDbook_9595backObjects2[i].setZOrder(1);
+    gdjs.bookCode.GDbook_9595backObjects2[i].setZOrder(3);
 }
 }
 }
@@ -153,7 +165,7 @@ gdjs.bookCode.GDbook_9595behind2Objects1.length = 0;
 }
 }
 {for(var i = 0, len = gdjs.bookCode.GDbook_9595behind2Objects1.length ;i < len;++i) {
-    gdjs.bookCode.GDbook_9595behind2Objects1[i].setZOrder(1);
+    gdjs.bookCode.GDbook_9595behind2Objects1[i].setZOrder(2);
 }
 }
 {for(var i = 0, len = gdjs.bookCode.GDbook_9595behind2Objects1.length ;i < len;++i) {
@@ -420,6 +432,18 @@ gdjs.bookCode.GDQuest_9595TextObjects3.length = 0;
 gdjs.bookCode.GDSmallGreenButtonObjects1.length = 0;
 gdjs.bookCode.GDSmallGreenButtonObjects2.length = 0;
 gdjs.bookCode.GDSmallGreenButtonObjects3.length = 0;
+gdjs.bookCode.GDyour_9595body_9595your_9595choiceObjects1.length = 0;
+gdjs.bookCode.GDyour_9595body_9595your_9595choiceObjects2.length = 0;
+gdjs.bookCode.GDyour_9595body_9595your_9595choiceObjects3.length = 0;
+gdjs.bookCode.GDintroduction_9595to_9595immunityObjects1.length = 0;
+gdjs.bookCode.GDintroduction_9595to_9595immunityObjects2.length = 0;
+gdjs.bookCode.GDintroduction_9595to_9595immunityObjects3.length = 0;
+gdjs.bookCode.GDhow_9595do_9595immunisations_9595workObjects1.length = 0;
+gdjs.bookCode.GDhow_9595do_9595immunisations_9595workObjects2.length = 0;
+gdjs.bookCode.GDhow_9595do_9595immunisations_9595workObjects3.length = 0;
+gdjs.bookCode.GDherd_9595immunityObjects1.length = 0;
+gdjs.bookCode.GDherd_9595immunityObjects2.length = 0;
+gdjs.bookCode.GDherd_9595immunityObjects3.length = 0;
 
 gdjs.bookCode.eventsList1(runtimeScene);
 gdjs.bookCode.GDbook_9595frontObjects1.length = 0;
@@ -458,6 +482,18 @@ gdjs.bookCode.GDQuest_9595TextObjects3.length = 0;
 gdjs.bookCode.GDSmallGreenButtonObjects1.length = 0;
 gdjs.bookCode.GDSmallGreenButtonObjects2.length = 0;
 gdjs.bookCode.GDSmallGreenButtonObjects3.length = 0;
+gdjs.bookCode.GDyour_9595body_9595your_9595choiceObjects1.length = 0;
+gdjs.bookCode.GDyour_9595body_9595your_9595choiceObjects2.length = 0;
+gdjs.bookCode.GDyour_9595body_9595your_9595choiceObjects3.length = 0;
+gdjs.bookCode.GDintroduction_9595to_9595immunityObjects1.length = 0;
+gdjs.bookCode.GDintroduction_9595to_9595immunityObjects2.length = 0;
+gdjs.bookCode.GDintroduction_9595to_9595immunityObjects3.length = 0;
+gdjs.bookCode.GDhow_9595do_9595immunisations_9595workObjects1.length = 0;
+gdjs.bookCode.GDhow_9595do_9595immunisations_9595workObjects2.length = 0;
+gdjs.bookCode.GDhow_9595do_9595immunisations_9595workObjects3.length = 0;
+gdjs.bookCode.GDherd_9595immunityObjects1.length = 0;
+gdjs.bookCode.GDherd_9595immunityObjects2.length = 0;
+gdjs.bookCode.GDherd_9595immunityObjects3.length = 0;
 
 
 return;

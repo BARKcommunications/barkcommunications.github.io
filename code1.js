@@ -43,6 +43,18 @@ gdjs.bin_95gameCode.GDQuest_9595TextObjects3= [];
 gdjs.bin_95gameCode.GDSmallGreenButtonObjects1= [];
 gdjs.bin_95gameCode.GDSmallGreenButtonObjects2= [];
 gdjs.bin_95gameCode.GDSmallGreenButtonObjects3= [];
+gdjs.bin_95gameCode.GDyour_9595body_9595your_9595choiceObjects1= [];
+gdjs.bin_95gameCode.GDyour_9595body_9595your_9595choiceObjects2= [];
+gdjs.bin_95gameCode.GDyour_9595body_9595your_9595choiceObjects3= [];
+gdjs.bin_95gameCode.GDintroduction_9595to_9595immunityObjects1= [];
+gdjs.bin_95gameCode.GDintroduction_9595to_9595immunityObjects2= [];
+gdjs.bin_95gameCode.GDintroduction_9595to_9595immunityObjects3= [];
+gdjs.bin_95gameCode.GDhow_9595do_9595immunisations_9595workObjects1= [];
+gdjs.bin_95gameCode.GDhow_9595do_9595immunisations_9595workObjects2= [];
+gdjs.bin_95gameCode.GDhow_9595do_9595immunisations_9595workObjects3= [];
+gdjs.bin_95gameCode.GDherd_9595immunityObjects1= [];
+gdjs.bin_95gameCode.GDherd_9595immunityObjects2= [];
+gdjs.bin_95gameCode.GDherd_9595immunityObjects3= [];
 
 
 gdjs.bin_95gameCode.mapOfEmptyGDgarbageObjects = Hashtable.newFrom({"garbage": []});
@@ -344,6 +356,18 @@ gdjs.bin_95gameCode.GDQuest_9595TextObjects3.length = 0;
 gdjs.bin_95gameCode.GDSmallGreenButtonObjects1.length = 0;
 gdjs.bin_95gameCode.GDSmallGreenButtonObjects2.length = 0;
 gdjs.bin_95gameCode.GDSmallGreenButtonObjects3.length = 0;
+gdjs.bin_95gameCode.GDyour_9595body_9595your_9595choiceObjects1.length = 0;
+gdjs.bin_95gameCode.GDyour_9595body_9595your_9595choiceObjects2.length = 0;
+gdjs.bin_95gameCode.GDyour_9595body_9595your_9595choiceObjects3.length = 0;
+gdjs.bin_95gameCode.GDintroduction_9595to_9595immunityObjects1.length = 0;
+gdjs.bin_95gameCode.GDintroduction_9595to_9595immunityObjects2.length = 0;
+gdjs.bin_95gameCode.GDintroduction_9595to_9595immunityObjects3.length = 0;
+gdjs.bin_95gameCode.GDhow_9595do_9595immunisations_9595workObjects1.length = 0;
+gdjs.bin_95gameCode.GDhow_9595do_9595immunisations_9595workObjects2.length = 0;
+gdjs.bin_95gameCode.GDhow_9595do_9595immunisations_9595workObjects3.length = 0;
+gdjs.bin_95gameCode.GDherd_9595immunityObjects1.length = 0;
+gdjs.bin_95gameCode.GDherd_9595immunityObjects2.length = 0;
+gdjs.bin_95gameCode.GDherd_9595immunityObjects3.length = 0;
 
 gdjs.bin_95gameCode.eventsList3(runtimeScene);
 gdjs.bin_95gameCode.GDbinObjects1.length = 0;
@@ -388,6 +412,18 @@ gdjs.bin_95gameCode.GDQuest_9595TextObjects3.length = 0;
 gdjs.bin_95gameCode.GDSmallGreenButtonObjects1.length = 0;
 gdjs.bin_95gameCode.GDSmallGreenButtonObjects2.length = 0;
 gdjs.bin_95gameCode.GDSmallGreenButtonObjects3.length = 0;
+gdjs.bin_95gameCode.GDyour_9595body_9595your_9595choiceObjects1.length = 0;
+gdjs.bin_95gameCode.GDyour_9595body_9595your_9595choiceObjects2.length = 0;
+gdjs.bin_95gameCode.GDyour_9595body_9595your_9595choiceObjects3.length = 0;
+gdjs.bin_95gameCode.GDintroduction_9595to_9595immunityObjects1.length = 0;
+gdjs.bin_95gameCode.GDintroduction_9595to_9595immunityObjects2.length = 0;
+gdjs.bin_95gameCode.GDintroduction_9595to_9595immunityObjects3.length = 0;
+gdjs.bin_95gameCode.GDhow_9595do_9595immunisations_9595workObjects1.length = 0;
+gdjs.bin_95gameCode.GDhow_9595do_9595immunisations_9595workObjects2.length = 0;
+gdjs.bin_95gameCode.GDhow_9595do_9595immunisations_9595workObjects3.length = 0;
+gdjs.bin_95gameCode.GDherd_9595immunityObjects1.length = 0;
+gdjs.bin_95gameCode.GDherd_9595immunityObjects2.length = 0;
+gdjs.bin_95gameCode.GDherd_9595immunityObjects3.length = 0;
 
 
 return;

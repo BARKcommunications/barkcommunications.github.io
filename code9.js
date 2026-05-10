@@ -49,6 +49,18 @@ gdjs.TV_95ARCADECode.GDQuest_9595TextObjects3= [];
 gdjs.TV_95ARCADECode.GDSmallGreenButtonObjects1= [];
 gdjs.TV_95ARCADECode.GDSmallGreenButtonObjects2= [];
 gdjs.TV_95ARCADECode.GDSmallGreenButtonObjects3= [];
+gdjs.TV_95ARCADECode.GDyour_9595body_9595your_9595choiceObjects1= [];
+gdjs.TV_95ARCADECode.GDyour_9595body_9595your_9595choiceObjects2= [];
+gdjs.TV_95ARCADECode.GDyour_9595body_9595your_9595choiceObjects3= [];
+gdjs.TV_95ARCADECode.GDintroduction_9595to_9595immunityObjects1= [];
+gdjs.TV_95ARCADECode.GDintroduction_9595to_9595immunityObjects2= [];
+gdjs.TV_95ARCADECode.GDintroduction_9595to_9595immunityObjects3= [];
+gdjs.TV_95ARCADECode.GDhow_9595do_9595immunisations_9595workObjects1= [];
+gdjs.TV_95ARCADECode.GDhow_9595do_9595immunisations_9595workObjects2= [];
+gdjs.TV_95ARCADECode.GDhow_9595do_9595immunisations_9595workObjects3= [];
+gdjs.TV_95ARCADECode.GDherd_9595immunityObjects1= [];
+gdjs.TV_95ARCADECode.GDherd_9595immunityObjects2= [];
+gdjs.TV_95ARCADECode.GDherd_9595immunityObjects3= [];
 
 
 gdjs.TV_95ARCADECode.mapOfGDgdjs_9546TV_959595ARCADECode_9546GDBasketball_95959595GameObjects2Objects = Hashtable.newFrom({"Basketball_Game": gdjs.TV_95ARCADECode.GDBasketball_9595GameObjects2});
@@ -273,6 +285,18 @@ gdjs.TV_95ARCADECode.GDQuest_9595TextObjects3.length = 0;
 gdjs.TV_95ARCADECode.GDSmallGreenButtonObjects1.length = 0;
 gdjs.TV_95ARCADECode.GDSmallGreenButtonObjects2.length = 0;
 gdjs.TV_95ARCADECode.GDSmallGreenButtonObjects3.length = 0;
+gdjs.TV_95ARCADECode.GDyour_9595body_9595your_9595choiceObjects1.length = 0;
+gdjs.TV_95ARCADECode.GDyour_9595body_9595your_9595choiceObjects2.length = 0;
+gdjs.TV_95ARCADECode.GDyour_9595body_9595your_9595choiceObjects3.length = 0;
+gdjs.TV_95ARCADECode.GDintroduction_9595to_9595immunityObjects1.length = 0;
+gdjs.TV_95ARCADECode.GDintroduction_9595to_9595immunityObjects2.length = 0;
+gdjs.TV_95ARCADECode.GDintroduction_9595to_9595immunityObjects3.length = 0;
+gdjs.TV_95ARCADECode.GDhow_9595do_9595immunisations_9595workObjects1.length = 0;
+gdjs.TV_95ARCADECode.GDhow_9595do_9595immunisations_9595workObjects2.length = 0;
+gdjs.TV_95ARCADECode.GDhow_9595do_9595immunisations_9595workObjects3.length = 0;
+gdjs.TV_95ARCADECode.GDherd_9595immunityObjects1.length = 0;
+gdjs.TV_95ARCADECode.GDherd_9595immunityObjects2.length = 0;
+gdjs.TV_95ARCADECode.GDherd_9595immunityObjects3.length = 0;
 
 gdjs.TV_95ARCADECode.eventsList1(runtimeScene);
 gdjs.TV_95ARCADECode.GDBasketball_9595GameObjects1.length = 0;
@@ -323,6 +347,18 @@ gdjs.TV_95ARCADECode.GDQuest_9595TextObjects3.length = 0;
 gdjs.TV_95ARCADECode.GDSmallGreenButtonObjects1.length = 0;
 gdjs.TV_95ARCADECode.GDSmallGreenButtonObjects2.length = 0;
 gdjs.TV_95ARCADECode.GDSmallGreenButtonObjects3.length = 0;
+gdjs.TV_95ARCADECode.GDyour_9595body_9595your_9595choiceObjects1.length = 0;
+gdjs.TV_95ARCADECode.GDyour_9595body_9595your_9595choiceObjects2.length = 0;
+gdjs.TV_95ARCADECode.GDyour_9595body_9595your_9595choiceObjects3.length = 0;
+gdjs.TV_95ARCADECode.GDintroduction_9595to_9595immunityObjects1.length = 0;
+gdjs.TV_95ARCADECode.GDintroduction_9595to_9595immunityObjects2.length = 0;
+gdjs.TV_95ARCADECode.GDintroduction_9595to_9595immunityObjects3.length = 0;
+gdjs.TV_95ARCADECode.GDhow_9595do_9595immunisations_9595workObjects1.length = 0;
+gdjs.TV_95ARCADECode.GDhow_9595do_9595immunisations_9595workObjects2.length = 0;
+gdjs.TV_95ARCADECode.GDhow_9595do_9595immunisations_9595workObjects3.length = 0;
+gdjs.TV_95ARCADECode.GDherd_9595immunityObjects1.length = 0;
+gdjs.TV_95ARCADECode.GDherd_9595immunityObjects2.length = 0;
+gdjs.TV_95ARCADECode.GDherd_9595immunityObjects3.length = 0;
 
 
 return;
