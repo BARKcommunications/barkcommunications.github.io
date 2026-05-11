@@ -4817,7 +4817,7 @@ gdjs.level_951Code.GDindicatorObjects1.length = 0;
 {gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDindicatorObjects1Objects, (( gdjs.level_951Code.GDshadow_9595puppetObjects1.length === 0 ) ? 0 :gdjs.level_951Code.GDshadow_9595puppetObjects1[0].getAABBCenterX()), (( gdjs.level_951Code.GDshadow_9595puppetObjects1.length === 0 ) ? 0 :gdjs.level_951Code.GDshadow_9595puppetObjects1[0].getAABBCenterY()), "");
 }
 {for(var i = 0, len = gdjs.level_951Code.GDindicatorObjects1.length ;i < len;++i) {
-    gdjs.level_951Code.GDindicatorObjects1[i].getBehavior("Object3D").setZ(5);
+    gdjs.level_951Code.GDindicatorObjects1[i].getBehavior("Object3D").setZ(20);
 }
 }
 {for(var i = 0, len = gdjs.level_951Code.GDindicatorObjects1.length ;i < len;++i) {
