@@ -654,7 +654,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Physics
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(27726244);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(27891500);
 }
 if (isConditionTrue_0) {
 

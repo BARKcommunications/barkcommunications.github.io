@@ -9,7 +9,7 @@ gdjs.evtsExt__Sprite3D__DefineHelperClasses = {};
 gdjs.evtsExt__Sprite3D__DefineHelperClasses.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Sprite3D__DefineHelperClasses.userFunc0x150a718 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Sprite3D__DefineHelperClasses.userFunc0x17f3a80 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (gdjs.__sprite3DExtension) {
     return;
@@ -123,7 +123,7 @@ gdjs.evtsExt__Sprite3D__DefineHelperClasses.eventsList0 = function(runtimeScene,
 {
 
 
-gdjs.evtsExt__Sprite3D__DefineHelperClasses.userFunc0x150a718(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Sprite3D__DefineHelperClasses.userFunc0x17f3a80(runtimeScene, eventsFunctionContext);
 
 }
 

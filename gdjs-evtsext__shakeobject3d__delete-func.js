@@ -9,7 +9,7 @@ gdjs.evtsExt__ShakeObject3D__Delete = {};
 gdjs.evtsExt__ShakeObject3D__Delete.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__ShakeObject3D__Delete.userFunc0x1455970 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ShakeObject3D__Delete.userFunc0x14049c8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const name = eventsFunctionContext.getArgument("Name");
 
@@ -20,7 +20,7 @@ gdjs.evtsExt__ShakeObject3D__Delete.eventsList0 = function(runtimeScene, eventsF
 {
 
 
-gdjs.evtsExt__ShakeObject3D__Delete.userFunc0x1455970(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ShakeObject3D__Delete.userFunc0x14049c8(runtimeScene, eventsFunctionContext);
 
 }
 
