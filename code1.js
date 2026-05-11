@@ -55,6 +55,21 @@ gdjs.bin_95gameCode.GDhow_9595do_9595immunisations_9595workObjects3= [];
 gdjs.bin_95gameCode.GDherd_9595immunityObjects1= [];
 gdjs.bin_95gameCode.GDherd_9595immunityObjects2= [];
 gdjs.bin_95gameCode.GDherd_9595immunityObjects3= [];
+gdjs.bin_95gameCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects1= [];
+gdjs.bin_95gameCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects2= [];
+gdjs.bin_95gameCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects3= [];
+gdjs.bin_95gameCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects1= [];
+gdjs.bin_95gameCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects2= [];
+gdjs.bin_95gameCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects3= [];
+gdjs.bin_95gameCode.GDRed_9595Cliffs_9595VideoObjects1= [];
+gdjs.bin_95gameCode.GDRed_9595Cliffs_9595VideoObjects2= [];
+gdjs.bin_95gameCode.GDRed_9595Cliffs_9595VideoObjects3= [];
+gdjs.bin_95gameCode.GDBannana_9595VideoObjects1= [];
+gdjs.bin_95gameCode.GDBannana_9595VideoObjects2= [];
+gdjs.bin_95gameCode.GDBannana_9595VideoObjects3= [];
+gdjs.bin_95gameCode.GDGoku_9595Flower_9595VideoObjects1= [];
+gdjs.bin_95gameCode.GDGoku_9595Flower_9595VideoObjects2= [];
+gdjs.bin_95gameCode.GDGoku_9595Flower_9595VideoObjects3= [];
 
 
 gdjs.bin_95gameCode.mapOfEmptyGDgarbageObjects = Hashtable.newFrom({"garbage": []});
@@ -66,7 +81,7 @@ gdjs.bin_95gameCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27873596);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28725580);
 }
 if (isConditionTrue_0) {
 gdjs.bin_95gameCode.GDgarbageObjects2.length = 0;
@@ -89,7 +104,7 @@ gdjs.bin_95gameCode.mapOfEmptyGDgarbageObjects = Hashtable.newFrom({"garbage": [
 gdjs.bin_95gameCode.mapOfGDgdjs_9546bin_959595gameCode_9546GDgarbageObjects1Objects = Hashtable.newFrom({"garbage": gdjs.bin_95gameCode.GDgarbageObjects1});
 gdjs.bin_95gameCode.mapOfGDgdjs_9546bin_959595gameCode_9546GDbin_95959595topObjects1Objects = Hashtable.newFrom({"bin_top": gdjs.bin_95gameCode.GDbin_9595topObjects1});
 gdjs.bin_95gameCode.mapOfGDgdjs_9546bin_959595gameCode_9546GDCartoonSmokeObjects1Objects = Hashtable.newFrom({"CartoonSmoke": gdjs.bin_95gameCode.GDCartoonSmokeObjects1});
-gdjs.bin_95gameCode.asyncCallback27897260 = function (runtimeScene, asyncObjectsList) {
+gdjs.bin_95gameCode.asyncCallback28730772 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.bin_95gameCode.localVariables);
 {gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 2);
 }
@@ -97,7 +112,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.bin_95gameCode.localVariab
 }
 gdjs.bin_95gameCode.localVariables.length = 0;
 }
-gdjs.bin_95gameCode.idToCallbackMap.set(27897260, gdjs.bin_95gameCode.asyncCallback27897260);
+gdjs.bin_95gameCode.idToCallbackMap.set(28730772, gdjs.bin_95gameCode.asyncCallback28730772);
 gdjs.bin_95gameCode.eventsList1 = function(runtimeScene) {
 
 {
@@ -107,7 +122,7 @@ gdjs.bin_95gameCode.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.bin_95gameCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.bin_95gameCode.asyncCallback27897260(runtimeScene, asyncObjectsList)), 27897260, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.bin_95gameCode.asyncCallback28730772(runtimeScene, asyncObjectsList)), 28730772, asyncObjectsList);
 }
 }
 
@@ -187,7 +202,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.getSceneInstancesCount(runtimeScene, gdjs.bin_95gameCode.mapOfEmptyGDgarbageObjects) > 0;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27879692);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28728060);
 }
 }
 }
@@ -229,7 +244,7 @@ for (var i = 0, k = 0, l = gdjs.bin_95gameCode.GDgarbageObjects2.length;i<l;++i)
 gdjs.bin_95gameCode.GDgarbageObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27882684);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28729468);
 }
 }
 if (isConditionTrue_0) {
@@ -293,7 +308,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.physics2.areObjectsColliding(gdjs.bin_95gameCode.mapOfGDgdjs_9546bin_959595gameCode_9546GDgarbageObjects1Objects, "Physics2", gdjs.bin_95gameCode.mapOfGDgdjs_9546bin_959595gameCode_9546GDfloorObjects1Objects, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27898260);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28732020);
 }
 }
 if (isConditionTrue_0) {
@@ -368,6 +383,21 @@ gdjs.bin_95gameCode.GDhow_9595do_9595immunisations_9595workObjects3.length = 0;
 gdjs.bin_95gameCode.GDherd_9595immunityObjects1.length = 0;
 gdjs.bin_95gameCode.GDherd_9595immunityObjects2.length = 0;
 gdjs.bin_95gameCode.GDherd_9595immunityObjects3.length = 0;
+gdjs.bin_95gameCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects1.length = 0;
+gdjs.bin_95gameCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects2.length = 0;
+gdjs.bin_95gameCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects3.length = 0;
+gdjs.bin_95gameCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects1.length = 0;
+gdjs.bin_95gameCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects2.length = 0;
+gdjs.bin_95gameCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects3.length = 0;
+gdjs.bin_95gameCode.GDRed_9595Cliffs_9595VideoObjects1.length = 0;
+gdjs.bin_95gameCode.GDRed_9595Cliffs_9595VideoObjects2.length = 0;
+gdjs.bin_95gameCode.GDRed_9595Cliffs_9595VideoObjects3.length = 0;
+gdjs.bin_95gameCode.GDBannana_9595VideoObjects1.length = 0;
+gdjs.bin_95gameCode.GDBannana_9595VideoObjects2.length = 0;
+gdjs.bin_95gameCode.GDBannana_9595VideoObjects3.length = 0;
+gdjs.bin_95gameCode.GDGoku_9595Flower_9595VideoObjects1.length = 0;
+gdjs.bin_95gameCode.GDGoku_9595Flower_9595VideoObjects2.length = 0;
+gdjs.bin_95gameCode.GDGoku_9595Flower_9595VideoObjects3.length = 0;
 
 gdjs.bin_95gameCode.eventsList3(runtimeScene);
 gdjs.bin_95gameCode.GDbinObjects1.length = 0;
@@ -424,6 +454,21 @@ gdjs.bin_95gameCode.GDhow_9595do_9595immunisations_9595workObjects3.length = 0;
 gdjs.bin_95gameCode.GDherd_9595immunityObjects1.length = 0;
 gdjs.bin_95gameCode.GDherd_9595immunityObjects2.length = 0;
 gdjs.bin_95gameCode.GDherd_9595immunityObjects3.length = 0;
+gdjs.bin_95gameCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects1.length = 0;
+gdjs.bin_95gameCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects2.length = 0;
+gdjs.bin_95gameCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects3.length = 0;
+gdjs.bin_95gameCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects1.length = 0;
+gdjs.bin_95gameCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects2.length = 0;
+gdjs.bin_95gameCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects3.length = 0;
+gdjs.bin_95gameCode.GDRed_9595Cliffs_9595VideoObjects1.length = 0;
+gdjs.bin_95gameCode.GDRed_9595Cliffs_9595VideoObjects2.length = 0;
+gdjs.bin_95gameCode.GDRed_9595Cliffs_9595VideoObjects3.length = 0;
+gdjs.bin_95gameCode.GDBannana_9595VideoObjects1.length = 0;
+gdjs.bin_95gameCode.GDBannana_9595VideoObjects2.length = 0;
+gdjs.bin_95gameCode.GDBannana_9595VideoObjects3.length = 0;
+gdjs.bin_95gameCode.GDGoku_9595Flower_9595VideoObjects1.length = 0;
+gdjs.bin_95gameCode.GDGoku_9595Flower_9595VideoObjects2.length = 0;
+gdjs.bin_95gameCode.GDGoku_9595Flower_9595VideoObjects3.length = 0;
 
 
 return;

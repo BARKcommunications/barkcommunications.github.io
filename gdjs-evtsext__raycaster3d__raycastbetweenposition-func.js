@@ -10,7 +10,7 @@ gdjs.evtsExt__Raycaster3D__RaycastBetweenPosition.idToCallbackMap = new Map();
 gdjs.evtsExt__Raycaster3D__RaycastBetweenPosition.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__Raycaster3D__RaycastBetweenPosition.userFunc0x133ab58 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Raycaster3D__RaycastBetweenPosition.userFunc0x13e23a8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue =
     gdjs.__raycaster3DExtension.raycaster.recastBetweenPosition(
@@ -32,7 +32,7 @@ gdjs.evtsExt__Raycaster3D__RaycastBetweenPosition.eventsList0 = function(runtime
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Raycaster3D__RaycastBetweenPosition.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__Raycaster3D__RaycastBetweenPosition.GDObjectObjects1;
-gdjs.evtsExt__Raycaster3D__RaycastBetweenPosition.userFunc0x133ab58(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__Raycaster3D__RaycastBetweenPosition.userFunc0x13e23a8(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -70,7 +70,9 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        eventsFunctionContext._objectArraysMap[objectName].push(object);
+        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
+          eventsFunctionContext._objectArraysMap[objectName].push(object);
+        }
       }
       return object;
     }

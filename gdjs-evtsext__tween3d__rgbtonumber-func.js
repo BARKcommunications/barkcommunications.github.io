@@ -9,7 +9,7 @@ gdjs.evtsExt__Tween3D__RgbToNumber = {};
 gdjs.evtsExt__Tween3D__RgbToNumber.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Tween3D__RgbToNumber.userFunc0x946720 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Tween3D__RgbToNumber.userFunc0x13ded38 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = gdjs.rgbOrHexStringToNumber(eventsFunctionContext.getArgument("Color"));
 
@@ -19,7 +19,7 @@ gdjs.evtsExt__Tween3D__RgbToNumber.eventsList0 = function(runtimeScene, eventsFu
 {
 
 
-gdjs.evtsExt__Tween3D__RgbToNumber.userFunc0x946720(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Tween3D__RgbToNumber.userFunc0x13ded38(runtimeScene, eventsFunctionContext);
 
 }
 
@@ -55,7 +55,9 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        eventsFunctionContext._objectArraysMap[objectName].push(object);
+        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
+          eventsFunctionContext._objectArraysMap[objectName].push(object);
+        }
       }
       return object;
     }

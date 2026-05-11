@@ -37,12 +37,22 @@ gdjs.fishing_95gameCode.GDhow_9595do_9595immunisations_9595workObjects1= [];
 gdjs.fishing_95gameCode.GDhow_9595do_9595immunisations_9595workObjects2= [];
 gdjs.fishing_95gameCode.GDherd_9595immunityObjects1= [];
 gdjs.fishing_95gameCode.GDherd_9595immunityObjects2= [];
+gdjs.fishing_95gameCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects1= [];
+gdjs.fishing_95gameCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects2= [];
+gdjs.fishing_95gameCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects1= [];
+gdjs.fishing_95gameCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects2= [];
+gdjs.fishing_95gameCode.GDRed_9595Cliffs_9595VideoObjects1= [];
+gdjs.fishing_95gameCode.GDRed_9595Cliffs_9595VideoObjects2= [];
+gdjs.fishing_95gameCode.GDBannana_9595VideoObjects1= [];
+gdjs.fishing_95gameCode.GDBannana_9595VideoObjects2= [];
+gdjs.fishing_95gameCode.GDGoku_9595Flower_9595VideoObjects1= [];
+gdjs.fishing_95gameCode.GDGoku_9595Flower_9595VideoObjects2= [];
 
 
 gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDspearObjects1Objects = Hashtable.newFrom({"spear": gdjs.fishing_95gameCode.GDspearObjects1});
 gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDfishObjects1Objects = Hashtable.newFrom({"fish": gdjs.fishing_95gameCode.GDfishObjects1});
 gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDfishObjects2Objects = Hashtable.newFrom({"fish": gdjs.fishing_95gameCode.GDfishObjects2});
-gdjs.fishing_95gameCode.asyncCallback28609236 = function (runtimeScene, asyncObjectsList) {
+gdjs.fishing_95gameCode.asyncCallback29426564 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.fishing_95gameCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("fish"), gdjs.fishing_95gameCode.GDfishObjects2);
 
@@ -50,7 +60,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("fish"), gdjs.fishing_95gameCode.GDfi
 }
 gdjs.fishing_95gameCode.localVariables.length = 0;
 }
-gdjs.fishing_95gameCode.idToCallbackMap.set(28609236, gdjs.fishing_95gameCode.asyncCallback28609236);
+gdjs.fishing_95gameCode.idToCallbackMap.set(29426564, gdjs.fishing_95gameCode.asyncCallback29426564);
 gdjs.fishing_95gameCode.eventsList0 = function(runtimeScene) {
 
 {
@@ -61,7 +71,7 @@ gdjs.fishing_95gameCode.eventsList0 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.fishing_95gameCode.localVariables);
 for (const obj of gdjs.fishing_95gameCode.GDfishObjects1) asyncObjectsList.addObject("fish", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.25), (runtimeScene) => (gdjs.fishing_95gameCode.asyncCallback28609236(runtimeScene, asyncObjectsList)), 28609236, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.25), (runtimeScene) => (gdjs.fishing_95gameCode.asyncCallback29426564(runtimeScene, asyncObjectsList)), 29426564, asyncObjectsList);
 }
 }
 
@@ -82,7 +92,7 @@ gdjs.fishing_95gameCode.eventsList1 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28617068);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29434540);
 }
 if (isConditionTrue_0) {
 /* Reuse gdjs.fishing_95gameCode.GDspearObjects1 */
@@ -101,13 +111,13 @@ if (isConditionTrue_0) {
 gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDfishObjects1Objects = Hashtable.newFrom({"fish": gdjs.fishing_95gameCode.GDfishObjects1});
 gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDGOOD_95959595_959595330ATHA_95959595Objects1Objects = Hashtable.newFrom({"GOOD_ŊATHA_": gdjs.fishing_95gameCode.GDGOOD_9595_95330ATHA_9595Objects1});
 gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDfish_95959595explodeObjects1Objects = Hashtable.newFrom({"fish_explode": gdjs.fishing_95gameCode.GDfish_9595explodeObjects1});
-gdjs.fishing_95gameCode.asyncCallback28620820 = function (runtimeScene, asyncObjectsList) {
+gdjs.fishing_95gameCode.asyncCallback29438292 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.fishing_95gameCode.localVariables);
 {gdjs.evtTools.runtimeScene.popScene(runtimeScene);
 }
 gdjs.fishing_95gameCode.localVariables.length = 0;
 }
-gdjs.fishing_95gameCode.idToCallbackMap.set(28620820, gdjs.fishing_95gameCode.asyncCallback28620820);
+gdjs.fishing_95gameCode.idToCallbackMap.set(29438292, gdjs.fishing_95gameCode.asyncCallback29438292);
 gdjs.fishing_95gameCode.eventsList2 = function(runtimeScene) {
 
 {
@@ -117,7 +127,7 @@ gdjs.fishing_95gameCode.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.fishing_95gameCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.fishing_95gameCode.asyncCallback28620820(runtimeScene, asyncObjectsList)), 28620820, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.fishing_95gameCode.asyncCallback29438292(runtimeScene, asyncObjectsList)), 29438292, asyncObjectsList);
 }
 }
 
@@ -155,7 +165,7 @@ gdjs.fishing_95gameCode.eventsList4 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28622460);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29439932);
 }
 if (isConditionTrue_0) {
 /* Reuse gdjs.fishing_95gameCode.GDspearObjects1 */
@@ -204,6 +214,8 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "fish");
 }
+{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "speed");
+}
 }
 
 }
@@ -222,7 +234,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.physics2.areObjectsColliding(gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDspearObjects1Objects, "Physics2", gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDfishObjects1Objects, true);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28608788);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29426252);
 }
 }
 }
@@ -256,7 +268,7 @@ gdjs.fishing_95gameCode.GDfishObjects1.length = k;
 if (isConditionTrue_0) {
 /* Reuse gdjs.fishing_95gameCode.GDfishObjects1 */
 {for(var i = 0, len = gdjs.fishing_95gameCode.GDfishObjects1.length ;i < len;++i) {
-    gdjs.fishing_95gameCode.GDfishObjects1[i].setX(gdjs.fishing_95gameCode.GDfishObjects1[i].getX() - (gdjs.randomFloatInRange(45, 85)));
+    gdjs.fishing_95gameCode.GDfishObjects1[i].setX(gdjs.fishing_95gameCode.GDfishObjects1[i].getX() - (gdjs.evtTools.common.clamp(85 - gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSeconds(runtimeScene, "speed"), 25, 85)));
 }
 }
 }
@@ -312,7 +324,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28611212);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29428764);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -398,7 +410,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28614972);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29432460);
 }
 }
 }
@@ -411,7 +423,7 @@ if (isConditionTrue_0) {
 }
 }
 {for(var i = 0, len = gdjs.fishing_95gameCode.GDspearObjects1.length ;i < len;++i) {
-    gdjs.fishing_95gameCode.GDspearObjects1[i].getBehavior("Physics2").applyPolarImpulse(gdjs.evtTools.common.angleBetweenPositions(runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber(), runtimeScene.getScene().getVariables().getFromIndex(1).getAsNumber(), gdjs.evtTools.input.getCursorX(runtimeScene, "", 0), gdjs.evtTools.input.getCursorY(runtimeScene, "", 0)), (gdjs.evtTools.common.distanceBetweenPositions(runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber(), runtimeScene.getScene().getVariables().getFromIndex(1).getAsNumber(), gdjs.evtTools.input.getCursorX(runtimeScene, "", 0), gdjs.evtTools.input.getCursorY(runtimeScene, "", 0))) * 0.02, 0, 0);
+    gdjs.fishing_95gameCode.GDspearObjects1[i].getBehavior("Physics2").applyPolarImpulse(gdjs.evtTools.common.angleBetweenPositions(runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber(), runtimeScene.getScene().getVariables().getFromIndex(1).getAsNumber(), gdjs.evtTools.input.getCursorX(runtimeScene, "", 0), gdjs.evtTools.input.getCursorY(runtimeScene, "", 0)), (gdjs.evtTools.common.distanceBetweenPositions(runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber(), runtimeScene.getScene().getVariables().getFromIndex(1).getAsNumber(), gdjs.evtTools.input.getCursorX(runtimeScene, "", 0), gdjs.evtTools.input.getCursorY(runtimeScene, "", 0))) * 0.05, (gdjs.fishing_95gameCode.GDspearObjects1[i].getBehavior("Physics2").getMassCenterX()), (gdjs.fishing_95gameCode.GDspearObjects1[i].getBehavior("Physics2").getMassCenterY()));
 }
 }
 {gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/soundfx/fish_game/spear_throw.mp3", false, 100, gdjs.randomFloatInRange(0.7, 1.3));
@@ -459,7 +471,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.physics2.areObjectsColliding(gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDspearObjects1Objects, "Physics2", gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDfishObjects1Objects, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28618004);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29435476);
 }
 }
 if (isConditionTrue_0) {
@@ -566,6 +578,16 @@ gdjs.fishing_95gameCode.GDhow_9595do_9595immunisations_9595workObjects1.length =
 gdjs.fishing_95gameCode.GDhow_9595do_9595immunisations_9595workObjects2.length = 0;
 gdjs.fishing_95gameCode.GDherd_9595immunityObjects1.length = 0;
 gdjs.fishing_95gameCode.GDherd_9595immunityObjects2.length = 0;
+gdjs.fishing_95gameCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects1.length = 0;
+gdjs.fishing_95gameCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects2.length = 0;
+gdjs.fishing_95gameCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects1.length = 0;
+gdjs.fishing_95gameCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects2.length = 0;
+gdjs.fishing_95gameCode.GDRed_9595Cliffs_9595VideoObjects1.length = 0;
+gdjs.fishing_95gameCode.GDRed_9595Cliffs_9595VideoObjects2.length = 0;
+gdjs.fishing_95gameCode.GDBannana_9595VideoObjects1.length = 0;
+gdjs.fishing_95gameCode.GDBannana_9595VideoObjects2.length = 0;
+gdjs.fishing_95gameCode.GDGoku_9595Flower_9595VideoObjects1.length = 0;
+gdjs.fishing_95gameCode.GDGoku_9595Flower_9595VideoObjects2.length = 0;
 
 gdjs.fishing_95gameCode.eventsList5(runtimeScene);
 gdjs.fishing_95gameCode.GDspearObjects1.length = 0;
@@ -604,6 +626,16 @@ gdjs.fishing_95gameCode.GDhow_9595do_9595immunisations_9595workObjects1.length =
 gdjs.fishing_95gameCode.GDhow_9595do_9595immunisations_9595workObjects2.length = 0;
 gdjs.fishing_95gameCode.GDherd_9595immunityObjects1.length = 0;
 gdjs.fishing_95gameCode.GDherd_9595immunityObjects2.length = 0;
+gdjs.fishing_95gameCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects1.length = 0;
+gdjs.fishing_95gameCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects2.length = 0;
+gdjs.fishing_95gameCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects1.length = 0;
+gdjs.fishing_95gameCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects2.length = 0;
+gdjs.fishing_95gameCode.GDRed_9595Cliffs_9595VideoObjects1.length = 0;
+gdjs.fishing_95gameCode.GDRed_9595Cliffs_9595VideoObjects2.length = 0;
+gdjs.fishing_95gameCode.GDBannana_9595VideoObjects1.length = 0;
+gdjs.fishing_95gameCode.GDBannana_9595VideoObjects2.length = 0;
+gdjs.fishing_95gameCode.GDGoku_9595Flower_9595VideoObjects1.length = 0;
+gdjs.fishing_95gameCode.GDGoku_9595Flower_9595VideoObjects2.length = 0;
 
 
 return;

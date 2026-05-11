@@ -67,6 +67,21 @@ gdjs.Immunity_95Tent_95VideosCode.GDhow_9595do_9595immunisations_9595workObjects
 gdjs.Immunity_95Tent_95VideosCode.GDherd_9595immunityObjects1= [];
 gdjs.Immunity_95Tent_95VideosCode.GDherd_9595immunityObjects2= [];
 gdjs.Immunity_95Tent_95VideosCode.GDherd_9595immunityObjects3= [];
+gdjs.Immunity_95Tent_95VideosCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects1= [];
+gdjs.Immunity_95Tent_95VideosCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects2= [];
+gdjs.Immunity_95Tent_95VideosCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects3= [];
+gdjs.Immunity_95Tent_95VideosCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects1= [];
+gdjs.Immunity_95Tent_95VideosCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects2= [];
+gdjs.Immunity_95Tent_95VideosCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects3= [];
+gdjs.Immunity_95Tent_95VideosCode.GDRed_9595Cliffs_9595VideoObjects1= [];
+gdjs.Immunity_95Tent_95VideosCode.GDRed_9595Cliffs_9595VideoObjects2= [];
+gdjs.Immunity_95Tent_95VideosCode.GDRed_9595Cliffs_9595VideoObjects3= [];
+gdjs.Immunity_95Tent_95VideosCode.GDBannana_9595VideoObjects1= [];
+gdjs.Immunity_95Tent_95VideosCode.GDBannana_9595VideoObjects2= [];
+gdjs.Immunity_95Tent_95VideosCode.GDBannana_9595VideoObjects3= [];
+gdjs.Immunity_95Tent_95VideosCode.GDGoku_9595Flower_9595VideoObjects1= [];
+gdjs.Immunity_95Tent_95VideosCode.GDGoku_9595Flower_9595VideoObjects2= [];
+gdjs.Immunity_95Tent_95VideosCode.GDGoku_9595Flower_9595VideoObjects3= [];
 
 
 gdjs.Immunity_95Tent_95VideosCode.mapOfEmptyGDintroduction_9595to_9595germsObjectsEmptyGDRiver_9595StoryObjectsEmptyGDhow_9595do_9595germs_9595spread_9595in_9595the_9595bodyObjectsEmptyGDyour_9595body_9595your_9595choiceObjectsEmptyGDintroduction_9595to_9595immunityObjectsEmptyGDhow_9595do_9595immunisations_9595workObjectsEmptyGDherd_9595immunityObjects = Hashtable.newFrom({"introduction_to_germs": [], "River_Story": [], "how_do_germs_spread_in_the_body": [], "your_body_your_choice": [], "introduction_to_immunity": [], "how_do_immunisations_work": [], "herd_immunity": []});
@@ -516,6 +531,21 @@ gdjs.Immunity_95Tent_95VideosCode.GDhow_9595do_9595immunisations_9595workObjects
 gdjs.Immunity_95Tent_95VideosCode.GDherd_9595immunityObjects1.length = 0;
 gdjs.Immunity_95Tent_95VideosCode.GDherd_9595immunityObjects2.length = 0;
 gdjs.Immunity_95Tent_95VideosCode.GDherd_9595immunityObjects3.length = 0;
+gdjs.Immunity_95Tent_95VideosCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects1.length = 0;
+gdjs.Immunity_95Tent_95VideosCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects2.length = 0;
+gdjs.Immunity_95Tent_95VideosCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects3.length = 0;
+gdjs.Immunity_95Tent_95VideosCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects1.length = 0;
+gdjs.Immunity_95Tent_95VideosCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects2.length = 0;
+gdjs.Immunity_95Tent_95VideosCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects3.length = 0;
+gdjs.Immunity_95Tent_95VideosCode.GDRed_9595Cliffs_9595VideoObjects1.length = 0;
+gdjs.Immunity_95Tent_95VideosCode.GDRed_9595Cliffs_9595VideoObjects2.length = 0;
+gdjs.Immunity_95Tent_95VideosCode.GDRed_9595Cliffs_9595VideoObjects3.length = 0;
+gdjs.Immunity_95Tent_95VideosCode.GDBannana_9595VideoObjects1.length = 0;
+gdjs.Immunity_95Tent_95VideosCode.GDBannana_9595VideoObjects2.length = 0;
+gdjs.Immunity_95Tent_95VideosCode.GDBannana_9595VideoObjects3.length = 0;
+gdjs.Immunity_95Tent_95VideosCode.GDGoku_9595Flower_9595VideoObjects1.length = 0;
+gdjs.Immunity_95Tent_95VideosCode.GDGoku_9595Flower_9595VideoObjects2.length = 0;
+gdjs.Immunity_95Tent_95VideosCode.GDGoku_9595Flower_9595VideoObjects3.length = 0;
 
 gdjs.Immunity_95Tent_95VideosCode.eventsList1(runtimeScene);
 gdjs.Immunity_95Tent_95VideosCode.GD_9595001_9595River_9595StoryObjects1.length = 0;
@@ -584,6 +614,21 @@ gdjs.Immunity_95Tent_95VideosCode.GDhow_9595do_9595immunisations_9595workObjects
 gdjs.Immunity_95Tent_95VideosCode.GDherd_9595immunityObjects1.length = 0;
 gdjs.Immunity_95Tent_95VideosCode.GDherd_9595immunityObjects2.length = 0;
 gdjs.Immunity_95Tent_95VideosCode.GDherd_9595immunityObjects3.length = 0;
+gdjs.Immunity_95Tent_95VideosCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects1.length = 0;
+gdjs.Immunity_95Tent_95VideosCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects2.length = 0;
+gdjs.Immunity_95Tent_95VideosCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects3.length = 0;
+gdjs.Immunity_95Tent_95VideosCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects1.length = 0;
+gdjs.Immunity_95Tent_95VideosCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects2.length = 0;
+gdjs.Immunity_95Tent_95VideosCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects3.length = 0;
+gdjs.Immunity_95Tent_95VideosCode.GDRed_9595Cliffs_9595VideoObjects1.length = 0;
+gdjs.Immunity_95Tent_95VideosCode.GDRed_9595Cliffs_9595VideoObjects2.length = 0;
+gdjs.Immunity_95Tent_95VideosCode.GDRed_9595Cliffs_9595VideoObjects3.length = 0;
+gdjs.Immunity_95Tent_95VideosCode.GDBannana_9595VideoObjects1.length = 0;
+gdjs.Immunity_95Tent_95VideosCode.GDBannana_9595VideoObjects2.length = 0;
+gdjs.Immunity_95Tent_95VideosCode.GDBannana_9595VideoObjects3.length = 0;
+gdjs.Immunity_95Tent_95VideosCode.GDGoku_9595Flower_9595VideoObjects1.length = 0;
+gdjs.Immunity_95Tent_95VideosCode.GDGoku_9595Flower_9595VideoObjects2.length = 0;
+gdjs.Immunity_95Tent_95VideosCode.GDGoku_9595Flower_9595VideoObjects3.length = 0;
 
 
 return;

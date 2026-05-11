@@ -9,7 +9,7 @@ gdjs.evtsExt__Tween3D__onSceneUnloading = {};
 gdjs.evtsExt__Tween3D__onSceneUnloading.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Tween3D__onSceneUnloading.userFunc0x946720 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Tween3D__onSceneUnloading.userFunc0x13ded38 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!runtimeScene.__tween3DExtension) {
     return;
@@ -26,7 +26,7 @@ gdjs.evtsExt__Tween3D__onSceneUnloading.eventsList0 = function(runtimeScene, eve
 {
 
 
-gdjs.evtsExt__Tween3D__onSceneUnloading.userFunc0x946720(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Tween3D__onSceneUnloading.userFunc0x13ded38(runtimeScene, eventsFunctionContext);
 
 }
 
@@ -62,7 +62,9 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        eventsFunctionContext._objectArraysMap[objectName].push(object);
+        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
+          eventsFunctionContext._objectArraysMap[objectName].push(object);
+        }
       }
       return object;
     }

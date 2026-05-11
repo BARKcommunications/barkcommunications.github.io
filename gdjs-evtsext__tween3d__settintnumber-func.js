@@ -10,7 +10,7 @@ gdjs.evtsExt__Tween3D__SetTintNumber.idToCallbackMap = new Map();
 gdjs.evtsExt__Tween3D__SetTintNumber.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__Tween3D__SetTintNumber.userFunc0x946720 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Tween3D__SetTintNumber.userFunc0x13ded38 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const color = eventsFunctionContext.getArgument("Color");
 
@@ -38,7 +38,7 @@ gdjs.evtsExt__Tween3D__SetTintNumber.eventsList0 = function(runtimeScene, events
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Tween3D__SetTintNumber.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__Tween3D__SetTintNumber.GDObjectObjects1;
-gdjs.evtsExt__Tween3D__SetTintNumber.userFunc0x946720(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__Tween3D__SetTintNumber.userFunc0x13ded38(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -77,7 +77,9 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        eventsFunctionContext._objectArraysMap[objectName].push(object);
+        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
+          eventsFunctionContext._objectArraysMap[objectName].push(object);
+        }
       }
       return object;
     }

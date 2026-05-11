@@ -9,7 +9,7 @@ gdjs.evtsExt__Tween3D__RgbMean = {};
 gdjs.evtsExt__Tween3D__RgbMean.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Tween3D__RgbMean.userFunc0x946720 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Tween3D__RgbMean.userFunc0x13ded38 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const { rgbToHsl, hslToRgb } = gdjs.__tween3DExtension;
 
@@ -34,7 +34,7 @@ gdjs.evtsExt__Tween3D__RgbMean.eventsList0 = function(runtimeScene, eventsFuncti
 {
 
 
-gdjs.evtsExt__Tween3D__RgbMean.userFunc0x946720(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Tween3D__RgbMean.userFunc0x13ded38(runtimeScene, eventsFunctionContext);
 
 }
 
@@ -70,7 +70,9 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        eventsFunctionContext._objectArraysMap[objectName].push(object);
+        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
+          eventsFunctionContext._objectArraysMap[objectName].push(object);
+        }
       }
       return object;
     }

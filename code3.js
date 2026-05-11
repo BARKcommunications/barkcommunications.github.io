@@ -43,6 +43,21 @@ gdjs.germ_95gameCode.GDhow_9595do_9595immunisations_9595workObjects3= [];
 gdjs.germ_95gameCode.GDherd_9595immunityObjects1= [];
 gdjs.germ_95gameCode.GDherd_9595immunityObjects2= [];
 gdjs.germ_95gameCode.GDherd_9595immunityObjects3= [];
+gdjs.germ_95gameCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects1= [];
+gdjs.germ_95gameCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects2= [];
+gdjs.germ_95gameCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects3= [];
+gdjs.germ_95gameCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects1= [];
+gdjs.germ_95gameCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects2= [];
+gdjs.germ_95gameCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects3= [];
+gdjs.germ_95gameCode.GDRed_9595Cliffs_9595VideoObjects1= [];
+gdjs.germ_95gameCode.GDRed_9595Cliffs_9595VideoObjects2= [];
+gdjs.germ_95gameCode.GDRed_9595Cliffs_9595VideoObjects3= [];
+gdjs.germ_95gameCode.GDBannana_9595VideoObjects1= [];
+gdjs.germ_95gameCode.GDBannana_9595VideoObjects2= [];
+gdjs.germ_95gameCode.GDBannana_9595VideoObjects3= [];
+gdjs.germ_95gameCode.GDGoku_9595Flower_9595VideoObjects1= [];
+gdjs.germ_95gameCode.GDGoku_9595Flower_9595VideoObjects2= [];
+gdjs.germ_95gameCode.GDGoku_9595Flower_9595VideoObjects3= [];
 
 
 gdjs.germ_95gameCode.mapOfGDgdjs_9546germ_959595gameCode_9546GDgermObjects1Objects = Hashtable.newFrom({"germ": gdjs.germ_95gameCode.GDgermObjects1});
@@ -171,7 +186,7 @@ gdjs.germ_95gameCode.GDgermObjects2.length = 0;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28066340);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28883348);
 }
 if (isConditionTrue_0)
 {
@@ -391,6 +406,21 @@ gdjs.germ_95gameCode.GDhow_9595do_9595immunisations_9595workObjects3.length = 0;
 gdjs.germ_95gameCode.GDherd_9595immunityObjects1.length = 0;
 gdjs.germ_95gameCode.GDherd_9595immunityObjects2.length = 0;
 gdjs.germ_95gameCode.GDherd_9595immunityObjects3.length = 0;
+gdjs.germ_95gameCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects1.length = 0;
+gdjs.germ_95gameCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects2.length = 0;
+gdjs.germ_95gameCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects3.length = 0;
+gdjs.germ_95gameCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects1.length = 0;
+gdjs.germ_95gameCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects2.length = 0;
+gdjs.germ_95gameCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects3.length = 0;
+gdjs.germ_95gameCode.GDRed_9595Cliffs_9595VideoObjects1.length = 0;
+gdjs.germ_95gameCode.GDRed_9595Cliffs_9595VideoObjects2.length = 0;
+gdjs.germ_95gameCode.GDRed_9595Cliffs_9595VideoObjects3.length = 0;
+gdjs.germ_95gameCode.GDBannana_9595VideoObjects1.length = 0;
+gdjs.germ_95gameCode.GDBannana_9595VideoObjects2.length = 0;
+gdjs.germ_95gameCode.GDBannana_9595VideoObjects3.length = 0;
+gdjs.germ_95gameCode.GDGoku_9595Flower_9595VideoObjects1.length = 0;
+gdjs.germ_95gameCode.GDGoku_9595Flower_9595VideoObjects2.length = 0;
+gdjs.germ_95gameCode.GDGoku_9595Flower_9595VideoObjects3.length = 0;
 
 gdjs.germ_95gameCode.eventsList3(runtimeScene);
 gdjs.germ_95gameCode.GDgermObjects1.length = 0;
@@ -435,6 +465,21 @@ gdjs.germ_95gameCode.GDhow_9595do_9595immunisations_9595workObjects3.length = 0;
 gdjs.germ_95gameCode.GDherd_9595immunityObjects1.length = 0;
 gdjs.germ_95gameCode.GDherd_9595immunityObjects2.length = 0;
 gdjs.germ_95gameCode.GDherd_9595immunityObjects3.length = 0;
+gdjs.germ_95gameCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects1.length = 0;
+gdjs.germ_95gameCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects2.length = 0;
+gdjs.germ_95gameCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects3.length = 0;
+gdjs.germ_95gameCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects1.length = 0;
+gdjs.germ_95gameCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects2.length = 0;
+gdjs.germ_95gameCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects3.length = 0;
+gdjs.germ_95gameCode.GDRed_9595Cliffs_9595VideoObjects1.length = 0;
+gdjs.germ_95gameCode.GDRed_9595Cliffs_9595VideoObjects2.length = 0;
+gdjs.germ_95gameCode.GDRed_9595Cliffs_9595VideoObjects3.length = 0;
+gdjs.germ_95gameCode.GDBannana_9595VideoObjects1.length = 0;
+gdjs.germ_95gameCode.GDBannana_9595VideoObjects2.length = 0;
+gdjs.germ_95gameCode.GDBannana_9595VideoObjects3.length = 0;
+gdjs.germ_95gameCode.GDGoku_9595Flower_9595VideoObjects1.length = 0;
+gdjs.germ_95gameCode.GDGoku_9595Flower_9595VideoObjects2.length = 0;
+gdjs.germ_95gameCode.GDGoku_9595Flower_9595VideoObjects3.length = 0;
 
 
 return;

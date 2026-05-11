@@ -49,6 +49,21 @@ gdjs.bookCode.GDhow_9595do_9595immunisations_9595workObjects3= [];
 gdjs.bookCode.GDherd_9595immunityObjects1= [];
 gdjs.bookCode.GDherd_9595immunityObjects2= [];
 gdjs.bookCode.GDherd_9595immunityObjects3= [];
+gdjs.bookCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects1= [];
+gdjs.bookCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects2= [];
+gdjs.bookCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects3= [];
+gdjs.bookCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects1= [];
+gdjs.bookCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects2= [];
+gdjs.bookCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects3= [];
+gdjs.bookCode.GDRed_9595Cliffs_9595VideoObjects1= [];
+gdjs.bookCode.GDRed_9595Cliffs_9595VideoObjects2= [];
+gdjs.bookCode.GDRed_9595Cliffs_9595VideoObjects3= [];
+gdjs.bookCode.GDBannana_9595VideoObjects1= [];
+gdjs.bookCode.GDBannana_9595VideoObjects2= [];
+gdjs.bookCode.GDBannana_9595VideoObjects3= [];
+gdjs.bookCode.GDGoku_9595Flower_9595VideoObjects1= [];
+gdjs.bookCode.GDGoku_9595Flower_9595VideoObjects2= [];
+gdjs.bookCode.GDGoku_9595Flower_9595VideoObjects3= [];
 
 
 gdjs.bookCode.mapOfGDgdjs_9546bookCode_9546GDbook_95959595backObjects2Objects = Hashtable.newFrom({"book_back": gdjs.bookCode.GDbook_9595backObjects2});
@@ -224,7 +239,7 @@ for (var i = 0, k = 0, l = gdjs.bookCode.GDbook_9595frontObjects1.length;i<l;++i
 gdjs.bookCode.GDbook_9595frontObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28546252);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29363468);
 }
 }
 }
@@ -267,7 +282,7 @@ for (var i = 0, k = 0, l = gdjs.bookCode.GDbook_9595behindObjects1.length;i<l;++
 gdjs.bookCode.GDbook_9595behindObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28547276);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29364492);
 }
 }
 }
@@ -306,7 +321,7 @@ for (var i = 0, k = 0, l = gdjs.bookCode.GDbook_9595behindObjects1.length;i<l;++
 gdjs.bookCode.GDbook_9595behindObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28548668);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29365884);
 }
 }
 if (isConditionTrue_0) {
@@ -345,7 +360,7 @@ for (var i = 0, k = 0, l = gdjs.bookCode.GDbook_9595frontObjects1.length;i<l;++i
 gdjs.bookCode.GDbook_9595frontObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28550004);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29367220);
 }
 }
 if (isConditionTrue_0) {
@@ -444,6 +459,21 @@ gdjs.bookCode.GDhow_9595do_9595immunisations_9595workObjects3.length = 0;
 gdjs.bookCode.GDherd_9595immunityObjects1.length = 0;
 gdjs.bookCode.GDherd_9595immunityObjects2.length = 0;
 gdjs.bookCode.GDherd_9595immunityObjects3.length = 0;
+gdjs.bookCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects1.length = 0;
+gdjs.bookCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects2.length = 0;
+gdjs.bookCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects3.length = 0;
+gdjs.bookCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects1.length = 0;
+gdjs.bookCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects2.length = 0;
+gdjs.bookCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects3.length = 0;
+gdjs.bookCode.GDRed_9595Cliffs_9595VideoObjects1.length = 0;
+gdjs.bookCode.GDRed_9595Cliffs_9595VideoObjects2.length = 0;
+gdjs.bookCode.GDRed_9595Cliffs_9595VideoObjects3.length = 0;
+gdjs.bookCode.GDBannana_9595VideoObjects1.length = 0;
+gdjs.bookCode.GDBannana_9595VideoObjects2.length = 0;
+gdjs.bookCode.GDBannana_9595VideoObjects3.length = 0;
+gdjs.bookCode.GDGoku_9595Flower_9595VideoObjects1.length = 0;
+gdjs.bookCode.GDGoku_9595Flower_9595VideoObjects2.length = 0;
+gdjs.bookCode.GDGoku_9595Flower_9595VideoObjects3.length = 0;
 
 gdjs.bookCode.eventsList1(runtimeScene);
 gdjs.bookCode.GDbook_9595frontObjects1.length = 0;
@@ -494,6 +524,21 @@ gdjs.bookCode.GDhow_9595do_9595immunisations_9595workObjects3.length = 0;
 gdjs.bookCode.GDherd_9595immunityObjects1.length = 0;
 gdjs.bookCode.GDherd_9595immunityObjects2.length = 0;
 gdjs.bookCode.GDherd_9595immunityObjects3.length = 0;
+gdjs.bookCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects1.length = 0;
+gdjs.bookCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects2.length = 0;
+gdjs.bookCode.GDGawa_9595Ngatha_9595Boys_9595VideoObjects3.length = 0;
+gdjs.bookCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects1.length = 0;
+gdjs.bookCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects2.length = 0;
+gdjs.bookCode.GDGawa_9595Ngatha_9595Girls_9595VideoObjects3.length = 0;
+gdjs.bookCode.GDRed_9595Cliffs_9595VideoObjects1.length = 0;
+gdjs.bookCode.GDRed_9595Cliffs_9595VideoObjects2.length = 0;
+gdjs.bookCode.GDRed_9595Cliffs_9595VideoObjects3.length = 0;
+gdjs.bookCode.GDBannana_9595VideoObjects1.length = 0;
+gdjs.bookCode.GDBannana_9595VideoObjects2.length = 0;
+gdjs.bookCode.GDBannana_9595VideoObjects3.length = 0;
+gdjs.bookCode.GDGoku_9595Flower_9595VideoObjects1.length = 0;
+gdjs.bookCode.GDGoku_9595Flower_9595VideoObjects2.length = 0;
+gdjs.bookCode.GDGoku_9595Flower_9595VideoObjects3.length = 0;
 
 
 return;

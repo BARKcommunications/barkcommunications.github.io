@@ -9,7 +9,7 @@ gdjs.evtsExt__ShakeObject3D__SetSeed = {};
 gdjs.evtsExt__ShakeObject3D__SetSeed.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__ShakeObject3D__SetSeed.userFunc0x1552fb0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ShakeObject3D__SetSeed.userFunc0x1455970 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 gdjs._shakeObjectExtension.noiseManager.setSeed(eventsFunctionContext.getArgument("Seed"));
 };
@@ -18,7 +18,7 @@ gdjs.evtsExt__ShakeObject3D__SetSeed.eventsList0 = function(runtimeScene, events
 {
 
 
-gdjs.evtsExt__ShakeObject3D__SetSeed.userFunc0x1552fb0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ShakeObject3D__SetSeed.userFunc0x1455970(runtimeScene, eventsFunctionContext);
 
 }
 
@@ -54,7 +54,9 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        eventsFunctionContext._objectArraysMap[objectName].push(object);
+        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
+          eventsFunctionContext._objectArraysMap[objectName].push(object);
+        }
       }
       return object;
     }

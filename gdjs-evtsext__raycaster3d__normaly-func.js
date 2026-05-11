@@ -9,7 +9,7 @@ gdjs.evtsExt__Raycaster3D__NormalY = {};
 gdjs.evtsExt__Raycaster3D__NormalY.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Raycaster3D__NormalY.userFunc0x133c1d0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Raycaster3D__NormalY.userFunc0x13e2bb0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = gdjs.__raycaster3DExtension.raycaster.lastNormal.y;
 };
@@ -18,7 +18,7 @@ gdjs.evtsExt__Raycaster3D__NormalY.eventsList0 = function(runtimeScene, eventsFu
 {
 
 
-gdjs.evtsExt__Raycaster3D__NormalY.userFunc0x133c1d0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Raycaster3D__NormalY.userFunc0x13e2bb0(runtimeScene, eventsFunctionContext);
 
 }
 
@@ -54,7 +54,9 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        eventsFunctionContext._objectArraysMap[objectName].push(object);
+        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
+          eventsFunctionContext._objectArraysMap[objectName].push(object);
+        }
       }
       return object;
     }
