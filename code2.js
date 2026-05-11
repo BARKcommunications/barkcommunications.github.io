@@ -578,16 +578,14 @@ gdjs.basketball_95gameCode.eventsList8(runtimeScene);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "time") >= 30;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28802740);
+gdjs.copyArray(runtimeScene.getObjects("crowd"), gdjs.basketball_95gameCode.GDcrowdObjects1);
+{for(var i = 0, len = gdjs.basketball_95gameCode.GDcrowdObjects1.length ;i < len;++i) {
+    gdjs.basketball_95gameCode.GDcrowdObjects1[i].getBehavior("Animation").setAnimationIndex(0);
 }
 }
-if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.popScene(runtimeScene);
-}
-{gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "chill.mp3", false, 80, gdjs.randomFloatInRange(0.9, 1.1));
 }
 }
 
@@ -599,14 +597,32 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "time") >= 30;
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("crowd"), gdjs.basketball_95gameCode.GDcrowdObjects1);
-{for(var i = 0, len = gdjs.basketball_95gameCode.GDcrowdObjects1.length ;i < len;++i) {
-    gdjs.basketball_95gameCode.GDcrowdObjects1[i].getBehavior("Animation").setAnimationIndex(0);
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28804660);
 }
 }
-{gdjs.evtTools.sound.playSound(runtimeScene, "chill.mp3", false, 80, gdjs.randomFloatInRange(0.9, 1.1));
+if (isConditionTrue_0) {
+{gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, "basketball", runtimeScene.getScene().getVariables().getFromIndex(4).getAsNumber(), runtimeScene.getGame().getVariables().getFromIndex(0).getAsString());
+}
+{gdjs.evtTools.leaderboards.displayLeaderboard(runtimeScene, "b09df861-6d6e-41cc-8b78-cee784db5f5b", true);
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.leaderboards.hasPlayerJustClosedLeaderboardView();
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 1);
+}
+{gdjs.evtTools.runtimeScene.popScene(runtimeScene);
 }
 }
 

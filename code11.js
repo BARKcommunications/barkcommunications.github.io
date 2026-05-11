@@ -1855,6 +1855,22 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "timer") >= 60;
 if (isConditionTrue_0) {
+{gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, "ba8f07b8-3934-40c4-9c5e-d65e44b58850", runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber(), runtimeScene.getGame().getVariables().getFromIndex(0).getAsString());
+}
+{gdjs.evtTools.leaderboards.displayLeaderboard(runtimeScene, "ba8f07b8-3934-40c4-9c5e-d65e44b58850", true);
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.leaderboards.hasPlayerJustClosedLeaderboardView();
+if (isConditionTrue_0) {
 {gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 1);
 }
 {gdjs.evtTools.runtimeScene.popScene(runtimeScene);
