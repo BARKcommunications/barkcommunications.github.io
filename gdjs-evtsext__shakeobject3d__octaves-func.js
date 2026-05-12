@@ -9,7 +9,7 @@ gdjs.evtsExt__ShakeObject3D__Octaves = {};
 gdjs.evtsExt__ShakeObject3D__Octaves.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__ShakeObject3D__Octaves.userFunc0x18dbd28 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ShakeObject3D__Octaves.userFunc0x966a18 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const name = eventsFunctionContext.getArgument("Name");
 
@@ -20,7 +20,7 @@ gdjs.evtsExt__ShakeObject3D__Octaves.eventsList0 = function(runtimeScene, events
 {
 
 
-gdjs.evtsExt__ShakeObject3D__Octaves.userFunc0x18dbd28(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ShakeObject3D__Octaves.userFunc0x966a18(runtimeScene, eventsFunctionContext);
 
 }
 

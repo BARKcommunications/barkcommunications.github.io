@@ -81,7 +81,7 @@ gdjs.bin_95gameCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29012908);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29014188);
 }
 if (isConditionTrue_0) {
 gdjs.bin_95gameCode.GDgarbageObjects2.length = 0;
@@ -104,7 +104,7 @@ gdjs.bin_95gameCode.mapOfEmptyGDgarbageObjects = Hashtable.newFrom({"garbage": [
 gdjs.bin_95gameCode.mapOfGDgdjs_9546bin_959595gameCode_9546GDgarbageObjects1Objects = Hashtable.newFrom({"garbage": gdjs.bin_95gameCode.GDgarbageObjects1});
 gdjs.bin_95gameCode.mapOfGDgdjs_9546bin_959595gameCode_9546GDbin_95959595topObjects1Objects = Hashtable.newFrom({"bin_top": gdjs.bin_95gameCode.GDbin_9595topObjects1});
 gdjs.bin_95gameCode.mapOfGDgdjs_9546bin_959595gameCode_9546GDCartoonSmokeObjects1Objects = Hashtable.newFrom({"CartoonSmoke": gdjs.bin_95gameCode.GDCartoonSmokeObjects1});
-gdjs.bin_95gameCode.asyncCallback29018268 = function (runtimeScene, asyncObjectsList) {
+gdjs.bin_95gameCode.asyncCallback29019548 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.bin_95gameCode.localVariables);
 {gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 2);
 }
@@ -112,7 +112,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.bin_95gameCode.localVariab
 }
 gdjs.bin_95gameCode.localVariables.length = 0;
 }
-gdjs.bin_95gameCode.idToCallbackMap.set(29018268, gdjs.bin_95gameCode.asyncCallback29018268);
+gdjs.bin_95gameCode.idToCallbackMap.set(29019548, gdjs.bin_95gameCode.asyncCallback29019548);
 gdjs.bin_95gameCode.eventsList1 = function(runtimeScene) {
 
 {
@@ -122,7 +122,7 @@ gdjs.bin_95gameCode.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.bin_95gameCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.bin_95gameCode.asyncCallback29018268(runtimeScene, asyncObjectsList)), 29018268, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.bin_95gameCode.asyncCallback29019548(runtimeScene, asyncObjectsList)), 29019548, asyncObjectsList);
 }
 }
 
@@ -202,7 +202,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.getSceneInstancesCount(runtimeScene, gdjs.bin_95gameCode.mapOfEmptyGDgarbageObjects) > 0;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29015084);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29016364);
 }
 }
 }
@@ -244,7 +244,7 @@ for (var i = 0, k = 0, l = gdjs.bin_95gameCode.GDgarbageObjects2.length;i<l;++i)
 gdjs.bin_95gameCode.GDgarbageObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29016748);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29018028);
 }
 }
 if (isConditionTrue_0) {
@@ -308,7 +308,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.physics2.areObjectsColliding(gdjs.bin_95gameCode.mapOfGDgdjs_9546bin_959595gameCode_9546GDgarbageObjects1Objects, "Physics2", gdjs.bin_95gameCode.mapOfGDgdjs_9546bin_959595gameCode_9546GDfloorObjects1Objects, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29018972);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(29020252);
 }
 }
 if (isConditionTrue_0) {
