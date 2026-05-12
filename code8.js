@@ -15,6 +15,12 @@ gdjs.fishing_95gameCode.GDfish_9595explodeObjects1= [];
 gdjs.fishing_95gameCode.GDfish_9595explodeObjects2= [];
 gdjs.fishing_95gameCode.GDVerticalBubblesObjects1= [];
 gdjs.fishing_95gameCode.GDVerticalBubblesObjects2= [];
+gdjs.fishing_95gameCode.GDturtleObjects1= [];
+gdjs.fishing_95gameCode.GDturtleObjects2= [];
+gdjs.fishing_95gameCode.GDjellyfishObjects1= [];
+gdjs.fishing_95gameCode.GDjellyfishObjects2= [];
+gdjs.fishing_95gameCode.GDBubblesSprayObjects1= [];
+gdjs.fishing_95gameCode.GDBubblesSprayObjects2= [];
 gdjs.fishing_95gameCode.GDPaper_9595Bark_9595VideoObjects1= [];
 gdjs.fishing_95gameCode.GDPaper_9595Bark_9595VideoObjects2= [];
 gdjs.fishing_95gameCode.GDintroduction_9595to_9595germsObjects1= [];
@@ -51,12 +57,15 @@ gdjs.fishing_95gameCode.GDGoku_9595Flower_9595VideoObjects2= [];
 
 gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDspearObjects1Objects = Hashtable.newFrom({"spear": gdjs.fishing_95gameCode.GDspearObjects1});
 gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDfishObjects1Objects = Hashtable.newFrom({"fish": gdjs.fishing_95gameCode.GDfishObjects1});
+gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDBubblesSprayObjects1Objects = Hashtable.newFrom({"BubblesSpray": gdjs.fishing_95gameCode.GDBubblesSprayObjects1});
 gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDfishObjects2Objects = Hashtable.newFrom({"fish": gdjs.fishing_95gameCode.GDfishObjects2});
 gdjs.fishing_95gameCode.asyncCallback29619460 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.fishing_95gameCode.localVariables);
+gdjs.copyArray(asyncObjectsList.getObjects("BubblesSpray"), gdjs.fishing_95gameCode.GDBubblesSprayObjects2);
+
 gdjs.copyArray(asyncObjectsList.getObjects("fish"), gdjs.fishing_95gameCode.GDfishObjects2);
 
-{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDfishObjects2Objects, 1500, gdjs.randomInRange(200, 550), "");
+{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDfishObjects2Objects, 1500, (( gdjs.fishing_95gameCode.GDBubblesSprayObjects2.length === 0 ) ? 0 :gdjs.fishing_95gameCode.GDBubblesSprayObjects2[0].getY()), "");
 }
 gdjs.fishing_95gameCode.localVariables.length = 0;
 }
@@ -70,6 +79,7 @@ gdjs.fishing_95gameCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.fishing_95gameCode.localVariables);
+for (const obj of gdjs.fishing_95gameCode.GDBubblesSprayObjects1) asyncObjectsList.addObject("BubblesSpray", obj);
 for (const obj of gdjs.fishing_95gameCode.GDfishObjects1) asyncObjectsList.addObject("fish", obj);
 runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.25), (runtimeScene) => (gdjs.fishing_95gameCode.asyncCallback29619460(runtimeScene, asyncObjectsList)), 29619460, asyncObjectsList);
 }
@@ -239,9 +249,17 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
+gdjs.fishing_95gameCode.GDBubblesSprayObjects1.length = 0;
+
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "fish");
 }
 {gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/soundfx/fish_game/bubbles.mp3", false, 55, 1);
+}
+{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.fishing_95gameCode.mapOfGDgdjs_9546fishing_959595gameCode_9546GDBubblesSprayObjects1Objects, 1285, gdjs.randomInRange(200, 550), "UI");
+}
+{for(var i = 0, len = gdjs.fishing_95gameCode.GDBubblesSprayObjects1.length ;i < len;++i) {
+    gdjs.fishing_95gameCode.GDBubblesSprayObjects1[i].setAngle(180);
+}
 }
 
 { //Subevents
@@ -556,6 +574,12 @@ gdjs.fishing_95gameCode.GDfish_9595explodeObjects1.length = 0;
 gdjs.fishing_95gameCode.GDfish_9595explodeObjects2.length = 0;
 gdjs.fishing_95gameCode.GDVerticalBubblesObjects1.length = 0;
 gdjs.fishing_95gameCode.GDVerticalBubblesObjects2.length = 0;
+gdjs.fishing_95gameCode.GDturtleObjects1.length = 0;
+gdjs.fishing_95gameCode.GDturtleObjects2.length = 0;
+gdjs.fishing_95gameCode.GDjellyfishObjects1.length = 0;
+gdjs.fishing_95gameCode.GDjellyfishObjects2.length = 0;
+gdjs.fishing_95gameCode.GDBubblesSprayObjects1.length = 0;
+gdjs.fishing_95gameCode.GDBubblesSprayObjects2.length = 0;
 gdjs.fishing_95gameCode.GDPaper_9595Bark_9595VideoObjects1.length = 0;
 gdjs.fishing_95gameCode.GDPaper_9595Bark_9595VideoObjects2.length = 0;
 gdjs.fishing_95gameCode.GDintroduction_9595to_9595germsObjects1.length = 0;
@@ -604,6 +628,12 @@ gdjs.fishing_95gameCode.GDfish_9595explodeObjects1.length = 0;
 gdjs.fishing_95gameCode.GDfish_9595explodeObjects2.length = 0;
 gdjs.fishing_95gameCode.GDVerticalBubblesObjects1.length = 0;
 gdjs.fishing_95gameCode.GDVerticalBubblesObjects2.length = 0;
+gdjs.fishing_95gameCode.GDturtleObjects1.length = 0;
+gdjs.fishing_95gameCode.GDturtleObjects2.length = 0;
+gdjs.fishing_95gameCode.GDjellyfishObjects1.length = 0;
+gdjs.fishing_95gameCode.GDjellyfishObjects2.length = 0;
+gdjs.fishing_95gameCode.GDBubblesSprayObjects1.length = 0;
+gdjs.fishing_95gameCode.GDBubblesSprayObjects2.length = 0;
 gdjs.fishing_95gameCode.GDPaper_9595Bark_9595VideoObjects1.length = 0;
 gdjs.fishing_95gameCode.GDPaper_9595Bark_9595VideoObjects2.length = 0;
 gdjs.fishing_95gameCode.GDintroduction_9595to_9595germsObjects1.length = 0;

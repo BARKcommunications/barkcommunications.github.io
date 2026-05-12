@@ -6395,7 +6395,7 @@ let isConditionTrue_0 = false;
 {
 gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest_9595TextObjects3);
 {for(var i = 0, len = gdjs.level_951Code.GDQuest_9595TextObjects3.length ;i < len;++i) {
-    gdjs.level_951Code.GDQuest_9595TextObjects3[i].getBehavior("Text").setText("Marthakal is hosting a \nHealthy Homeland Week.\n\nThis week we are learning about GERMS!\n\nGo and talk to the Health Team and learn more.");
+    gdjs.level_951Code.GDQuest_9595TextObjects3[i].getBehavior("Text").setText("'I am a GERM and I have invaded this house. \n\nIf you want to learn how to defeat me you should go talk to the Marthakal health team!'");
 }
 }
 {gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/dialouge/Mean_Germ/marthakal_is_hosting_a_healthy.mp3", false, 100, 1);
@@ -7775,6 +7775,52 @@ gdjs.level_951Code.eventsList101(runtimeScene);} //End of subevents
 }
 
 
+};gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDfishObjects2Objects = Hashtable.newFrom({"fish": gdjs.level_951Code.GDfishObjects2});
+gdjs.level_951Code.eventsList103 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+gdjs.copyArray(gdjs.level_951Code.GDfishObjects1, gdjs.level_951Code.GDfishObjects3);
+
+{for(var i = 0, len = gdjs.level_951Code.GDfishObjects3.length ;i < len;++i) {
+    gdjs.level_951Code.GDfishObjects3[i].getBehavior("Scale").setScale(0.25);
+}
+}
+{for(var i = 0, len = gdjs.level_951Code.GDfishObjects3.length ;i < len;++i) {
+    gdjs.level_951Code.GDfishObjects3[i].getBehavior("Object3D").setZ(80);
+}
+}
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.level_951Code.GDPlayerObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Player2"), gdjs.level_951Code.GDPlayer2Objects2);
+gdjs.copyArray(gdjs.level_951Code.GDfishObjects1, gdjs.level_951Code.GDfishObjects2);
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.object.pickNearestObject(gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDfishObjects2Objects, (( gdjs.level_951Code.GDPlayer2Objects2.length === 0 ) ? (( gdjs.level_951Code.GDPlayerObjects2.length === 0 ) ? 0 :gdjs.level_951Code.GDPlayerObjects2[0].getX()) :gdjs.level_951Code.GDPlayer2Objects2[0].getX()), (( gdjs.level_951Code.GDPlayer2Objects2.length === 0 ) ? (( gdjs.level_951Code.GDPlayerObjects2.length === 0 ) ? 0 :gdjs.level_951Code.GDPlayerObjects2[0].getY()) :gdjs.level_951Code.GDPlayer2Objects2[0].getY()), false);
+if (isConditionTrue_0) {
+/* Reuse gdjs.level_951Code.GDPlayerObjects2 */
+/* Reuse gdjs.level_951Code.GDPlayer2Objects2 */
+/* Reuse gdjs.level_951Code.GDfishObjects2 */
+{for(var i = 0, len = gdjs.level_951Code.GDfishObjects2.length ;i < len;++i) {
+    gdjs.level_951Code.GDfishObjects2[i].putAroundObject((gdjs.level_951Code.GDPlayerObjects2.length !== 0 ? gdjs.level_951Code.GDPlayerObjects2[0] : (gdjs.level_951Code.GDPlayer2Objects2.length !== 0 ? gdjs.level_951Code.GDPlayer2Objects2[0] : null)), 15, (( gdjs.level_951Code.GDPlayer2Objects2.length === 0 ) ? (( gdjs.level_951Code.GDPlayerObjects2.length === 0 ) ? 0 :gdjs.level_951Code.GDPlayerObjects2[0].getAngle()) :gdjs.level_951Code.GDPlayer2Objects2[0].getAngle()));
+}
+}
+}
+
+}
+
+
 };gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDPlayerObjects2ObjectsGDgdjs_9546level_9595951Code_9546GDPlayer2Objects2Objects = Hashtable.newFrom({"Player": gdjs.level_951Code.GDPlayerObjects2, "Player2": gdjs.level_951Code.GDPlayer2Objects2});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDfish_95959595story_95959595indicatorObjects2Objects = Hashtable.newFrom({"fish_story_indicator": gdjs.level_951Code.GDfish_9595story_9595indicatorObjects2});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDPlayerObjects2ObjectsGDgdjs_9546level_9595951Code_9546GDPlayer2Objects2Objects = Hashtable.newFrom({"Player": gdjs.level_951Code.GDPlayerObjects2, "Player2": gdjs.level_951Code.GDPlayer2Objects2});
@@ -7782,15 +7828,31 @@ gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDcamfire_95959595famil
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDPlayerObjects2ObjectsGDgdjs_9546level_9595951Code_9546GDPlayer2Objects2Objects = Hashtable.newFrom({"Player": gdjs.level_951Code.GDPlayerObjects2, "Player2": gdjs.level_951Code.GDPlayer2Objects2});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDcamfire_95959595familyObjects2Objects = Hashtable.newFrom({"camfire_family": gdjs.level_951Code.GDcamfire_9595familyObjects2});
 gdjs.level_951Code.mapOfEmptyGDQuest_9595TextObjects = Hashtable.newFrom({"Quest_Text": []});
+gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDfishObjects3Objects = Hashtable.newFrom({"fish": gdjs.level_951Code.GDfishObjects3});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDfishObjects2Objects = Hashtable.newFrom({"fish": gdjs.level_951Code.GDfishObjects2});
+gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDfishObjects3Objects = Hashtable.newFrom({"fish": gdjs.level_951Code.GDfishObjects3});
 gdjs.level_951Code.asyncCallback30271884 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.level_951Code.localVariables);
+gdjs.copyArray(asyncObjectsList.getObjects("fish_story_indicator"), gdjs.level_951Code.GDfish_9595story_9595indicatorObjects3);
+
+gdjs.copyArray(asyncObjectsList.getObjects("fish"), gdjs.level_951Code.GDfishObjects3);
+
 {gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 9);
+}
+{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDfishObjects3Objects, (( gdjs.level_951Code.GDfish_9595story_9595indicatorObjects3.length === 0 ) ? 0 :gdjs.level_951Code.GDfish_9595story_9595indicatorObjects3[0].getX()) + 50, (( gdjs.level_951Code.GDfish_9595story_9595indicatorObjects3.length === 0 ) ? 0 :gdjs.level_951Code.GDfish_9595story_9595indicatorObjects3[0].getY()), "");
+}
+{for(var i = 0, len = gdjs.level_951Code.GDfishObjects3.length ;i < len;++i) {
+    gdjs.level_951Code.GDfishObjects3[i].getBehavior("Object3D").setZ(15);
+}
+}
+{for(var i = 0, len = gdjs.level_951Code.GDfishObjects3.length ;i < len;++i) {
+    gdjs.level_951Code.GDfishObjects3[i].getBehavior("Scale").setScale(0.25);
+}
 }
 gdjs.level_951Code.localVariables.length = 0;
 }
 gdjs.level_951Code.idToCallbackMap.set(30271884, gdjs.level_951Code.asyncCallback30271884);
-gdjs.level_951Code.eventsList103 = function(runtimeScene) {
+gdjs.level_951Code.eventsList104 = function(runtimeScene) {
 
 {
 
@@ -7799,6 +7861,8 @@ gdjs.level_951Code.eventsList103 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.level_951Code.localVariables);
+for (const obj of gdjs.level_951Code.GDfishObjects2) asyncObjectsList.addObject("fish", obj);
+for (const obj of gdjs.level_951Code.GDfish_9595story_9595indicatorObjects1) asyncObjectsList.addObject("fish_story_indicator", obj);
 runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.level_951Code.asyncCallback30271884(runtimeScene, asyncObjectsList)), 30271884, asyncObjectsList);
 }
 }
@@ -7806,7 +7870,35 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), 
 }
 
 
-};gdjs.level_951Code.eventsList104 = function(runtimeScene) {
+};gdjs.level_951Code.eventsList105 = function(runtimeScene) {
+
+{
+
+gdjs.copyArray(gdjs.level_951Code.GDPlayerObjects2, gdjs.level_951Code.GDPlayerObjects3);
+
+gdjs.copyArray(gdjs.level_951Code.GDPlayer2Objects2, gdjs.level_951Code.GDPlayer2Objects3);
+
+gdjs.copyArray(gdjs.level_951Code.GDfishObjects1, gdjs.level_951Code.GDfishObjects3);
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.object.pickNearestObject(gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDfishObjects3Objects, (( gdjs.level_951Code.GDPlayer2Objects3.length === 0 ) ? (( gdjs.level_951Code.GDPlayerObjects3.length === 0 ) ? 0 :gdjs.level_951Code.GDPlayerObjects3[0].getX()) :gdjs.level_951Code.GDPlayer2Objects3[0].getX()), (( gdjs.level_951Code.GDPlayer2Objects3.length === 0 ) ? (( gdjs.level_951Code.GDPlayerObjects3.length === 0 ) ? 0 :gdjs.level_951Code.GDPlayerObjects3[0].getY()) :gdjs.level_951Code.GDPlayer2Objects3[0].getY()), false);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22036420);
+}
+}
+if (isConditionTrue_0) {
+/* Reuse gdjs.level_951Code.GDfishObjects3 */
+{for(var i = 0, len = gdjs.level_951Code.GDfishObjects3.length ;i < len;++i) {
+    gdjs.level_951Code.GDfishObjects3[i].deleteFromScene(runtimeScene);
+}
+}
+}
+
+}
+
 
 {
 
@@ -7855,13 +7947,13 @@ gdjs.copyArray(gdjs.level_951Code.GDfishObjects1, gdjs.level_951Code.GDfishObjec
 }
 
 { //Subevents
-gdjs.level_951Code.eventsList103(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList104(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.level_951Code.eventsList105 = function(runtimeScene) {
+};gdjs.level_951Code.eventsList106 = function(runtimeScene) {
 
 {
 
@@ -7879,7 +7971,7 @@ if (isConditionTrue_0) {
 }
 
 { //Subevents
-gdjs.level_951Code.eventsList104(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList105(runtimeScene);} //End of subevents
 }
 
 }
@@ -7888,7 +7980,7 @@ gdjs.level_951Code.eventsList104(runtimeScene);} //End of subevents
 };gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDPlayerObjects2ObjectsGDgdjs_9546level_9595951Code_9546GDPlayer2Objects2Objects = Hashtable.newFrom({"Player": gdjs.level_951Code.GDPlayerObjects2, "Player2": gdjs.level_951Code.GDPlayer2Objects2});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDcamfire_95959595familyObjects2Objects = Hashtable.newFrom({"camfire_family": gdjs.level_951Code.GDcamfire_9595familyObjects2});
 gdjs.level_951Code.mapOfEmptyGDQuest_9595TextObjects = Hashtable.newFrom({"Quest_Text": []});
-gdjs.level_951Code.eventsList106 = function(runtimeScene) {
+gdjs.level_951Code.eventsList107 = function(runtimeScene) {
 
 {
 
@@ -7907,7 +7999,7 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest
 }
 
 
-};gdjs.level_951Code.eventsList107 = function(runtimeScene) {
+};gdjs.level_951Code.eventsList108 = function(runtimeScene) {
 
 {
 
@@ -7925,7 +8017,7 @@ if (isConditionTrue_0) {
 }
 
 { //Subevents
-gdjs.level_951Code.eventsList106(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList107(runtimeScene);} //End of subevents
 }
 
 }
@@ -7934,7 +8026,7 @@ gdjs.level_951Code.eventsList106(runtimeScene);} //End of subevents
 };gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDPlayerObjects2ObjectsGDgdjs_9546level_9595951Code_9546GDPlayer2Objects2Objects = Hashtable.newFrom({"Player": gdjs.level_951Code.GDPlayerObjects2, "Player2": gdjs.level_951Code.GDPlayer2Objects2});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDdr_95959595ahwObjects2Objects = Hashtable.newFrom({"dr_ahw": gdjs.level_951Code.GDdr_9595ahwObjects2});
 gdjs.level_951Code.mapOfEmptyGDQuest_9595TextObjects = Hashtable.newFrom({"Quest_Text": []});
-gdjs.level_951Code.eventsList108 = function(runtimeScene) {
+gdjs.level_951Code.eventsList109 = function(runtimeScene) {
 
 {
 
@@ -7953,7 +8045,7 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest
 }
 
 
-};gdjs.level_951Code.eventsList109 = function(runtimeScene) {
+};gdjs.level_951Code.eventsList110 = function(runtimeScene) {
 
 {
 
@@ -7971,7 +8063,7 @@ if (isConditionTrue_0) {
 }
 
 { //Subevents
-gdjs.level_951Code.eventsList108(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList109(runtimeScene);} //End of subevents
 }
 
 }
@@ -7979,7 +8071,7 @@ gdjs.level_951Code.eventsList108(runtimeScene);} //End of subevents
 
 };gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDPlayerObjects1ObjectsGDgdjs_9546level_9595951Code_9546GDPlayer2Objects1Objects = Hashtable.newFrom({"Player": gdjs.level_951Code.GDPlayerObjects1, "Player2": gdjs.level_951Code.GDPlayer2Objects1});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDdr_95959595ahwObjects1Objects = Hashtable.newFrom({"dr_ahw": gdjs.level_951Code.GDdr_9595ahwObjects1});
-gdjs.level_951Code.eventsList110 = function(runtimeScene) {
+gdjs.level_951Code.eventsList111 = function(runtimeScene) {
 
 {
 
@@ -8010,7 +8102,7 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest
 }
 
 
-};gdjs.level_951Code.eventsList111 = function(runtimeScene) {
+};gdjs.level_951Code.eventsList112 = function(runtimeScene) {
 
 {
 
@@ -8035,22 +8127,9 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = runtimeScene.getGame().getVariables().getFromIndex(13).getAsBoolean();
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.level_951Code.GDPlayerObjects2);
-gdjs.copyArray(runtimeScene.getObjects("Player2"), gdjs.level_951Code.GDPlayer2Objects2);
-gdjs.copyArray(gdjs.level_951Code.GDfishObjects1, gdjs.level_951Code.GDfishObjects2);
 
-{for(var i = 0, len = gdjs.level_951Code.GDfishObjects2.length ;i < len;++i) {
-    gdjs.level_951Code.GDfishObjects2[i].putAroundObject((gdjs.level_951Code.GDPlayerObjects2.length !== 0 ? gdjs.level_951Code.GDPlayerObjects2[0] : (gdjs.level_951Code.GDPlayer2Objects2.length !== 0 ? gdjs.level_951Code.GDPlayer2Objects2[0] : null)), 15, (( gdjs.level_951Code.GDPlayer2Objects2.length === 0 ) ? (( gdjs.level_951Code.GDPlayerObjects2.length === 0 ) ? 0 :gdjs.level_951Code.GDPlayerObjects2[0].getAngle()) :gdjs.level_951Code.GDPlayer2Objects2[0].getAngle()));
-}
-}
-{for(var i = 0, len = gdjs.level_951Code.GDfishObjects2.length ;i < len;++i) {
-    gdjs.level_951Code.GDfishObjects2[i].getBehavior("Object3D").setZ(80);
-}
-}
-{for(var i = 0, len = gdjs.level_951Code.GDfishObjects2.length ;i < len;++i) {
-    gdjs.level_951Code.GDfishObjects2[i].getBehavior("Scale").setScale(0.25);
-}
-}
+{ //Subevents
+gdjs.level_951Code.eventsList103(runtimeScene);} //End of subevents
 }
 
 }
@@ -8182,7 +8261,7 @@ if (isConditionTrue_0) {
 }
 
 { //Subevents
-gdjs.level_951Code.eventsList105(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList106(runtimeScene);} //End of subevents
 }
 
 }
@@ -8236,7 +8315,7 @@ if (isConditionTrue_0) {
 }
 
 { //Subevents
-gdjs.level_951Code.eventsList107(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList108(runtimeScene);} //End of subevents
 }
 
 }
@@ -8285,7 +8364,7 @@ if (isConditionTrue_0) {
 }
 
 { //Subevents
-gdjs.level_951Code.eventsList109(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList110(runtimeScene);} //End of subevents
 }
 
 }
@@ -8334,13 +8413,13 @@ if (isConditionTrue_0) {
 }
 
 { //Subevents
-gdjs.level_951Code.eventsList110(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList111(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.level_951Code.eventsList112 = function(runtimeScene) {
+};gdjs.level_951Code.eventsList113 = function(runtimeScene) {
 
 {
 
@@ -8366,13 +8445,13 @@ gdjs.copyArray(runtimeScene.getObjects("fish_story_indicator"), gdjs.level_951Co
 }
 
 { //Subevents
-gdjs.level_951Code.eventsList111(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList112(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.level_951Code.eventsList113 = function(runtimeScene) {
+};gdjs.level_951Code.eventsList114 = function(runtimeScene) {
 
 {
 
@@ -8398,11 +8477,11 @@ gdjs.level_951Code.eventsList102(runtimeScene);
 {
 
 
-gdjs.level_951Code.eventsList112(runtimeScene);
+gdjs.level_951Code.eventsList113(runtimeScene);
 }
 
 
-};gdjs.level_951Code.eventsList114 = function(runtimeScene) {
+};gdjs.level_951Code.eventsList115 = function(runtimeScene) {
 
 {
 
@@ -8479,7 +8558,7 @@ gdjs.copyArray(runtimeScene.getObjects("quest_text_indicator"), gdjs.level_951Co
 };gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDdr_95959595ahwObjects2Objects = Hashtable.newFrom({"dr_ahw": gdjs.level_951Code.GDdr_9595ahwObjects2});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDPlayerObjects2ObjectsGDgdjs_9546level_9595951Code_9546GDPlayer2Objects2Objects = Hashtable.newFrom({"Player": gdjs.level_951Code.GDPlayerObjects2, "Player2": gdjs.level_951Code.GDPlayer2Objects2});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDConveration_95959595IndicatorObjects2Objects = Hashtable.newFrom({"Converation_Indicator": gdjs.level_951Code.GDConveration_9595IndicatorObjects2});
-gdjs.level_951Code.eventsList115 = function(runtimeScene) {
+gdjs.level_951Code.eventsList116 = function(runtimeScene) {
 
 {
 
@@ -8499,7 +8578,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.level_951Code.eventsList116 = function(runtimeScene) {
+};gdjs.level_951Code.eventsList117 = function(runtimeScene) {
 
 {
 
@@ -8525,7 +8604,7 @@ gdjs.level_951Code.GDConveration_9595IndicatorObjects2.length = 0;
 }
 
 { //Subevents
-gdjs.level_951Code.eventsList115(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList116(runtimeScene);} //End of subevents
 }
 
 }
@@ -8534,7 +8613,7 @@ gdjs.level_951Code.eventsList115(runtimeScene);} //End of subevents
 };gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDdr_95959595ahwObjects2Objects = Hashtable.newFrom({"dr_ahw": gdjs.level_951Code.GDdr_9595ahwObjects2});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDPlayerObjects2ObjectsGDgdjs_9546level_9595951Code_9546GDPlayer2Objects2Objects = Hashtable.newFrom({"Player": gdjs.level_951Code.GDPlayerObjects2, "Player2": gdjs.level_951Code.GDPlayer2Objects2});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDConveration_95959595IndicatorObjects2Objects = Hashtable.newFrom({"Converation_Indicator": gdjs.level_951Code.GDConveration_9595IndicatorObjects2});
-gdjs.level_951Code.eventsList117 = function(runtimeScene) {
+gdjs.level_951Code.eventsList118 = function(runtimeScene) {
 
 {
 
@@ -8558,7 +8637,7 @@ if (isConditionTrue_0) {
 };gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDcamfire_95959595familyObjects2Objects = Hashtable.newFrom({"camfire_family": gdjs.level_951Code.GDcamfire_9595familyObjects2});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDPlayerObjects2ObjectsGDgdjs_9546level_9595951Code_9546GDPlayer2Objects2Objects = Hashtable.newFrom({"Player": gdjs.level_951Code.GDPlayerObjects2, "Player2": gdjs.level_951Code.GDPlayer2Objects2});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDConveration_95959595IndicatorObjects2Objects = Hashtable.newFrom({"Converation_Indicator": gdjs.level_951Code.GDConveration_9595IndicatorObjects2});
-gdjs.level_951Code.eventsList118 = function(runtimeScene) {
+gdjs.level_951Code.eventsList119 = function(runtimeScene) {
 
 {
 
@@ -8604,7 +8683,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.level_951Code.eventsList119 = function(runtimeScene) {
+};gdjs.level_951Code.eventsList120 = function(runtimeScene) {
 
 {
 
@@ -8630,7 +8709,7 @@ gdjs.level_951Code.GDConveration_9595IndicatorObjects2.length = 0;
 }
 
 { //Subevents
-gdjs.level_951Code.eventsList118(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList119(runtimeScene);} //End of subevents
 }
 
 }
@@ -8639,7 +8718,7 @@ gdjs.level_951Code.eventsList118(runtimeScene);} //End of subevents
 };gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDcamfire_95959595familyObjects2Objects = Hashtable.newFrom({"camfire_family": gdjs.level_951Code.GDcamfire_9595familyObjects2});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDPlayerObjects2ObjectsGDgdjs_9546level_9595951Code_9546GDPlayer2Objects2Objects = Hashtable.newFrom({"Player": gdjs.level_951Code.GDPlayerObjects2, "Player2": gdjs.level_951Code.GDPlayer2Objects2});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDConveration_95959595IndicatorObjects2Objects = Hashtable.newFrom({"Converation_Indicator": gdjs.level_951Code.GDConveration_9595IndicatorObjects2});
-gdjs.level_951Code.eventsList120 = function(runtimeScene) {
+gdjs.level_951Code.eventsList121 = function(runtimeScene) {
 
 {
 
@@ -8663,7 +8742,7 @@ if (isConditionTrue_0) {
 };gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDmean_95959595germObjects2Objects = Hashtable.newFrom({"mean_germ": gdjs.level_951Code.GDmean_9595germObjects2});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDPlayerObjects2ObjectsGDgdjs_9546level_9595951Code_9546GDPlayer2Objects2Objects = Hashtable.newFrom({"Player": gdjs.level_951Code.GDPlayerObjects2, "Player2": gdjs.level_951Code.GDPlayer2Objects2});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDConveration_95959595IndicatorObjects3Objects = Hashtable.newFrom({"Converation_Indicator": gdjs.level_951Code.GDConveration_9595IndicatorObjects3});
-gdjs.level_951Code.eventsList121 = function(runtimeScene) {
+gdjs.level_951Code.eventsList122 = function(runtimeScene) {
 
 {
 
@@ -8716,7 +8795,7 @@ gdjs.copyArray(runtimeScene.getObjects("Converation_Indicator"), gdjs.level_951C
 };gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDmean_95959595germObjects2Objects = Hashtable.newFrom({"mean_germ": gdjs.level_951Code.GDmean_9595germObjects2});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDPlayerObjects2ObjectsGDgdjs_9546level_9595951Code_9546GDPlayer2Objects2Objects = Hashtable.newFrom({"Player": gdjs.level_951Code.GDPlayerObjects2, "Player2": gdjs.level_951Code.GDPlayer2Objects2});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDConveration_95959595IndicatorObjects2Objects = Hashtable.newFrom({"Converation_Indicator": gdjs.level_951Code.GDConveration_9595IndicatorObjects2});
-gdjs.level_951Code.eventsList122 = function(runtimeScene) {
+gdjs.level_951Code.eventsList123 = function(runtimeScene) {
 
 {
 
@@ -8740,7 +8819,7 @@ if (isConditionTrue_0) {
 };gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDStewart_95959595CharcterObjects2Objects = Hashtable.newFrom({"Stewart_Charcter": gdjs.level_951Code.GDStewart_9595CharcterObjects2});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDPlayerObjects2ObjectsGDgdjs_9546level_9595951Code_9546GDPlayer2Objects2Objects = Hashtable.newFrom({"Player": gdjs.level_951Code.GDPlayerObjects2, "Player2": gdjs.level_951Code.GDPlayer2Objects2});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDConveration_95959595IndicatorObjects2Objects = Hashtable.newFrom({"Converation_Indicator": gdjs.level_951Code.GDConveration_9595IndicatorObjects2});
-gdjs.level_951Code.eventsList123 = function(runtimeScene) {
+gdjs.level_951Code.eventsList124 = function(runtimeScene) {
 
 {
 
@@ -8760,7 +8839,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.level_951Code.eventsList124 = function(runtimeScene) {
+};gdjs.level_951Code.eventsList125 = function(runtimeScene) {
 
 {
 
@@ -8785,7 +8864,7 @@ gdjs.level_951Code.GDConveration_9595IndicatorObjects2.length = 0;
 }
 
 { //Subevents
-gdjs.level_951Code.eventsList123(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList124(runtimeScene);} //End of subevents
 }
 
 }
@@ -8794,7 +8873,7 @@ gdjs.level_951Code.eventsList123(runtimeScene);} //End of subevents
 };gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDStewart_95959595CharcterObjects1Objects = Hashtable.newFrom({"Stewart_Charcter": gdjs.level_951Code.GDStewart_9595CharcterObjects1});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDPlayerObjects1ObjectsGDgdjs_9546level_9595951Code_9546GDPlayer2Objects1Objects = Hashtable.newFrom({"Player": gdjs.level_951Code.GDPlayerObjects1, "Player2": gdjs.level_951Code.GDPlayer2Objects1});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDConveration_95959595IndicatorObjects1Objects = Hashtable.newFrom({"Converation_Indicator": gdjs.level_951Code.GDConveration_9595IndicatorObjects1});
-gdjs.level_951Code.eventsList125 = function(runtimeScene) {
+gdjs.level_951Code.eventsList126 = function(runtimeScene) {
 
 {
 
@@ -8815,12 +8894,12 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.level_951Code.eventsList126 = function(runtimeScene) {
+};gdjs.level_951Code.eventsList127 = function(runtimeScene) {
 
 {
 
 
-gdjs.level_951Code.eventsList114(runtimeScene);
+gdjs.level_951Code.eventsList115(runtimeScene);
 }
 
 
@@ -8836,7 +8915,7 @@ isConditionTrue_0 = gdjs.evtTools.object.distanceTest(gdjs.level_951Code.mapOfGD
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.level_951Code.eventsList116(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList117(runtimeScene);} //End of subevents
 }
 
 }
@@ -8859,7 +8938,7 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.level_951Code.eventsList117(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList118(runtimeScene);} //End of subevents
 }
 
 }
@@ -8877,7 +8956,7 @@ isConditionTrue_0 = gdjs.evtTools.object.distanceTest(gdjs.level_951Code.mapOfGD
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.level_951Code.eventsList119(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList120(runtimeScene);} //End of subevents
 }
 
 }
@@ -8900,7 +8979,7 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.level_951Code.eventsList120(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList121(runtimeScene);} //End of subevents
 }
 
 }
@@ -8918,7 +8997,7 @@ isConditionTrue_0 = gdjs.evtTools.object.distanceTest(gdjs.level_951Code.mapOfGD
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.level_951Code.eventsList121(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList122(runtimeScene);} //End of subevents
 }
 
 }
@@ -8941,7 +9020,7 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.level_951Code.eventsList122(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList123(runtimeScene);} //End of subevents
 }
 
 }
@@ -8959,7 +9038,7 @@ isConditionTrue_0 = gdjs.evtTools.object.distanceTest(gdjs.level_951Code.mapOfGD
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.level_951Code.eventsList124(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList125(runtimeScene);} //End of subevents
 }
 
 }
@@ -8982,20 +9061,20 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.level_951Code.eventsList125(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList126(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.level_951Code.eventsList127 = function(runtimeScene) {
+};gdjs.level_951Code.eventsList128 = function(runtimeScene) {
 
 };gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDPlayerObjects3ObjectsGDgdjs_9546level_9595951Code_9546GDPlayer2Objects3Objects = Hashtable.newFrom({"Player": gdjs.level_951Code.GDPlayerObjects3, "Player2": gdjs.level_951Code.GDPlayer2Objects3});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDwood_95959595floorObjects3Objects = Hashtable.newFrom({"wood_floor": gdjs.level_951Code.GDwood_9595floorObjects3});
 gdjs.level_951Code.mapOfEmptyGDmean_9595germObjects = Hashtable.newFrom({"mean_germ": []});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDwallObjects3Objects = Hashtable.newFrom({"wall": gdjs.level_951Code.GDwallObjects3});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDwood_95959595floorObjects3Objects = Hashtable.newFrom({"wood_floor": gdjs.level_951Code.GDwood_9595floorObjects3});
-gdjs.level_951Code.eventsList128 = function(runtimeScene) {
+gdjs.level_951Code.eventsList129 = function(runtimeScene) {
 
 {
 
@@ -9019,7 +9098,7 @@ for(var i = 0, len = gdjs.level_951Code.GDPlayer2Objects3.length ;i < len;++i) {
 }
 
 
-};gdjs.level_951Code.eventsList129 = function(runtimeScene) {
+};gdjs.level_951Code.eventsList130 = function(runtimeScene) {
 
 {
 
@@ -9031,7 +9110,7 @@ isConditionTrue_0 = !(gdjs.evtsExt__Raycaster3D__RaycastFromCameraCursor.func(ru
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.level_951Code.eventsList128(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList129(runtimeScene);} //End of subevents
 }
 
 }
@@ -9039,7 +9118,7 @@ gdjs.level_951Code.eventsList128(runtimeScene);} //End of subevents
 
 };gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDterrainObjects3Objects = Hashtable.newFrom({"terrain": gdjs.level_951Code.GDterrainObjects3});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDwood_95959595floorObjects3Objects = Hashtable.newFrom({"wood_floor": gdjs.level_951Code.GDwood_9595floorObjects3});
-gdjs.level_951Code.eventsList130 = function(runtimeScene) {
+gdjs.level_951Code.eventsList131 = function(runtimeScene) {
 
 {
 
@@ -9096,7 +9175,7 @@ for(var i = 0, len = gdjs.level_951Code.GDPlayer2Objects2.length ;i < len;++i) {
 }
 
 
-};gdjs.level_951Code.eventsList131 = function(runtimeScene) {
+};gdjs.level_951Code.eventsList132 = function(runtimeScene) {
 
 {
 
@@ -9134,7 +9213,7 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.level_951Code.eventsList129(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList130(runtimeScene);} //End of subevents
 }
 
 }
@@ -9150,7 +9229,7 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.level_951Code.eventsList130(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList131(runtimeScene);} //End of subevents
 }
 
 }
@@ -9159,7 +9238,7 @@ gdjs.level_951Code.eventsList130(runtimeScene);} //End of subevents
 };gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDwallObjects2Objects = Hashtable.newFrom({"wall": gdjs.level_951Code.GDwallObjects2});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDterrainObjects3Objects = Hashtable.newFrom({"terrain": gdjs.level_951Code.GDterrainObjects3});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDwood_95959595floorObjects3Objects = Hashtable.newFrom({"wood_floor": gdjs.level_951Code.GDwood_9595floorObjects3});
-gdjs.level_951Code.eventsList132 = function(runtimeScene) {
+gdjs.level_951Code.eventsList133 = function(runtimeScene) {
 
 {
 
@@ -9224,7 +9303,7 @@ gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDmean_95959595germObje
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDStewart_95959595CharcterObjects2Objects = Hashtable.newFrom({"Stewart_Charcter": gdjs.level_951Code.GDStewart_9595CharcterObjects2});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDobject_95959595of_95959595interestObjects1Objects = Hashtable.newFrom({"object_of_interest": gdjs.level_951Code.GDobject_9595of_9595interestObjects1});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDobject_95959595of_95959595interest_95959595interactObjects1Objects = Hashtable.newFrom({"object_of_interest_interact": gdjs.level_951Code.GDobject_9595of_9595interest_9595interactObjects1});
-gdjs.level_951Code.eventsList133 = function(runtimeScene) {
+gdjs.level_951Code.eventsList134 = function(runtimeScene) {
 
 {
 
@@ -9261,7 +9340,7 @@ for(var i = 0, len = gdjs.level_951Code.GDPlayer2Objects1.length ;i < len;++i) {
 }
 
 
-};gdjs.level_951Code.eventsList134 = function(runtimeScene) {
+};gdjs.level_951Code.eventsList135 = function(runtimeScene) {
 
 {
 
@@ -9273,7 +9352,7 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.level_951Code.eventsList131(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList132(runtimeScene);} //End of subevents
 }
 
 }
@@ -9294,7 +9373,7 @@ isConditionTrue_0 = !(gdjs.evtsExt__Raycaster3D__RaycastFromCameraCursor.func(ru
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.level_951Code.eventsList132(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList133(runtimeScene);} //End of subevents
 }
 
 }
@@ -9448,13 +9527,13 @@ isConditionTrue_0 = gdjs.evtsExt__Raycaster3D__RaycastFromCameraCursor.func(runt
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.level_951Code.eventsList133(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList134(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.level_951Code.eventsList135 = function(runtimeScene) {
+};gdjs.level_951Code.eventsList136 = function(runtimeScene) {
 
 {
 
@@ -9463,13 +9542,13 @@ let isConditionTrue_0 = false;
 {
 
 { //Subevents
-gdjs.level_951Code.eventsList134(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList135(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.level_951Code.eventsList136 = function(runtimeScene) {
+};gdjs.level_951Code.eventsList137 = function(runtimeScene) {
 
 {
 
@@ -9488,7 +9567,7 @@ gdjs.copyArray(runtimeScene.getObjects("cursor"), gdjs.level_951Code.GDcursorObj
 
 };gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDred_95959595cliffObjects2Objects = Hashtable.newFrom({"red_cliff": gdjs.level_951Code.GDred_9595cliffObjects2});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDterrainObjects2Objects = Hashtable.newFrom({"terrain": gdjs.level_951Code.GDterrainObjects2});
-gdjs.level_951Code.eventsList137 = function(runtimeScene) {
+gdjs.level_951Code.eventsList138 = function(runtimeScene) {
 
 {
 
@@ -9573,7 +9652,7 @@ if (isConditionTrue_0) {
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDwood_95959595floorObjects3Objects = Hashtable.newFrom({"wood_floor": gdjs.level_951Code.GDwood_9595floorObjects3});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDPlayerObjects2ObjectsGDgdjs_9546level_9595951Code_9546GDPlayer2Objects2Objects = Hashtable.newFrom({"Player": gdjs.level_951Code.GDPlayerObjects2, "Player2": gdjs.level_951Code.GDPlayer2Objects2});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDwood_95959595floorObjects2Objects = Hashtable.newFrom({"wood_floor": gdjs.level_951Code.GDwood_9595floorObjects2});
-gdjs.level_951Code.eventsList138 = function(runtimeScene) {
+gdjs.level_951Code.eventsList139 = function(runtimeScene) {
 
 {
 
@@ -9621,7 +9700,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.level_951Code.eventsList139 = function(runtimeScene) {
+};gdjs.level_951Code.eventsList140 = function(runtimeScene) {
 {
 
 let elseEventsChainSatisfied = false;
@@ -9653,7 +9732,7 @@ gdjs.level_951Code.GDPlayer2Objects2.length = k;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.level_951Code.eventsList138(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList139(runtimeScene);} //End of subevents
 elseEventsChainSatisfied = true;
 }
 
@@ -9676,7 +9755,7 @@ elseEventsChainSatisfied = true;
 
 }
 
-};gdjs.level_951Code.eventsList140 = function(runtimeScene) {
+};gdjs.level_951Code.eventsList141 = function(runtimeScene) {
 
 {
 
@@ -9693,7 +9772,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.level_951Code.eventsList141 = function(runtimeScene) {
+};gdjs.level_951Code.eventsList142 = function(runtimeScene) {
 
 {
 
@@ -9712,7 +9791,7 @@ gdjs.level_951Code.GDobject_9595of_9595interestObjects1.length = k;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.level_951Code.eventsList140(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList141(runtimeScene);} //End of subevents
 }
 
 }
@@ -9720,7 +9799,7 @@ gdjs.level_951Code.eventsList140(runtimeScene);} //End of subevents
 
 };gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDPlayerObjects2ObjectsGDgdjs_9546level_9595951Code_9546GDPlayer2Objects2Objects = Hashtable.newFrom({"Player": gdjs.level_951Code.GDPlayerObjects2, "Player2": gdjs.level_951Code.GDPlayer2Objects2});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDbeach_95959595sounfxObjects2Objects = Hashtable.newFrom({"beach_sounfx": gdjs.level_951Code.GDbeach_9595sounfxObjects2});
-gdjs.level_951Code.eventsList142 = function(runtimeScene) {
+gdjs.level_951Code.eventsList143 = function(runtimeScene) {
 
 {
 
@@ -9739,7 +9818,7 @@ if (isConditionTrue_0) {
 
 };gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDPlayerObjects2ObjectsGDgdjs_9546level_9595951Code_9546GDPlayer2Objects2Objects = Hashtable.newFrom({"Player": gdjs.level_951Code.GDPlayerObjects2, "Player2": gdjs.level_951Code.GDPlayer2Objects2});
 gdjs.level_951Code.mapOfGDgdjs_9546level_9595951Code_9546GDbeach_95959595sounfxObjects2Objects = Hashtable.newFrom({"beach_sounfx": gdjs.level_951Code.GDbeach_9595sounfxObjects2});
-gdjs.level_951Code.eventsList143 = function(runtimeScene) {
+gdjs.level_951Code.eventsList144 = function(runtimeScene) {
 
 {
 
@@ -9756,7 +9835,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.level_951Code.eventsList144 = function(runtimeScene) {
+};gdjs.level_951Code.eventsList145 = function(runtimeScene) {
 
 {
 
@@ -9798,7 +9877,7 @@ isConditionTrue_0 = gdjs.evtTools.object.distanceTest(gdjs.level_951Code.mapOfGD
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.level_951Code.eventsList142(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList143(runtimeScene);} //End of subevents
 }
 
 }
@@ -9816,7 +9895,7 @@ isConditionTrue_0 = gdjs.evtTools.object.distanceTest(gdjs.level_951Code.mapOfGD
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.level_951Code.eventsList143(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList144(runtimeScene);} //End of subevents
 }
 
 }
@@ -9837,7 +9916,7 @@ gdjs.copyArray(runtimeScene.getObjects("beach_sounfx"), gdjs.level_951Code.GDbea
 }
 
 
-};gdjs.level_951Code.eventsList145 = function(runtimeScene) {
+};gdjs.level_951Code.eventsList146 = function(runtimeScene) {
 
 {
 
@@ -10079,14 +10158,7 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest
 {
 
 
-gdjs.level_951Code.eventsList113(runtimeScene);
-}
-
-
-{
-
-
-gdjs.level_951Code.eventsList126(runtimeScene);
+gdjs.level_951Code.eventsList114(runtimeScene);
 }
 
 
@@ -10094,6 +10166,13 @@ gdjs.level_951Code.eventsList126(runtimeScene);
 
 
 gdjs.level_951Code.eventsList127(runtimeScene);
+}
+
+
+{
+
+
+gdjs.level_951Code.eventsList128(runtimeScene);
 }
 
 
@@ -10121,7 +10200,7 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.level_951Code.eventsList135(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList136(runtimeScene);} //End of subevents
 }
 
 }
@@ -10174,7 +10253,7 @@ for(var i = 0, len = gdjs.level_951Code.GDPlayer2Objects1.length ;i < len;++i) {
 }
 
 { //Subevents
-gdjs.level_951Code.eventsList136(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList137(runtimeScene);} //End of subevents
 }
 
 }
@@ -10227,7 +10306,7 @@ for(var i = 0, len = gdjs.level_951Code.GDPlayer2Objects1.length ;i < len;++i) {
 }
 
 { //Subevents
-gdjs.level_951Code.eventsList137(runtimeScene);} //End of subevents
+gdjs.level_951Code.eventsList138(runtimeScene);} //End of subevents
 }
 
 }
@@ -10236,21 +10315,21 @@ gdjs.level_951Code.eventsList137(runtimeScene);} //End of subevents
 {
 
 
-gdjs.level_951Code.eventsList139(runtimeScene);
+gdjs.level_951Code.eventsList140(runtimeScene);
 }
 
 
 {
 
 
-gdjs.level_951Code.eventsList141(runtimeScene);
+gdjs.level_951Code.eventsList142(runtimeScene);
 }
 
 
 {
 
 
-gdjs.level_951Code.eventsList144(runtimeScene);
+gdjs.level_951Code.eventsList145(runtimeScene);
 }
 
 
@@ -10902,7 +10981,7 @@ gdjs.level_951Code.GDGoku_9595Flower_9595VideoObjects4.length = 0;
 gdjs.level_951Code.GDGoku_9595Flower_9595VideoObjects5.length = 0;
 gdjs.level_951Code.GDGoku_9595Flower_9595VideoObjects6.length = 0;
 
-gdjs.level_951Code.eventsList145(runtimeScene);
+gdjs.level_951Code.eventsList146(runtimeScene);
 gdjs.level_951Code.GDspawn_9595blockerObjects1.length = 0;
 gdjs.level_951Code.GDspawn_9595blockerObjects2.length = 0;
 gdjs.level_951Code.GDspawn_9595blockerObjects3.length = 0;
