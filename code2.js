@@ -604,7 +604,7 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, "basketball", runtimeScene.getScene().getVariables().getFromIndex(4).getAsNumber(), runtimeScene.getGame().getVariables().getFromIndex(0).getAsString());
+{gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, "b09df861-6d6e-41cc-8b78-cee784db5f5b", runtimeScene.getScene().getVariables().getFromIndex(4).getAsNumber(), runtimeScene.getGame().getVariables().getFromIndex(0).getAsString());
 }
 {gdjs.evtTools.leaderboards.displayLeaderboard(runtimeScene, "b09df861-6d6e-41cc-8b78-cee784db5f5b", true);
 }
