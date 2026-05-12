@@ -1793,6 +1793,8 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest
     gdjs.level_951Code.GDQuest_9595TextObjects4[i].getBehavior("Text").setText("Germs like to live and breed in wet and damp places! We should mop or dry the floors to stop them breeding.");
 }
 }
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/dialouge/Mean_Germ/germs_live_in_damp_places.mp3", false, 100, 1);
+}
 }
 
 }
@@ -1821,6 +1823,8 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest
 {for(var i = 0, len = gdjs.level_951Code.GDQuest_9595TextObjects4.length ;i < len;++i) {
     gdjs.level_951Code.GDQuest_9595TextObjects4[i].getBehavior("Text").setText("Germs can live on surfaces in our home. We can kill germs by cleaning with hot water and soap.");
 }
+}
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/dialouge/Mean_Germ/germs_live_on_surfaces.mp3", false, 100, 1);
 }
 }
 
@@ -1851,6 +1855,8 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest
     gdjs.level_951Code.GDQuest_9595TextObjects4[i].getBehavior("Text").setText("Washing clothes regularly can help protect our bodies against germs that spread through our skin.");
 }
 }
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/dialouge/Mean_Germ/washing_clothes.mp3", false, 100, 1);
+}
 }
 
 }
@@ -1879,6 +1885,8 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest
 {for(var i = 0, len = gdjs.level_951Code.GDQuest_9595TextObjects3.length ;i < len;++i) {
     gdjs.level_951Code.GDQuest_9595TextObjects3[i].getBehavior("Text").setText("Germs can live and breed in old food scraps. We should put them in the Bin.");
 }
+}
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/dialouge/Mean_Germ/germs_live_on_food_scraps.mp3", false, 100, 1);
 }
 }
 
@@ -2886,6 +2894,8 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest
 {for(var i = 0, len = gdjs.level_951Code.GDQuest_9595TextObjects3.length ;i < len;++i) {
     gdjs.level_951Code.GDQuest_9595TextObjects3[i].setCenterPositionInScene(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) / 2,gdjs.evtTools.window.getGameResolutionHeight(runtimeScene) / 2 - (gdjs.level_951Code.GDQuest_9595TextObjects3[i].getAABBCenterY()) / 2);
 }
+}
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/dialouge/Mean_Germ/wash_bowls_and_cups.mp3", false, 100, 1);
 }
 }
 
@@ -5144,6 +5154,8 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest
     gdjs.level_951Code.GDQuest_9595TextObjects4[i].getBehavior("Text").setText("'Go explore the Homeland and see what you can learn!'");
 }
 }
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/dialouge/Dr/go_explore_the_homeland_dr.mp3", false, 100, 1);
+}
 }
 
 }
@@ -5161,6 +5173,8 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest
 {for(var i = 0, len = gdjs.level_951Code.GDQuest_9595TextObjects3.length ;i < len;++i) {
     gdjs.level_951Code.GDQuest_9595TextObjects3[i].getBehavior("Text").setText("'Good job cleaning the house " + runtimeScene.getGame().getVariables().getFromIndex(0).getAsString() + "! Head over to the Health Tent to learn more about Immunity'");
 }
+}
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/dialouge/Dr/good_job_cleaning.mp3", false, 100, 1);
 }
 }
 
@@ -5242,6 +5256,8 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest
     gdjs.level_951Code.GDQuest_9595TextObjects4[i].getBehavior("Text").setText("'Go explore the Homeland and see what you can learn!'");
 }
 }
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/dialouge/Family/go_explore_the_homeland_family.mp3", false, 100, 1);
+}
 }
 
 }
@@ -5251,6 +5267,8 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest
 gdjs.level_951Code.asyncCallback10058188 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.level_951Code.localVariables);
 {runtimeScene.getGame().getVariables().getFromIndex(4).setString("fish_story");
+}
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/dialouge/Family/thanks_for_cleaning_head_to_the_river.mp3", false, 100, 1);
 }
 gdjs.level_951Code.localVariables.length = 0;
 }
@@ -5303,6 +5321,8 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest
 {for(var i = 0, len = gdjs.level_951Code.GDQuest_9595TextObjects3.length ;i < len;++i) {
     gdjs.level_951Code.GDQuest_9595TextObjects3[i].getBehavior("Text").setText("'I can't wait to eat this fish!");
 }
+}
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/dialouge/Family/i_cant_wait_to_eat_this_fish.mp3", false, 100, 1);
 }
 }
 
@@ -5417,11 +5437,23 @@ gdjs.level_951Code.eventsList67 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 {
-gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest_9595TextObjects4);
-{for(var i = 0, len = gdjs.level_951Code.GDQuest_9595TextObjects4.length ;i < len;++i) {
-    gdjs.level_951Code.GDQuest_9595TextObjects4[i].getBehavior("Text").setText("'Let's go for another drive" + runtimeScene.getGame().getVariables().getFromIndex(0).getAsString() + " !'");
+gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest_9595TextObjects5);
+{for(var i = 0, len = gdjs.level_951Code.GDQuest_9595TextObjects5.length ;i < len;++i) {
+    gdjs.level_951Code.GDQuest_9595TextObjects5[i].getBehavior("Text").setText("'Let's go for another drive" + runtimeScene.getGame().getVariables().getFromIndex(0).getAsString() + " !'");
 }
 }
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/dialouge/Driver/lets_go_for_another_drive.mp3", false, 100, 1);
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
 }
 
 }
@@ -5455,6 +5487,8 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest
 {for(var i = 0, len = gdjs.level_951Code.GDQuest_9595TextObjects4.length ;i < len;++i) {
     gdjs.level_951Code.GDQuest_9595TextObjects4[i].getBehavior("Text").setText("'I think i heard the phone ringing, can you go check it out " + runtimeScene.getGame().getVariables().getFromIndex(0).getAsString() + " !'");
 }
+}
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/dialouge/Driver/i_think_i_heard_the_phone.mp3", false, 100, 1);
 }
 }
 
@@ -5581,6 +5615,8 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest
     gdjs.level_951Code.GDQuest_9595TextObjects4[i].getBehavior("Text").setText("'Come back later on when you've cleaned the House'");
 }
 }
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/dialouge/Health_Tent/come_back_later.mp3", false, 100, 1);
+}
 }
 
 }
@@ -5598,6 +5634,8 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest
 {for(var i = 0, len = gdjs.level_951Code.GDQuest_9595TextObjects3.length ;i < len;++i) {
     gdjs.level_951Code.GDQuest_9595TextObjects3[i].getBehavior("Text").setText("You're ready to learn more about Immunity!'");
 }
+}
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/dialouge/Health_Tent/youre_read_to_learn_about_immunity.mp3", false, 100, 1);
 }
 }
 
@@ -5917,6 +5955,20 @@ gdjs.level_951Code.eventsList78(runtimeScene);} //End of subevents
 
 
 };gdjs.level_951Code.eventsList80 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustResumed(runtimeScene);
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(3).setBoolean(false);
+}
+}
+
+}
+
 
 {
 
@@ -6264,6 +6316,8 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest
     gdjs.level_951Code.GDQuest_9595TextObjects3[i].getBehavior("Text").setText("Come back once you've finished cleaning the House!");
 }
 }
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/dialouge/Driver/come_back_later_driver.mp3", false, 100, 1);
+}
 }
 
 }
@@ -6303,7 +6357,7 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest
     gdjs.level_951Code.GDQuest_9595TextObjects3[i].getBehavior("Text").setText("Marthakal is hosting a \nHealthy Homeland Week.\n\nThis week we are learning about GERMS!\n\nGo and talk to the Health Team and learn more.");
 }
 }
-{gdjs.evtTools.sound.playSound(runtimeScene, "healthy_homelands_week.mp3", false, 80, 1);
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/dialouge/Mean_Germ/marthakal_is_hosting_a_healthy.mp3", false, 100, 1);
 }
 }
 
@@ -6401,6 +6455,8 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest
     gdjs.level_951Code.GDQuest_9595TextObjects3[i].getBehavior("Text").setText("Go talk to the dr about germs in the house");
 }
 }
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/dialouge/Family/go_talk_to_the_dr.mp3", false, 100, 1);
+}
 }
 
 }
@@ -6442,6 +6498,8 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest
 {for(var i = 0, len = gdjs.level_951Code.GDQuest_9595TextObjects3.length ;i < len;++i) {
     gdjs.level_951Code.GDQuest_9595TextObjects3[i].getBehavior("Text").setText("'Come have a chat once you've finished cleaning the House!'");
 }
+}
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/dialouge/Family/come_have_a_chat_later.mp3", false, 100, 1);
 }
 }
 
@@ -6556,6 +6614,8 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest
     gdjs.level_951Code.GDQuest_9595TextObjects3[i].getBehavior("Text").setText("Now that you know about Germs you can go back and clean the House");
 }
 }
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/dialouge/Dr/now_that_you_know_about_germs.mp3", false, 100, 1);
+}
 }
 
 }
@@ -6629,6 +6689,8 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest
     gdjs.level_951Code.GDQuest_9595TextObjects3[i].getBehavior("Text").setText("'Now that you know about Germs you can go back and clean the House'");
 }
 }
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/dialouge/Dr/now_that_you_know_about_germs.mp3", false, 100, 1);
+}
 }
 
 }
@@ -6657,12 +6719,14 @@ let isConditionTrue_0 = false;
 {
 gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest_9595TextObjects3);
 {for(var i = 0, len = gdjs.level_951Code.GDQuest_9595TextObjects3.length ;i < len;++i) {
-    gdjs.level_951Code.GDQuest_9595TextObjects3[i].getBehavior("Text").setText("Good work cleaning the House! " + runtimeScene.getGame().getVariables().getFromIndex(0).getAsString() + " You can explore the Homeland \nand discover new knowledge");
+    gdjs.level_951Code.GDQuest_9595TextObjects3[i].getBehavior("Text").setText("Good work cleaning the House and defeating the GERMS! " + runtimeScene.getGame().getVariables().getFromIndex(0).getAsString() + " You can explore the Homeland \nand discover new knowledge");
 }
 }
 {for(var i = 0, len = gdjs.level_951Code.GDQuest_9595TextObjects3.length ;i < len;++i) {
     gdjs.level_951Code.GDQuest_9595TextObjects3[i].setCenterPositionInScene(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) / 2,gdjs.evtTools.window.getGameResolutionHeight(runtimeScene) / 2 - (gdjs.level_951Code.GDQuest_9595TextObjects3[i].getAABBCenterY()) / 2);
 }
+}
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/dialouge/Mean_Germ/good_work_cleaning_the_house_GERMS.mp3", false, 100, 1);
 }
 }
 
@@ -7376,6 +7440,8 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest
     gdjs.level_951Code.GDQuest_9595TextObjects3[i].getBehavior("Text").setText("'We need to pick up a patient from a Homeland!\nCome for a drive and learn about how we travel around the Marthakal area'");
 }
 }
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/dialouge/Driver/come_for_a_drive_to_get_patient.mp3", false, 100, 1);
+}
 }
 
 }
@@ -7413,6 +7479,8 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest
 }
 }
 {gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 9);
+}
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/dialouge/Driver/deadly_work.mp3", false, 100, 1);
 }
 }
 
@@ -7713,6 +7781,8 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest
 }
 {runtimeScene.getGame().getVariables().getFromIndex(4).setString("none");
 }
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/dialouge/Family/thats_a_big_fish.mp3", false, 100, 1);
+}
 }
 
 }
@@ -7789,6 +7859,8 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest
     gdjs.level_951Code.GDQuest_9595TextObjects2[i].getBehavior("Text").setText("'Did you catch us that fish for dinner yet?'");
 }
 }
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/dialouge/Family/did_you_catch_that_fish.mp3", false, 100, 1);
+}
 }
 
 }
@@ -7832,6 +7904,8 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest
 {for(var i = 0, len = gdjs.level_951Code.GDQuest_9595TextObjects2.length ;i < len;++i) {
     gdjs.level_951Code.GDQuest_9595TextObjects2[i].getBehavior("Text").setText("'Wow, that's a big fish " + runtimeScene.getGame().getVariables().getFromIndex(0).getAsString() + " !. You should drop that off to the family at the campfire.'");
 }
+}
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/dialouge/Dr/wow_thats_a_big_fish_dr.mp3", false, 100, 1);
 }
 }
 
@@ -7887,6 +7961,8 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest
 {for(var i = 0, len = gdjs.level_951Code.GDQuest_9595TextObjects1.length ;i < len;++i) {
     gdjs.level_951Code.GDQuest_9595TextObjects1[i].getBehavior("Text").setText("'I think I saw a big fish swimming around at the beach.'");
 }
+}
+{gdjs.evtTools.sound.playSound(runtimeScene, "assets/audio/dialouge/Dr/i_think_i_saw_a_fish.mp3", false, 100, 1);
 }
 }
 
@@ -9953,20 +10029,6 @@ gdjs.copyArray(runtimeScene.getObjects("Quest_Text"), gdjs.level_951Code.GDQuest
 {for(var i = 0, len = gdjs.level_951Code.GDQuest_9595TextObjects1.length ;i < len;++i) {
     gdjs.level_951Code.GDQuest_9595TextObjects1[i].setWrapping(true);
 }
-}
-}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustResumed(runtimeScene);
-if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(3).setBoolean(false);
 }
 }
 
